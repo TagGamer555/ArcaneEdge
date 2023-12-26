@@ -26,8 +26,8 @@
 		damage: 30
 		pierce: true
 		pierceCap: 3
-		lifetime: 10
-		speed: 9
+		lifetime: 18
+		speed: 5
 		width: 5
 		height: 5
 		ammoMultiplier: 1
