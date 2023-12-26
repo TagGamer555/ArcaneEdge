@@ -36,7 +36,7 @@
 	}
 	ammoPerShot: 1
 	
-	category: turrets
+	category: turret
 	research: core-shard
 	consumes: {
 		power: 0.8
