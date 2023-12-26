@@ -12,7 +12,7 @@
 	}
 	recoil: 1
 	rotateSpeed: 2
-	shootSound: blaster
+	shootSound: bolt
 	
 	requirements: [
 		titanium/48
@@ -23,28 +23,60 @@
 	range: 90
 	inaccuracy: 3
 	shootType: {
-		damage: 30
+		damage: 40
+		
 		pierce: true
 		pierceCap: 3
+		
 		lifetime: 18
 		speed: 5
-		width: 5
-		height: 5
+		
+		width: 10
+		height: 10
+		
+		shrinkY: 0
+		shrinkX: 0
+		
 		ammoMultiplier: 1
 		knockback: 0
+		
 		sprite: tg555-ae-comet
+		frontColor: 89D7FF
+		backColor: 89D7FF
 	}
 	ammoPerShot: 1
 	
 	category: turret
 	research: core-shard
 	consumes: {
-		power: 0.8
+		power: 1.25
 	}
 	conductivePower: false
 	
 	drawer: {
 		type: DrawTurret
 		basePrefix: "starlight-"
+		parts: [
+			{
+				type: RegionPart
+				suffix: -body
+				mirror: false
+				under: false
+				progress: recoil
+				moveRot: 0
+				moveX: 0
+				moveY: 1
+			}
+			{
+				type: RegionPart
+				suffix: -barrel
+				mirror: true
+				under: true
+				progress: recoil
+				moveRot: 0
+				moveX: 0
+				moveY: -2
+			}
+		]
 	}
 }
