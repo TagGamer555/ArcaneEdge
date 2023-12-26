@@ -1,0 +1,50 @@
+{
+	name: "Star Striker"
+	description: "Fires projectiles from both barrels at the same time.\n[stat]Faction: [cyan]Starlight[][]"
+	
+	armor: 4
+	health: 2100
+	reload: 90
+	shoot: {
+		type: shootAlternate
+		alternate: 8
+		shots: 2
+	}
+	recoil: 1
+	rotateSpeed: 2
+	shootSound: blaster
+	
+	requirements: [
+		titanium/48
+		thorium/96
+		silicon/32
+	]
+	size: 2
+	range: 90
+	inaccuracy: 3
+	shootType: {
+		damage: 30
+		pierce: true
+		pierceCap: 3
+		lifetime: 10
+		speed: 9
+		width: 5
+		height: 5
+		ammoMultiplier: 1
+		knockback: 0
+		sprite: comet
+	}
+	ammoPerShot: 1
+	
+	category: turrets
+	research: core-shard
+	consumes: {
+		power: 0.8
+	}
+	conductivePower: false
+	
+	drawer: {
+		type: DrawTurret
+		basePrefix: "starlight-"
+	}
+}
