@@ -10,7 +10,7 @@
 		alternate: 8
 		shots: 2
 	}
-	recoil: 1
+	recoil: 3
 	rotateSpeed: 2
 	shootSound: bolt
 	
@@ -65,7 +65,7 @@
 				progress: recoil
 				moveRot: 0
 				moveX: 0
-				moveY: 1
+				moveY: 3
 			}
 			{
 				type: RegionPart
