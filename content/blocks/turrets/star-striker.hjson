@@ -4,7 +4,7 @@
 	
 	armor: 4
 	health: 2100
-	reload: 90
+	reload: 60
 	shoot: {
 		type: shootAlternate
 		alternate: 8
@@ -20,19 +20,19 @@
 		silicon/32
 	]
 	size: 2
-	range: 90
+	range: 120
 	inaccuracy: 3
 	shootType: {
-		damage: 40
+		damage: 35
 		
 		pierce: true
-		pierceCap: 3
+		pierceCap: 2
 		
 		lifetime: 18
 		speed: 5
 		
 		width: 10
-		height: 10
+		height: 15
 		
 		shrinkY: 0
 		shrinkX: 0
@@ -43,6 +43,36 @@
 		sprite: tg555-ae-comet
 		frontColor: 89D7FF
 		backColor: 89D7FF
+		
+		hitEffect: {
+			sprite: tg555-ae-eight-star
+			particles: 1
+			
+			length: 0
+			
+			sizeFrom: 5
+			sizeTo: 0
+			
+			lifetime: 30
+			
+			colorFrom: FFFFFF
+			colorTo: 89D7FF
+		}
+		
+		despawnEffect: {
+			sprite: tg555-ae-four-star
+			particles: 1
+			
+			length: 0
+			
+			sizeFrom: 5
+			sizeTo: 0
+			
+			lifetime: 90
+			
+			colorFrom: FFFFFF
+			colorTo: 89D7FF
+		}
 	}
 	ammoPerShot: 1
 	
