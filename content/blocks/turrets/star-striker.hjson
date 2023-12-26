@@ -32,7 +32,7 @@
 		height: 5
 		ammoMultiplier: 1
 		knockback: 0
-		sprite: comet
+		sprite: tg555-ae-comet
 	}
 	ammoPerShot: 1
 	
