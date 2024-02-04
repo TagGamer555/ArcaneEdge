@@ -3,7 +3,6 @@
 	description: "Produces steel at slow rate by smelting raw iron with the heat from coal.\n[stat]Tag: [cyan]Classic[][]"
 	size: 1
 	craftTime: 240
-	updateEffect: smeltsmoke
 	consumes: {
 		items: [
 			iron/2
@@ -17,4 +16,14 @@
 	category: crafting
 	research: iron-drill
 	outputItem: steel/1
+	
+	updateEffect: {
+		particles: 1
+		sizeFrom: 1
+		sizeTo: 0
+		lifetime: 30
+		length: 5
+		colorFrom: 80808080
+		colorto: 00000000
+	}
 }
