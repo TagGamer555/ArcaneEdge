@@ -1,0 +1,54 @@
+{
+	name: Titanium Extractor
+	description: "Requires steel and water to extract titanium.\n[stat]Tag: [cyan]Classic[][]"
+	
+	health: 120
+	
+	requirements: [
+		stone-item/80
+		steel/20
+		titanium/60
+	]
+	
+	craftTime: 240
+	consumes: {
+		liquids: {
+			liquids: [
+				water/0.2
+			]
+		}
+		items: {
+			items: [
+				steel/2
+			]
+		}
+	}
+	
+	outputItem: titanium/1
+	research: steel-smelter
+	category: crafting
+	
+	updateEffect: {
+		particles: 2
+		sizeFrom: 1
+		sizeTo: 0
+		lifetime: 30
+		length: 5
+		colorFrom: 80808080
+		colorto: 00000000
+	}
+	
+	drawer: [
+		{
+			type: DrawRegion
+			suffix: "-bottom"
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: water
+		}
+		{
+			type: DrawDefault
+		}
+    ]
+}

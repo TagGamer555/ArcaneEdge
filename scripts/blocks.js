@@ -19,4 +19,5 @@
 	const solidifier = extend(GenericCrafter, "solidifier", {});
 	const oilSolidifier = extend(GenericCrafter, "oil-solidifier", {});
 	const lavaSmelter = extend(GenericCrafter, "lava-smelter", {});
+	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
 }
