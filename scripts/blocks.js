@@ -8,6 +8,7 @@
 	// REGION - DRILLS //
 	const stoneDrill = extend(Drill, "stone-drill", {});
 	const ironDrill = extend(Drill, "iron-drill", {});
+	const steelDrill = extend(Drill, "steel-drill", {});
 	
 	// REGION - DISTRIBUTION //
 	const stoneConveyor = extend(Conveyor, "stone-conveyor", {});

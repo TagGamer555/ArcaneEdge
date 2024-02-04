@@ -1,0 +1,23 @@
+{
+	name: Steel Drill
+	description: "A moderately fast drill, made out of steel. Capable of mining titanium and uranium.\n[stat]Tag: [cyan]Classic[][]"
+	size: 1
+	itemCapacity: 10
+	tier: 3
+	drillTime: 200
+	envDisabled: 16
+	drawMineItem: true
+	consumes: {
+		liquid: {
+			liquid: water
+			amount: 0.08
+			optional: true
+			booster: true
+		}
+	}
+	requirements: [
+		stone/80
+		steel/40
+	]
+	category: production
+}
