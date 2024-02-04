@@ -1,0 +1,7 @@
+{
+	name: Iron
+	description: "Pure iron. Can be used for basic construction.\n[stat]Tag: [cyan]Classic[][]"
+	color: A68A84
+	research: copper
+	hardness: 3
+}

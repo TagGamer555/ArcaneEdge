@@ -1,0 +1,7 @@
+{
+	name: Steel
+	description: "Mild steel, capable of withstanding more damage. Used for construction and etc.\n[stat]Tag: [cyan]Classic[][]"
+	color: DADBE1
+	research: iron
+	cost: 2
+}
