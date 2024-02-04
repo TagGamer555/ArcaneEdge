@@ -1,0 +1,20 @@
+{
+	name: Steel Smelter
+	description: "Produces steel at slow rate by smelting raw iron with the heat from coal.\n[stat]Tag: [cyan]Classic[][]"
+	size: 1
+	craftTime: 240
+	updateEffect: smeltsmoke
+	consumes: {
+		items: [
+			iron/2
+			coal/1
+		]
+	}
+	requirements: [
+		stone-item/25
+		iron/50
+	]
+	category: crafting
+	research: iron-drill
+	outputItem: steel/1
+}

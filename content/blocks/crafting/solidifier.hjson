@@ -20,7 +20,8 @@
 	}
 	
 	outputItem: stone-item/4
-	# research: steel-smelter
+	research: steel-smelter
+	updateEffect: smeltsmoke
 	
 	drawer: [
 		{
