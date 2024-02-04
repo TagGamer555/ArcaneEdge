@@ -4,7 +4,7 @@
 	placeableLiquid: false
 
 	requirements: [
-		stone/1
+		stone-item/1
 	]
 
 	research: stone
