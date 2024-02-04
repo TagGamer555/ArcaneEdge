@@ -1,6 +1,6 @@
 {
 	health: 40
-	speed: 1
+	speed: 0.01
 	placeableLiquid: false
 
 	requirements: [
