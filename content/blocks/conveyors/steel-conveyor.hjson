@@ -3,6 +3,7 @@
 	description: "Moves items forward at moderate speed.\n[stat]Tag: [cyan]Classic[][]"
 	speed: 0.06666666
 	placeableLiquid: false
+	health: 80
 
 	requirements: [
 		steel/1
