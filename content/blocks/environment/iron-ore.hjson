@@ -1,0 +1,6 @@
+{
+	name: Iron Ore
+	type: OreBlock
+	itemDrop: iron
+	playerUnmineable: false
+}

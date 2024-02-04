@@ -1,0 +1,6 @@
+{
+	name: Uranium Ore
+	type: OreBlock
+	itemDrop: uranium
+	playerUnmineable: false
+}
