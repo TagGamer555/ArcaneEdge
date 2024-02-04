@@ -1,5 +1,5 @@
 {
-	//EXAMPLE (replace <> with actual information)
+	// EXAMPLE (replace <> with actual information)
 	// const <exampleStructure> = extend(<TYPE>, "<example-structure>", {});
 	
 	//  REGION - TURRETS  //
@@ -9,6 +9,7 @@
 	const stoneDrill = extend(Drill, "stone-drill", {});
 	const ironDrill = extend(Drill, "iron-drill", {});
 	const steelDrill = extend(Drill, "steel-drill", {});
+	const omnirill = extend(Drill, "omnidrill", {});
 	
 	// REGION - DISTRIBUTION //
 	const stoneConveyor = extend(Conveyor, "stone-conveyor", {});

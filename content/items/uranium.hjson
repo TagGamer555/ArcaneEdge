@@ -1,8 +1,9 @@
 {
 	name: Uranium
-	description: "Raw, pure uranium. Used as fuel and ammunition.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Raw, pure radiactive uranium. Used as fuel and as ammunition.\n[stat]Tag: [cyan]Classic[][]"
 	color: C5DB89
 	research: steel
 	cost: 2
 	hardness: 3
+	radioactivity: 1
 }
