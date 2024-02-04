@@ -23,6 +23,7 @@
 		}
 		{
 			type: DrawFlame
+			flameRadius: 0.75
 		}
     ]
 }
