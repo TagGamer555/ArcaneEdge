@@ -1,5 +1,6 @@
 {
 	health: 40
+	description: "Moves items forward at slow speed.\n[stat]Tag: [cyan]Classic[][]"
 	speed: 0.0333333
 	placeableLiquid: false
 

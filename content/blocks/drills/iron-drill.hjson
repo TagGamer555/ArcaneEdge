@@ -1,6 +1,6 @@
 {
 	name: Iron Drill
-	description: A slow drill, made out of iron. Capable of mining coal.
+	description: "A slow drill, made out of iron. Capable of mining coal.\n[stat]Tag: [cyan]Classic[][]"
 	size: 1
 	itemCapacity: 8
 	tier: 2
