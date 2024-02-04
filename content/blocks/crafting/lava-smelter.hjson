@@ -1,0 +1,53 @@
+{
+	name: Lava Smelter
+	description: "Uses slag to melt iron, creating steel much faster than regular smelters.\n[stat]Tag: [cyan]Classic[][]"
+	
+	health: 160
+	
+	requirements: [
+		stone-item/50
+		steel/40
+	]
+	
+	craftTime: 60
+	consumes: {
+		liquids: {
+			liquids: [
+				slag/0.1
+			]
+		}
+		items: {
+			items: [
+				iron/2
+			]
+		}
+	}
+	
+	outputItem: steel/1
+	research: steel-smelter
+	category: crafting
+	
+	updateEffect: {
+		particles: 2
+		sizeFrom: 1
+		sizeTo: 0
+		lifetime: 30
+		length: 5
+		colorFrom: 80808080
+		colorto: 00000000
+	}
+	
+	drawer: [
+		{
+			type: DrawRegion
+			suffix: "-bottom"
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: slag
+		}
+		{
+			type: DrawDefault
+		}
+    ]
+}
