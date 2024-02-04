@@ -1,0 +1,36 @@
+{
+	name: Dirium Crucible
+	description: "Produces dirium at moderate rate by smelting steel and titanium under the radiation effects of uranium.\n[stat]Tag: [cyan]Classic[][]"
+	size: 1
+	craftTime: 120
+	consumes: {
+		items: [
+			steel/1
+			titanium/2
+			uranium/2
+		]
+	}
+	requirements: [
+		stone-item/75
+		steel/50
+		titanium/50
+	]
+	category: crafting
+	research: steel-smelter
+	outputItem: dirium/1
+	
+	drawer: [
+		{
+			type: DrawDefault
+		}
+		{
+			type: DrawFlame
+			flameRadius: 2
+			flameRadiusIn: 0.75
+			flameAlpha: 0.4
+			flameColor: C5DB89
+			flameRadiusMag: 0.2
+			flameRadiusInMag: 0.2
+		}
+    ]
+}

@@ -2,7 +2,7 @@
 	name: Steel Smelter
 	description: "Produces steel at slow rate by smelting raw iron with the heat from coal.\n[stat]Tag: [cyan]Classic[][]"
 	size: 1
-	craftTime: 240
+	craftTime: 180
 	consumes: {
 		items: [
 			iron/2

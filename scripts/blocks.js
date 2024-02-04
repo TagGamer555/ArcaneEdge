@@ -14,5 +14,6 @@
 	
 	// REGION - CRAFTING //
 	const steelSmelter = extend(GenericCrafter, "steel-smelter", {});
+	const diriumCrucible = extend(GenericCrafter, "dirium-crucible", {});
 	const solidifier = extend(GenericCrafter, "solidifier", {});
 }
