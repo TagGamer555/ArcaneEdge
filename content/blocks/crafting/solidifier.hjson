@@ -21,6 +21,7 @@
 	
 	outputItem: stone-item/4
 	research: steel-smelter
+	category: crafting
 	
 	updateEffect: {
 		particles: 1
