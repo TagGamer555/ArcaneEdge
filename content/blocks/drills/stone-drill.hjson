@@ -2,7 +2,7 @@
 	name: Stone Drill
 	description: A slow drill, made out of stone. Capable of mining iron and stone.
 	size: 2
-	itemCapacity: 10
+	itemCapacity: 5
 	tier: 2
 	drillTime: 400
 	envDisabled: 16
@@ -10,7 +10,7 @@
 	consumes: {
 		liquid: {
 			liquid: water
-			amount: 0.06
+			amount: 0.02
 			optional: true
 			booster: true
 		}
