@@ -1,0 +1,8 @@
+{
+	name: Stone
+	description: "Hard, brittle rock. Usable in basic construction.\n[stat]Tag: [cyan]Classic[][]"
+	color: CCCCCC
+	research: copper
+	hardness: 1
+	lowPriority: true
+}
