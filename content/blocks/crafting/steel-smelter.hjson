@@ -23,7 +23,10 @@
 		}
 		{
 			type: DrawFlame
-			flameRadius: 0.75
+			flameRadius: 0.5
+			flameRadiusIn: 0.25
+			flameAlpha: 0.4
+			flameColor: FEB380
 		}
     ]
 }
