@@ -3,5 +3,5 @@
 	description: "Pure iron. Can be used for basic construction.\n[stat]Tag: [cyan]Classic[][]"
 	color: A68A84
 	research: stone-item
-	hardness: 2
+	hardness: 1
 }

@@ -3,7 +3,7 @@
 	description: A slow drill, made out of stone. Capable of mining iron and stone.
 	size: 1
 	itemCapacity: 5
-	tier: 2
+	tier: 1
 	drillTime: 400
 	envDisabled: 16
 	drawMineItem: true
