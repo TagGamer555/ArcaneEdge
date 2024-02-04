@@ -16,7 +16,8 @@
 		}
 	}
 	requirements: [
-		stone-item/25
+		stone/25
 	]
 	category: production
+	research: stone-conveyor
 }

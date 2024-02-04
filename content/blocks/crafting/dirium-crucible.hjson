@@ -11,7 +11,7 @@
 		]
 	}
 	requirements: [
-		stone-item/75
+		stone/90
 		steel/50
 		titanium/50
 	]

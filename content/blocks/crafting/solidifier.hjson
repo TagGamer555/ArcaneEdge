@@ -5,7 +5,7 @@
 	health: 120
 	
 	requirements: [
-		stone-item/50
+		stone/50
 		steel/40
 	]
 	
@@ -19,7 +19,7 @@
 		}
 	}
 	
-	outputItem: stone-item/4
+	outputItem: stone/4
 	research: steel-smelter
 	category: crafting
 	

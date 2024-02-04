@@ -5,7 +5,7 @@
 	health: 120
 	
 	requirements: [
-		stone-item/80
+		stone/80
 		steel/20
 		titanium/60
 	]

@@ -10,7 +10,7 @@
 		]
 	}
 	requirements: [
-		stone-item/25
+		stone/25
 		iron/50
 	]
 	category: crafting

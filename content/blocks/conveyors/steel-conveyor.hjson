@@ -8,7 +8,7 @@
 	requirements: [
 		steel/1
 		iron/1
-		stone-item/1
+		stone/1
 	]
 
 	research: stone-conveyor

@@ -1,0 +1,12 @@
+{
+	name: Stone Router
+	description: Outputs items inputted equally into different directions.
+	requirements: [
+		stone/3
+	]
+	category: distribution
+	research: {
+		parent: conveyor
+	}
+	placeableLiquid: false
+}

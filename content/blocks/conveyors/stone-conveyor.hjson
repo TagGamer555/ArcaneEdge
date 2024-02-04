@@ -5,9 +5,9 @@
 	placeableLiquid: false
 
 	requirements: [
-		stone-item/1
+		stone/1
 	]
 
-	research: stone-item
+	research: stone
 	category: distribution
 }

@@ -3,4 +3,5 @@
 	
 	require("blocks");
 	require("units");
+	require("items");
 }
