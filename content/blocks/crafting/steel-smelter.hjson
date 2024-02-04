@@ -22,11 +22,7 @@
 			type: DrawDefault
 		}
 		{
-			type: DrawGlowRegion
-			alpha: 1
-			color: FEB380
-			glowIntensity: 0.25
-			glowScale: 1
+			type: DrawFlame
 		}
     ]
 }
