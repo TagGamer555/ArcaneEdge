@@ -7,6 +7,6 @@
 		stone-item/1
 	]
 
-	research: stone
+	research: stone-item
 	category: distribution
 }
