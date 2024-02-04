@@ -1,0 +1,23 @@
+{
+	name: Iron Drill
+	description: A slow drill, made out of iron. Capable of mining iron and stone at faster rate.
+	size: 1
+	itemCapacity: 8
+	tier: 2
+	drillTime: 300
+	envDisabled: 16
+	drawMineItem: true
+	consumes: {
+		liquid: {
+			liquid: water
+			amount: 0.04
+			optional: true
+			booster: true
+		}
+	}
+	requirements: [
+		stone-item/50
+		iron/25
+	]
+	category: production
+}
