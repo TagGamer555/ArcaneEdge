@@ -4,4 +4,7 @@
 	
 	//  REGION - TURRETS  //
 	const starStriker = extend(PowerTurret, "star-striker", {});
+	
+	// REGION - DRILLS //
+	const stoneDrill = extend(Drill, "stone-drill", {});
 }
