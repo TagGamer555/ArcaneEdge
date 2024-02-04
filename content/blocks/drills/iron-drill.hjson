@@ -1,6 +1,6 @@
 {
 	name: Iron Drill
-	description: A slow drill, made out of iron. Capable of mining iron and stone at faster rate.
+	description: A slow drill, made out of iron. Capable of mining coal.
 	size: 1
 	itemCapacity: 8
 	tier: 2
