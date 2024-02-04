@@ -12,7 +12,7 @@
 	// REGION - DISTRIBUTION //
 	const stoneConveyor = extend(Conveyor, "stone-conveyor", {});
 	const steelConveyor = extend(Conveyor, "steel-conveyor", {});
-	const stoneRouter = extend(ItemRouter, "stone-router", {})
+	const stoneRouter = extend(Router, "stone-router", {})
 	
 	// REGION - CRAFTING //
 	const steelSmelter = extend(GenericCrafter, "steel-smelter", {});
