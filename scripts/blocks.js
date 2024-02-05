@@ -29,7 +29,7 @@
 	const solidifier = extend(GenericCrafter, "solidifier", {});
 	const coalExtractor = extend(GenericCrafter, "coal-extractor", {});
 	const oilSolidifier = extend(GenericCrafter, "oil-solidifier", {});
-	const lavaSmelter = extend(GenericCrafter, "lava-smelter", {});
+	const slagSmelter = extend(GenericCrafter, "slag-smelter", {});
 	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
 	
 	// REGION - POWER //
@@ -37,5 +37,6 @@
 	const accumulator = extend(Battery, "accumulator", {});
 	const coalGenerator = extend(ConsumeGenerator, "coal-generator", {});
 	const oilGenerator = extend(ConsumeGenerator, "oil-generator", {});
+	const slagGenerator = extend(ConsumeGenerator, "slag-generator", {});
 	const uraniumRtgGenerator = extend(ConsumeGenerator, "uranium-rtg-generator", {});
 }

@@ -1,5 +1,5 @@
 {
-	name: Lava Smelter
+	name: Slag Smelter
 	description: "Uses slag to melt iron, creating steel much faster than regular smelters.\n[stat]Tag: [cyan]Classic[][]"
 	
 	health: 160

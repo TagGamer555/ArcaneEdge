@@ -1,0 +1,31 @@
+{
+	name: Slag Generator
+	description: Uses heat from slag to generate power.
+	size: 1
+	health: 120
+	itemDuration: 60
+	consumes: {
+		liquid: slag/0.1
+	}
+	category: power
+	research: coal-generator
+	powerProduction: 1.5
+	requirements: [
+		steel/40
+		titanium/20
+	]
+	
+	drawer: [
+		{
+			type: DrawRegion
+			suffix: "-bottom"
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: slag
+		}
+		{
+			type: DrawDefault
+		}
+    ]
+}
