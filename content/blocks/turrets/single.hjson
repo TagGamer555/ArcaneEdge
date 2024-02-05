@@ -2,7 +2,7 @@
 	name: Single
 	description: "Fires stone projectiles at enemies.\n[stat]Tag: [cyan]Classic[][]"
 	
-	outlineColor: 000000
+	outlineColor: 222222
 	health: 120
 	reload: 60
 	shoot: {
@@ -41,12 +41,27 @@
 			backColor: 666666FF
 			
 			smokeEffect: none
-			hitEffect: none
-			despawnEffect: none
 			
 			shootEffect: {
-				sprite: tg555-ae-rectangle
 				colorFrom: FEB380FF
+				colorTo: 00000000
+				length: 5
+				lifetime: 20
+				particles: 3
+				sizeFrom: 1
+				sizeTo: 0
+			}
+			hitEffect: {
+				colorFrom: 999999FF
+				colorTo: 00000000
+				length: 5
+				lifetime: 20
+				particles: 3
+				sizeFrom: 1
+				sizeTo: 0
+			}
+			despawnEffect: {
+				colorFrom: 999999FF
 				colorTo: 00000000
 				length: 5
 				lifetime: 20
