@@ -5,8 +5,6 @@
 		stone/3
 	]
 	category: distribution
-	research: {
-		parent: conveyor
-	}
+	research: stone-conveyor
 	placeableLiquid: false
 }

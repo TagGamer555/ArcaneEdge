@@ -15,6 +15,7 @@
 	const stoneConveyor = extend(Conveyor, "stone-conveyor", {});
 	const steelConveyor = extend(Conveyor, "steel-conveyor", {});
 	const stoneRouter = extend(Router, "stone-router", {})
+	const stoneJunction = extend(Junction, "stone-junction", {})
 	
 	// REGION - CRAFTING //
 	const steelSmelter = extend(GenericCrafter, "steel-smelter", {});

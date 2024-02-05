@@ -13,4 +13,7 @@
 
 	research: stone-conveyor
 	category: distribution
+	
+	junctionReplacement: stone-junction
+	# bridgeReplacement: iron-bridge-conveyor
 }

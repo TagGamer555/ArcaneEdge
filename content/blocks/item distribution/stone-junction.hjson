@@ -1,0 +1,10 @@
+{
+	name: Stone Junction
+	description: Outputs items inputted to the other side.
+	requirements: [
+		stone/5
+	]
+	category: distribution
+	research: stone-router
+	placeableLiquid: false
+}
