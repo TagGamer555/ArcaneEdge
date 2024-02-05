@@ -4,11 +4,11 @@
 	
 	armor: 0
 	health: 120
-	reload: 90
+	reload: 60
 	shoot: {
 		shots: 1
 	}
-	recoil: 5
+	recoil: 2
 	rotateSpeed: 3
 	
 	requirements: [
@@ -29,7 +29,7 @@
 			width: 5
 			height: 5
 			
-			sprite: rectangle
+			sprite: tg555-ae-rectangle
 			
 			shrinkY: 0
 			shrinkX: 0
