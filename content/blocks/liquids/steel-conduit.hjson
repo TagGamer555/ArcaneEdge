@@ -1,0 +1,10 @@
+{
+	name: Steel Conduit
+	description: "Transports liquids forward.\n[stat]Tag: [cyan]Classic[][]"
+	category: liquid
+	research: pneumatic-pump
+	liquidCapacity: 1
+	requirements: [
+		steel/3
+	]
+}

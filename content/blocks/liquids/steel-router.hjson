@@ -1,0 +1,12 @@
+{
+	name: Steel Router
+	description: "Outputs inputted liquids equally to the sides.\n[stat]Tag: [cyan]Classic[][]"
+	solid: false
+	liquidPadding: 0.75
+	liquidCapacity: 3
+	category: liquid
+	research: steel-conduit
+	requirements: [
+		steel/6
+	]
+}

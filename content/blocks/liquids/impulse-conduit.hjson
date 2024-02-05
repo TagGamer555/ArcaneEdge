@@ -1,0 +1,11 @@
+{
+	name: Impulse Conduit
+	description: "Transports liquids forward. Stores more fluid.\n[stat]Tag: [cyan]Classic[][]"
+	category: liquid
+	research: steel-conduit
+	liquidCapacity: 4
+	requirements: [
+		steel/3
+		titanium/2
+	]
+}

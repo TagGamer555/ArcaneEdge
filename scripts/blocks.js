@@ -32,6 +32,9 @@
 	// REGION - LIQUIDS //
 	const pneumaticPump = extend(Pump, "pneumatic-pump", {});
 	const fluxpump = extend(Pump, "fluxpump", {});
+	const steelConduit = extend(Conduit, "steel-conduit", {});
+	const impulseConduit = extend(Conduit, "impulse-conduit", {});
+	const steelRouter = extend(LiquidRouter, "steel-router", {});
 	
 	// REGION - CRAFTING //
 	const steelSmelter = extend(GenericCrafter, "steel-smelter", {});
