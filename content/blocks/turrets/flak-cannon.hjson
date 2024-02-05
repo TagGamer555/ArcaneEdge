@@ -6,11 +6,12 @@
 	health: 480
 	reload: 90
 	shoot: {
-		type: artillery
+		type: shootAlternate
 		shots: 8
 	}
 	recoil: 2
 	rotateSpeed: 2
+	shootSound: artillery
 	
 	requirements: [
 		stone/80
