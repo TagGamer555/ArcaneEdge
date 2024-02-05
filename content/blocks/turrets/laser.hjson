@@ -20,7 +20,6 @@
 	targetAir: true
 	targetGround: true
 	
-	ammoPerShot: 1
 	hasPower: true
 	
 	force: 0
