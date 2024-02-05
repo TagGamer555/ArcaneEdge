@@ -1,0 +1,90 @@
+{
+	name: Nuclear Reactor
+	description: "Uses uranium as fuel to generate a lot of power. Must be cooled down with water, or it will explode violently.\n[stat]Tag: [cyan]Classic[][]"
+	category: power
+	size: 3
+	health: 600
+	itemCapacity: 20
+	liquidCapacity: 20
+	itemDuration: 300
+	powerProduction: 5
+	fuelItem: uranium
+
+	lightColor: FEB380
+	heating: 0.04
+	smokeThreshold: 0.5
+	flashThreshold: 0.48
+	explosionRadius: 30
+	explodeEffect: [
+		{
+			type: WaveEffect
+			sides: 0
+			sizeFrom: 0
+			sizeTo: 200
+			strokeFrom: 4
+			strokeTo: 0
+			colorFrom: D4E8A0
+			colorTo: 9EB65E
+			lifetime: 23
+		}
+		{
+			type: WaveEffect
+			sides: 0
+			sizeFrom: 0
+			sizeTo: 230
+			strokeFrom: 4
+			strokeTo: 0
+			colorFrom: D4E8A0
+			colorTo: 9EB65E
+			lifetime: 23
+		}
+		{
+			type: ParticleEffect
+			particles: 40
+			sizeFrom: 25
+			sizeTo: 0
+			lifetime: 800
+			cone: 360
+			length: 200
+			colorFrom: D4E8A085
+			colorTo: 9EB65E85
+		}
+		{
+			type: ParticleEffect
+			particles: 15
+			sizeFrom: 20
+			sizeTo: 0
+			lifetime: 45
+			cone: 360
+			length: 325
+			colorFrom: 9EB65E
+			colorTo: 9EB65E
+			line: true
+			strokeFrom: 4
+			strokeTo: 0
+		}
+	]
+
+	explosionDamage: 1200
+	coolantPower: 0.8
+
+	ambientSound: hum
+	ambientSoundVolume: 0.2
+
+	requirements: [
+		stone/200
+		steel/100
+		dirium/30
+	]
+
+	consumes: {
+		liquid: water/0.4
+		items: {
+			items: [
+				uranium/1
+			]
+		}
+	}
+
+	research: uranium-rtg-generator
+}

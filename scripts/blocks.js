@@ -39,4 +39,5 @@
 	const oilGenerator = extend(ConsumeGenerator, "oil-generator", {});
 	const slagGenerator = extend(ConsumeGenerator, "slag-generator", {});
 	const uraniumRtgGenerator = extend(ConsumeGenerator, "uranium-rtg-generator", {});
+	const uraniumReactor = extend(NuclearReactor, "uranium-reactor", {});
 }
