@@ -30,8 +30,4 @@
 		power: 1.5
 	}
 	conductivePower: false
-	
-	drawer: {
-		basePrefix: "base-"
-	}
 }
