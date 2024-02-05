@@ -18,6 +18,7 @@
 	// REGION - DISTRIBUTION //
 	const stoneConveyor = extend(Conveyor, "stone-conveyor", {});
 	const steelConveyor = extend(Conveyor, "steel-conveyor", {});
+	const diriumConveyor = extend(Conveyor, "dirium-conveyor", {});
 	const stoneRouter = extend(Router, "stone-router", {})
 	const stoneJunction = extend(Junction, "stone-junction", {})
 	const ironBridgeConveyor = extend(BufferedItemBridge, "iron-bridge-conveyor", {})
@@ -36,4 +37,5 @@
 	const accumulator = extend(Battery, "accumulator", {});
 	const coalGenerator = extend(ConsumeGenerator, "coal-generator", {});
 	const oilGenerator = extend(ConsumeGenerator, "oil-generator", {});
+	const uraniumRtgGenerator = extend(ConsumeGenerator, "uranium-rtg-generator", {});
 }

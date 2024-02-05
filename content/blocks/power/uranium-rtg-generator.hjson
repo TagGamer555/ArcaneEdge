@@ -1,0 +1,22 @@
+{
+	name: Uranium RTG Generator
+	description: Uses uranium as fuel to generate power. Generates less than some other generators, but consumes less fuel.
+	size: 1
+	health: 240
+	itemDuration: 300
+	consumes: {
+		items: {
+			items: [
+				uranium/1
+			]
+		}
+	}
+	category: power
+	research: coal-generator
+	powerProduction: 2.5
+	requirements: [
+		stone/120
+		steel/80
+		titanium/40
+	]
+}

@@ -1,0 +1,19 @@
+{
+	name: "Dirium Conveyor"
+	description: "Moves items forward at fast speed.\n[stat]Tag: [cyan]Classic[][]"
+	speed: 0.1
+	placeableLiquid: false
+	health: 120
+
+	requirements: [
+		dirium/1
+		titanium/1
+		steel/1
+	]
+
+	research: steel-conveyor
+	category: distribution
+	
+	junctionReplacement: stone-junction
+	bridgeReplacement: iron-bridge-conveyor
+}
