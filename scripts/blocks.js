@@ -29,6 +29,10 @@
 	const stoneJunction = extend(Junction, "stone-junction", {})
 	const ironBridgeConveyor = extend(BufferedItemBridge, "iron-bridge-conveyor", {})
 	
+	// REGION - LIQUIDS //
+	const pneumaticPump = extend(Pump, "pneumatic-pump", {});
+	const fluxpump = extend(Pump, "fluxpump", {});
+	
 	// REGION - CRAFTING //
 	const steelSmelter = extend(GenericCrafter, "steel-smelter", {});
 	const diriumCrucible = extend(GenericCrafter, "dirium-crucible", {});

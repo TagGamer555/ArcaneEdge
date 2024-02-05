@@ -1,0 +1,13 @@
+{
+	name: Pneumatic Pump
+	description: "Slowly pumps out fluids from ground deposits.\n[stat]Tag: [cyan]Classic[][]"
+	liquidCapacity: 6
+	size: 1
+	pumpAmount: 0.15
+	category: liquid
+	research: steel-smelter
+	requirements: [
+		stone/30
+		steel/20
+	]
+}

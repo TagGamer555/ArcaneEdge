@@ -1,0 +1,13 @@
+{
+	name: Fluxpump
+	description: "Pumps out fluids from ground deposits at high rates.\n[stat]Tag: [cyan]Classic[][]"
+	liquidCapacity: 18
+	size: 1
+	pumpAmount: 0.45
+	category: liquid
+	research: pneumatic-pump
+	requirements: [
+		steel/60
+		dirium/30
+	]
+}
