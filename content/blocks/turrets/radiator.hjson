@@ -1,0 +1,78 @@
+{
+	name: Radiator
+	description: "Irradiates enemies, slowing them down.\n[stat]Tag: [cyan]Classic[][]"
+	
+	outlineColor: 222222
+	health: 600
+	reload: 20
+	shootSound: flame
+	shoot: {
+		shots: 4
+	}
+	recoil: 0
+	rotateSpeed: 3
+	
+	requirements: [
+		stone/80
+		steel/70
+		titanium/60
+		dirium/50
+	]
+	size: 1
+	range: 60
+	inaccuracy: 15
+	ammoTypes: {
+		coal: {
+			damage: 90
+			
+			status: slow
+			statusDuration: 10
+			
+			pierce: true
+			pierceBuilding: true
+			pierceCap: 5
+			
+			lifetime: 10
+			speed: 6
+			
+			width: 0
+			height: 0
+			
+			shrinkY: 0
+			shrinkX: 0
+			
+			ammoMultiplier: 2
+			knockback: 0
+			
+			smokeEffect: none
+			shootEffect: none
+			hitEffect: none
+			despawnEffect: none
+			
+			trailChance: 0.75
+			trailEffect: [
+				{
+					type: ParticleEffect
+					particles: 1
+					lifetime: 30
+					sizeFrom: 1.75
+					sizeTo: 0
+					length: 5
+					colorFrom: D4E8A0FF
+					colorTo: 88888800
+				}
+			]
+		}
+	}
+	ammoPerShot: 1
+	
+	category: turret
+	research: laser
+	consumes: {}
+	conductivePower: false
+	
+	drawer: {
+		type: DrawTurret
+		basePrefix: "tier5-classic-"
+	}
+}

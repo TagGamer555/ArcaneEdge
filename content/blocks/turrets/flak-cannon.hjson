@@ -20,10 +20,10 @@
 	]
 	size: 1
 	range: 160
-	inaccuracy: 10
+	inaccuracy: 15
 	ammoTypes: {
 		coal: {
-			damage: 50
+			damage: 125
 			
 			pierce: false
 			
