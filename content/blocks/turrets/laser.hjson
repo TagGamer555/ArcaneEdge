@@ -5,6 +5,7 @@
 	armor: 0
 	health: 480
 	rotateSpeed: 3
+	outlineColor: 222222
 	
 	requirements: [
 		stone/70
