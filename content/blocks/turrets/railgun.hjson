@@ -5,6 +5,7 @@
 	outlineColor: 222222
 	health: 360
 	reload: 90
+	shootSound: shootAlt
 	shoot: {
 		shots: 1
 	}
@@ -16,16 +17,16 @@
 		steel/50
 	]
 	size: 1
-	range: 120
+	range: 160
 	inaccuracy: 0
 	ammoTypes: {
 		steel: {
-			damage: 25
+			damage: 40
 			
 			pierce: true
 			pierceCap: 2
 			
-			lifetime: 12
+			lifetime: 16
 			speed: 10
 			
 			width: 5
