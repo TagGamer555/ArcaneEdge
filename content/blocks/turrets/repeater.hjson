@@ -1,30 +1,30 @@
 {
-	name: Double
-	description: "Fires two stone projectiles at enemies from both barrels.\n[stat]Tag: [cyan]Classic[][]"
+	name: Repeater
+	description: "Fires iron projectiles rapidly at enemies.\n[stat]Tag: [cyan]Classic[][]"
 	
 	outlineColor: 222222
-	health: 120
-	reload: 60
+	health: 240
+	reload: 30
 	shoot: {
-		type: shootAlternate
-		shots: 2
+		shots: 1
 	}
-	recoil: 2
+	recoil: 1
 	rotateSpeed: 3
 	
 	requirements: [
-		stone/60
+		stone/50
+		iron/40
 	]
 	size: 1
-	range: 50
+	range: 90
 	inaccuracy: 0
 	ammoTypes: {
-		stone: {
-			damage: 20
+		iron: {
+			damage: 25
 			
 			pierce: false
 			
-			lifetime: 10
+			lifetime: 18
 			speed: 5
 			
 			width: 5
@@ -35,11 +35,11 @@
 			shrinkY: 0
 			shrinkX: 0
 			
-			ammoMultiplier: 2
+			ammoMultiplier: 3
 			knockback: 0
 			
-			frontColor: 999999FF
-			backColor: 666666FF
+			frontColor: C0A8A6FF
+			backColor: 9C7B76FF
 			
 			smokeEffect: none
 			
@@ -53,8 +53,8 @@
 				sizeTo: 0
 			}
 			hitEffect: {
-				colorFrom: 999999FF
-				colorTo: 00000000
+				colorFrom: C0A8A6FF
+				colorTo: 9C7B7600
 				length: 5
 				lifetime: 20
 				particles: 3
@@ -62,8 +62,8 @@
 				sizeTo: 0
 			}
 			despawnEffect: {
-				colorFrom: 999999FF
-				colorTo: 00000000
+				colorFrom: C0A8A6FF
+				colorTo: 9C7B7600
 				length: 5
 				lifetime: 20
 				particles: 3
@@ -81,6 +81,6 @@
 	
 	drawer: {
 		type: DrawTurret
-		basePrefix: "tier1-classic-"
+		basePrefix: "tier2-classic-"
 	}
 }

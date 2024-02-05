@@ -15,7 +15,7 @@
 		stone/40
 	]
 	size: 1
-	range: 60
+	range: 70
 	inaccuracy: 0
 	ammoTypes: {
 		stone: {
@@ -23,8 +23,8 @@
 			
 			pierce: false
 			
-			lifetime: 10
-			speed: 6
+			lifetime: 14
+			speed: 5
 			
 			width: 5
 			height: 5
