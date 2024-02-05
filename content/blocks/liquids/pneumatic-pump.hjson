@@ -3,7 +3,7 @@
 	description: "Slowly pumps out fluids from ground deposits.\n[stat]Tag: [cyan]Classic[][]"
 	liquidCapacity: 6
 	size: 1
-	pumpAmount: 0.15
+	pumpAmount: 0.05
 	category: liquid
 	research: steel-smelter
 	requirements: [
