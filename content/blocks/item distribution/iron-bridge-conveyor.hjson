@@ -3,9 +3,9 @@
 	name: Iron Bridge Conveyor
 	description: "Trasports items laterally to another bridge.\n[stat]Tag: [cyan]Classic[][]"
 	health: 50
-	range: 3
+	range: 4
 	placeableLiquid: false
-	speed: 10
+	speed: 120
 	bufferCapacity: 10
 	itemCapacity: 10
 	requirements: [
