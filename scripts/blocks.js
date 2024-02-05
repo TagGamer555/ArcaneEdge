@@ -9,6 +9,9 @@
 	
 	////// CLASSIC PORT //////
 	
+	// REGION - TURRETS //
+	const single = extend(ItemTurret, "single", {});
+	
 	// REGION - DRILLS //
 	const stoneDrill = extend(Drill, "stone-drill", {});
 	const ironDrill = extend(Drill, "iron-drill", {});
