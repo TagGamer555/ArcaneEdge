@@ -34,4 +34,6 @@
 	// REGION - POWER //
 	const steelNode = extend(BeamNode, "steel-node", {});
 	const accumulator = extend(Battery, "accumulator", {});
+	const coalGenerator = extend(ConsumeGenerator, "coal-generator", {});
+	const oilGenerator = extend(ConsumeGenerator, "oil-generator", {});
 }

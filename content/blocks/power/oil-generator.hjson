@@ -1,0 +1,31 @@
+{
+	name: Oil Generator
+	description: Combusts raw oil to generate lots of power.
+	size: 1
+	health: 200
+	itemDuration: 60
+	consumes: {
+		liquid: oil/0.2
+	}
+	category: power
+	research: coal-generator
+	powerProduction: 3
+	requirements: [
+		stone/50
+		steel/25
+	]
+	
+	drawer: [
+		{
+			type: DrawRegion
+			suffix: "-bottom"
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: oil
+		}
+		{
+			type: DrawDefault
+		}
+    ]
+}

@@ -1,0 +1,21 @@
+{
+	name: Coal Generator
+	description: Combusts raw coal to generate some power.
+	size: 1
+	health: 100
+	itemDuration: 120
+	consumes: {
+		items: {
+			items: [
+				coal/1
+			]
+		}
+	}
+	category: power
+	research: steel-node
+	powerProduction: 1
+	requirements: [
+		stone/50
+		iron/50
+	]
+}
