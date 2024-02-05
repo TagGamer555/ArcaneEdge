@@ -22,11 +22,11 @@
 	range: 60
 	inaccuracy: 15
 	ammoTypes: {
-		coal: {
+		uranium: {
 			damage: 90
 			
 			status: slow
-			statusDuration: 10
+			statusDuration: 40
 			
 			pierce: true
 			pierceBuilding: true

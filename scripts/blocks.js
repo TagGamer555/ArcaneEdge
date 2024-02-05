@@ -21,6 +21,7 @@
 	const laser = extend(TractorBeamTurret, "laser", {});
 	const flakCannon = extend(ItemTurret, "flak-cannon", {});
 	const radiator = extend(ItemTurret, "radiator", {});
+	const tesla = extend(PowerTurret, "tesla", {});
 	
 	// REGION - DRILLS //
 	const stoneDrill = extend(Drill, "stone-drill", {});

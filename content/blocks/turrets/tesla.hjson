@@ -1,0 +1,56 @@
+{
+	name: Tesla
+	description: "Shocks enemies.\n[stat]Tag: [cyan]Classic[][]"
+	
+	outlineColor: 222222
+	health: 600
+	reload: 45
+	shootSound: spark
+	shoot: {
+		shots: 2
+	}
+	recoil: 0
+	rotateSpeed: 3
+	
+	requirements: [
+		stone/80
+		steel/70
+		titanium/60
+		dirium/50
+	]
+	size: 1
+	range: 120
+	inaccuracy: 15
+	shootType: {
+		type: LightningBulletType
+		
+		lightningLength: 40
+		
+		damage: 240
+		
+		lightningColor: B7E2CD
+		
+		status: none
+		
+		pierceArmor: false
+		
+		ammoMultiplier: 1
+		
+		smokeEffect: none
+		shootEffect: none
+		despawnEffect: none
+	}
+	ammoPerShot: 1
+	
+	category: turret
+	research: radiator
+	consumes: {
+		power: 3
+	}
+	conductivePower: false
+	
+	drawer: {
+		type: DrawTurret
+		basePrefix: "tier5-classic-"
+	}
+}
