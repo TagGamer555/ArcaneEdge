@@ -19,6 +19,7 @@
 	const railgun = extend(ItemTurret, "railgun", {});
 	const flamer = extend(ItemTurret, "flamer", {});
 	const laser = extend(TractorBeamTurret, "laser", {});
+	const flakCannon = extend(ItemTurret, "flak-cannon", {});
 	
 	// REGION - DRILLS //
 	const stoneDrill = extend(Drill, "stone-drill", {});

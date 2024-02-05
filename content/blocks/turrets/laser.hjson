@@ -24,7 +24,7 @@
 	
 	force: 0
 	
-	category: defense
+	category: turrets
 	research: railgun
 	consumes: {
 		power: 1.5

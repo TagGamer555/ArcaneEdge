@@ -1,0 +1,88 @@
+{
+	name: Flak Cannon
+	description: "Fires eight coal projectiles at enemies from both barrels.\n[stat]Tag: [cyan]Classic[][]"
+	
+	outlineColor: 222222
+	health: 480
+	reload: 90
+	shoot: {
+		type: artillery
+		shots: 8
+	}
+	recoil: 2
+	rotateSpeed: 2
+	
+	requirements: [
+		stone/80
+		steel/70
+		titanium/60
+	]
+	size: 1
+	range: 160
+	inaccuracy: 10
+	ammoTypes: {
+		coal: {
+			damage: 50
+			
+			pierce: false
+			
+			lifetime: 32
+			speed: 5
+			
+			width: 5
+			height: 5
+			
+			sprite: tg555-ae-rectangle
+			
+			shrinkY: 0
+			shrinkX: 0
+			
+			ammoMultiplier: 1
+			knockback: 0
+			
+			frontColor: 808080FF
+			backColor: 777777FF
+			
+			smokeEffect: none
+			
+			shootEffect: {
+				colorFrom: FEB380FF
+				colorTo: 00000000
+				length: 5
+				lifetime: 20
+				particles: 3
+				sizeFrom: 1
+				sizeTo: 0
+			}
+			hitEffect: {
+				colorFrom: 808080FF
+				colorTo: 00000000
+				length: 5
+				lifetime: 20
+				particles: 3
+				sizeFrom: 1
+				sizeTo: 0
+			}
+			despawnEffect: {
+				colorFrom: 808080FF
+				colorTo: 00000000
+				length: 5
+				lifetime: 20
+				particles: 3
+				sizeFrom: 1
+				sizeTo: 0
+			}
+		}
+	}
+	ammoPerShot: 6
+	
+	category: turret
+	research: laser
+	consumes: {}
+	conductivePower: false
+	
+	drawer: {
+		type: DrawTurret
+		basePrefix: "tier4-classic-"
+	}
+}
