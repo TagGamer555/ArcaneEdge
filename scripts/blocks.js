@@ -7,6 +7,8 @@
 	// REGION - TURRETS //
 	const starStriker = extend(PowerTurret, "star-striker", {});
 	
+	
+	
 	////// CLASSIC PORT //////
 	
 	// REGION - TURRETS //
@@ -14,6 +16,7 @@
 	const doubleTurret = extend(ItemTurret, "double", {}); //DO NOT USE "double" BECAUSE THIS IS JS!!
 	const repeater = extend(ItemTurret, "repeater", {});
 	const broadshot = extend(ItemTurret, "broadshot", {});
+	const railgun = extend(ItemTurret, "railgun", {});
 	
 	// REGION - DRILLS //
 	const stoneDrill = extend(Drill, "stone-drill", {});
@@ -35,6 +38,7 @@
 	const steelConduit = extend(Conduit, "steel-conduit", {});
 	const impulseConduit = extend(Conduit, "impulse-conduit", {});
 	const steelRouter = extend(LiquidRouter, "steel-router", {});
+	const steelJunction = extend(LiquidJunction, "steel-junction", {});
 	
 	// REGION - CRAFTING //
 	const steelSmelter = extend(GenericCrafter, "steel-smelter", {});

@@ -1,32 +1,32 @@
 {
-	name: Broadshot
-	description: "Fires four iron projectiles at enemies from both barrels.\n[stat]Tag: [cyan]Classic[][]"
+	name: Railgun
+	description: "Fires piercing steel projectiles at enemies over long distances.\n[stat]Tag: [cyan]Classic[][]"
 	
 	outlineColor: 222222
-	health: 120
-	reload: 60
+	health: 360
+	reload: 90
 	shoot: {
-		type: shootAlternate
-		shots: 4
+		shots: 1
 	}
-	recoil: 2
+	recoil: 1
 	rotateSpeed: 3
 	
 	requirements: [
-		stone/70
-		iron/60
+		stone/60
+		steel/50
 	]
 	size: 1
-	range: 50
-	inaccuracy: 5
+	range: 120
+	inaccuracy: 0
 	ammoTypes: {
-		iron: {
-			damage: 15
+		steel: {
+			damage: 25
 			
-			pierce: false
+			pierce: true
+			pierceCap: 2
 			
-			lifetime: 10
-			speed: 5
+			lifetime: 12
+			speed: 10
 			
 			width: 5
 			height: 5
@@ -39,8 +39,8 @@
 			ammoMultiplier: 2
 			knockback: 0
 			
-			frontColor: C0A8A6FF
-			backColor: 9C7B76FF
+			frontColor: F2F2F2FF
+			backColor: B4B7C6FF
 			
 			smokeEffect: none
 			
@@ -54,8 +54,8 @@
 				sizeTo: 0
 			}
 			hitEffect: {
-				colorFrom: C0A8A6FF
-				colorTo: 9C7B7600
+				colorFrom: F2F2F2FF
+				colorTo: B4B7C600
 				length: 5
 				lifetime: 20
 				particles: 3
@@ -63,8 +63,8 @@
 				sizeTo: 0
 			}
 			despawnEffect: {
-				colorFrom: C0A8A6FF
-				colorTo: 9C7B7600
+				colorFrom: F2F2F2FF
+				colorTo: B4B7C600
 				length: 5
 				lifetime: 20
 				particles: 3
@@ -76,12 +76,12 @@
 	ammoPerShot: 4
 	
 	category: turret
-	research: repeater
+	research: single
 	consumes: {}
 	conductivePower: false
 	
 	drawer: {
 		type: DrawTurret
-		basePrefix: "tier2-classic-"
+		basePrefix: "tier3-classic-"
 	}
 }

@@ -1,0 +1,11 @@
+{
+	name: Steel Junction
+	description: "Outputs inputted liquids to the other side.\n[stat]Tag: [cyan]Classic[][]"
+	solid: false
+	liquidCapacity: 3
+	category: liquid
+	research: steel-conduit
+	requirements: [
+		steel/6
+	]
+}
