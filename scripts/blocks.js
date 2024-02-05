@@ -30,4 +30,7 @@
 	const oilSolidifier = extend(GenericCrafter, "oil-solidifier", {});
 	const lavaSmelter = extend(GenericCrafter, "lava-smelter", {});
 	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
+	
+	// REGION - POWER //
+	const steelNode = extend(BeamNode, "steel-node", {});
 }

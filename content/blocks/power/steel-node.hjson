@@ -1,0 +1,15 @@
+{
+	name: Steel Node
+	description: Capable of transferring power to other buildings.
+	health: 80
+	range: 5
+	requirements: [
+		stone/12
+		steel/6
+	]
+	category: power
+	research: steel-smelter
+	laserColor1: FCF387
+	laserColor2: ffffff
+	laserScale: 0.25
+}

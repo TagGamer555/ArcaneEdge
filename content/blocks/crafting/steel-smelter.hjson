@@ -25,7 +25,6 @@
 			type: DrawFlame
 			flameRadius: 2
 			flameRadiusIn: 0.75
-			flameAlpha: 0.4
 			flameColor: FEB380
 			flameRadiusMag: 0.2
 			flameRadiusInMag: 0.2
