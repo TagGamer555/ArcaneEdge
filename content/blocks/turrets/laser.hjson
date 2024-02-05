@@ -13,7 +13,7 @@
 	]
 	
 	size: 1
-	range: 60
+	range: 90
 	damage: 5
 	
 	targetAir: true
@@ -29,9 +29,9 @@
 	consumes: {
 		power: 1.5
 	}
-	conductivePower: true
+	conductivePower: false
 	
 	drawer: {
-		basePrefix: "tier4-classic-"
+		basePrefix: "base-"
 	}
 }
