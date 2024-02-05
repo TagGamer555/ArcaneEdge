@@ -42,7 +42,7 @@
 	const uraniumReactor = extend(NuclearReactor, "uranium-reactor", {});
 	
 	// REGION - DEFENSE //
-	const stoneWall = extend(Wall, "stone-wall", {});
+	const stoneWallClassic = extend(Wall, "stone-wall-classic", {});
 	const ironWall = extend(Wall, "iron-wall", {});
 	const steelWall = extend(Wall, "steel-wall", {});
 	const steelWallLarge = extend(Wall, "steel-wall-large", {});

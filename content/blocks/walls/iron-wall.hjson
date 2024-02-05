@@ -8,6 +8,6 @@
 		stone/4
 		iron/8
 	]
-	research: stone-wall
+	research: stone-wall-classic
 	category: defense
 }
