@@ -20,11 +20,11 @@
 	]
 	size: 1
 	range: 120
-	inaccuracy: 15
+	inaccuracy: 0
 	shootType: {
 		type: LightningBulletType
 		
-		lightningLength: 40
+		lightningLength: 20
 		
 		damage: 240
 		
