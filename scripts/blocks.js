@@ -33,4 +33,5 @@
 	
 	// REGION - POWER //
 	const steelNode = extend(BeamNode, "steel-node", {});
+	const accumulator = extend(Battery, "accumulator", {});
 }

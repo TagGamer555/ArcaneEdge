@@ -1,6 +1,6 @@
 {
 	name: Steel Node
-	description: Capable of transferring power to other buildings.
+	description: "Capable of transferring power to other buildings.\n[stat]Tag: [cyan]Classic[][]"
 	health: 80
 	range: 5
 	requirements: [
@@ -10,6 +10,5 @@
 	category: power
 	research: steel-smelter
 	laserColor1: FCF387
-	laserColor2: ffffff
-	laserScale: 0.25
+	laserColor2: fffff
 }
