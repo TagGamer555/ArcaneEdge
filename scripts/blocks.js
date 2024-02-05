@@ -13,6 +13,7 @@
 	const single = extend(ItemTurret, "single", {});
 	const doubleTurret = extend(ItemTurret, "double", {}); //DO NOT USE "double" BECAUSE THIS IS JS!!
 	const repeater = extend(ItemTurret, "repeater", {});
+	const broadshot = extend(ItemTurret, "broadshot", {});
 	
 	// REGION - DRILLS //
 	const stoneDrill = extend(Drill, "stone-drill", {});
