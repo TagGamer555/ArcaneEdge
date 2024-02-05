@@ -1,6 +1,6 @@
 {
 	name: Oil Generator
-	description: Combusts raw oil to generate lots of power.
+	description: "Combusts raw oil to generate lots of power.\n[stat]Tag: [cyan]Classic[][]"
 	size: 1
 	health: 200
 	itemDuration: 60

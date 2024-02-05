@@ -1,0 +1,12 @@
+{
+	name: Steel Wall
+	description: "Moderately strong wall, made of steel.\n[stat]Tag: [cyan]Classic[][]"
+	health: 400
+	armor: 4
+	size: 1
+	requirements: [
+		steel/8
+	]
+	research: iron-wall
+	category: defense
+}

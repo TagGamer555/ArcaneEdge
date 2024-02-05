@@ -1,0 +1,11 @@
+{
+	name: Stone Wall
+	description: "Weak wall, made of stone.\n[stat]Tag: [cyan]Classic[][]"
+	health: 200
+	size: 1
+	requirements: [
+		stone/8
+	]
+	research: stone
+	category: defense
+}

@@ -40,4 +40,12 @@
 	const slagGenerator = extend(ConsumeGenerator, "slag-generator", {});
 	const uraniumRtgGenerator = extend(ConsumeGenerator, "uranium-rtg-generator", {});
 	const uraniumReactor = extend(NuclearReactor, "uranium-reactor", {});
+	
+	// REGION - DEFENSE //
+	const stoneWall = extend(Wall, "stone-wall", {});
+	const ironWall = extend(Wall, "iron-wall", {});
+	const steelWall = extend(Wall, "steel-wall", {});
+	const steelWallLarge = extend(Wall, "steel-wall-large", {});
+	const diriumWall = extend(Wall, "dirium-wall", {});
+	const diriumWallLarge = extend(Wall, "dirium-wall-large", {});
 }

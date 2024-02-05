@@ -1,6 +1,6 @@
 {
 	name: Uranium RTG Generator
-	description: Uses uranium as fuel to generate power. Generates less than some other generators, but consumes less fuel.
+	description: "Uses uranium as fuel to generate power. Generates less than some other generators, but consumes less fuel.\n[stat]Tag: [cyan]Classic[][]"
 	size: 1
 	health: 240
 	itemDuration: 300

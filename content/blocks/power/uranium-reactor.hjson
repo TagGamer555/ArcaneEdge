@@ -5,7 +5,7 @@
 	size: 3
 	health: 600
 	itemCapacity: 20
-	liquidCapacity: 20
+	liquidCapacity: 48
 	itemDuration: 300
 	powerProduction: 5
 	fuelItem: uranium

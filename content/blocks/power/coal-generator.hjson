@@ -1,6 +1,6 @@
 {
 	name: Coal Generator
-	description: Combusts raw coal to generate some power.
+	description: "Combusts raw coal to generate some power.\n[stat]Tag: [cyan]Classic[][]"
 	size: 1
 	health: 100
 	itemDuration: 120

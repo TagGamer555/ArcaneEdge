@@ -1,0 +1,13 @@
+{
+	name: Dirium Wall
+	description: "Strong wall, made of dirium and titanium.\n[stat]Tag: [cyan]Classic[][]"
+	health: 600
+	armor: 6
+	size: 1
+	requirements: [
+		titanium/8
+		dirium/8
+	]
+	research: steel-wall
+	category: defense
+}
