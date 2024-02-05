@@ -21,7 +21,7 @@
 	inaccuracy: 10
 	ammoTypes: {
 		coal: {
-			damage: 5
+			damage: 15
 			
 			status: burning
 			statusDuration: 10
