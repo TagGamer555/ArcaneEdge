@@ -4,7 +4,8 @@
 	
 	outlineColor: 222222
 	health: 360
-	reload: 10
+	reload: 5
+	shootSound: flame
 	shoot: {
 		shots: 1
 	}
@@ -23,7 +24,7 @@
 			damage: 5
 			
 			status: burning
-			statusDuration: 20
+			statusDuration: 10
 			
 			pierce: true
 			pierceBuilding: true
