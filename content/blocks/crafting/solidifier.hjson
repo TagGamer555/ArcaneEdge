@@ -30,7 +30,7 @@
 		lifetime: 30
 		length: 5
 		colorFrom: FFFFFF80
-		colorto: 00000000
+		colorTo: 00000000
 	}
 	
 	drawer: [

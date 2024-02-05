@@ -5,12 +5,13 @@
 	health: 50
 	range: 4
 	placeableLiquid: false
-	speed: 120
-	bufferCapacity: 10
 	itemCapacity: 10
 	requirements: [
 		stone/8
 		iron/5
 	]
 	research: stone-junction
+	
+	speed: 80
+	bufferCapacity: 14
 }

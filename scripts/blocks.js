@@ -20,13 +20,13 @@
 	const steelConveyor = extend(Conveyor, "steel-conveyor", {});
 	const stoneRouter = extend(Router, "stone-router", {})
 	const stoneJunction = extend(Junction, "stone-junction", {})
-	const ironBridgeConveyor = extend(ItemBridge, "iron-bridge-conveyor", {})
+	const ironBridgeConveyor = extend(BufferedItemBridge, "iron-bridge-conveyor", {})
 	
 	// REGION - CRAFTING //
 	const steelSmelter = extend(GenericCrafter, "steel-smelter", {});
 	const diriumCrucible = extend(GenericCrafter, "dirium-crucible", {});
 	const solidifier = extend(GenericCrafter, "solidifier", {});
-	const coalExtractor = extend(GenericCrafter, "coalExtractor", {});
+	const coalExtractor = extend(GenericCrafter, "coal-extractor", {});
 	const oilSolidifier = extend(GenericCrafter, "oil-solidifier", {});
 	const lavaSmelter = extend(GenericCrafter, "lava-smelter", {});
 	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
