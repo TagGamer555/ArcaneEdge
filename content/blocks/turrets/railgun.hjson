@@ -77,7 +77,7 @@
 	ammoPerShot: 4
 	
 	category: turret
-	research: single
+	research: repeater
 	consumes: {}
 	conductivePower: false
 	

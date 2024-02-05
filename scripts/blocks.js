@@ -17,6 +17,7 @@
 	const repeater = extend(ItemTurret, "repeater", {});
 	const broadshot = extend(ItemTurret, "broadshot", {});
 	const railgun = extend(ItemTurret, "railgun", {});
+	const flamer = extend(ItemTurret, "flamer", {});
 	
 	// REGION - DRILLS //
 	const stoneDrill = extend(Drill, "stone-drill", {});
