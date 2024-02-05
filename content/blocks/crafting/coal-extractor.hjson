@@ -1,30 +1,34 @@
 {
-	name: Oil Solidifier
-	description: "Creates synthetic coal from raw oil.\n[stat]Tag: [cyan]Classic[][]"
+	name: Coal Extractor
+	description: "Requires stone and water to extract coal.\n[stat]Tag: [cyan]Classic[][]"
 	
 	health: 120
 	
 	requirements: [
-		stone/40
-		steel/60
-		titanium/40
+		stone/75
+		steel/50
 	]
 	
-	craftTime: 60
+	craftTime: 120
 	consumes: {
 		liquids: {
 			liquids: [
-				oil/0.2
+				water/0.2
+			]
+		}
+		items: {
+			items: [
+				steel/4
 			]
 		}
 	}
 	
-	outputItem: coal/2
-	research: coal-extractor
+	outputItem: coal/1
+	research: steel-smelter
 	category: crafting
 	
 	updateEffect: {
-		particles: 1
+		particles: 2
 		sizeFrom: 1
 		sizeTo: 0
 		lifetime: 30
@@ -40,7 +44,7 @@
 		}
 		{
 			type: DrawLiquidTile
-			drawLiquid: oil
+			drawLiquid: water
 		}
 		{
 			type: DrawDefault

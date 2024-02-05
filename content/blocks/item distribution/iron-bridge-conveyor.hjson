@@ -1,0 +1,16 @@
+{
+	category: distribution
+	name: Iron Bridge Conveyor
+	description: "Trasports items laterally to another bridge.\n[stat]Tag: [cyan]Classic[][]"
+	health: 50
+	range: 3
+	placeableLiquid: false
+	speed: 10
+	bufferCapacity: 10
+	itemCapacity: 10
+	requirements: [
+		stone/8
+		iron/5
+	]
+	research: stone-junction
+}

@@ -15,5 +15,5 @@
 	category: distribution
 	
 	junctionReplacement: stone-junction
-	# bridgeReplacement: iron-bridge-conveyor
+	bridgeReplacement: iron-bridge-conveyor
 }
