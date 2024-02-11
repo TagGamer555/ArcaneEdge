@@ -1,0 +1,49 @@
+{
+	name: Regen Turret
+	description: "Heals allied structures with a repair bolt. Much faster and covers more range.\n[stat]Tag: [cyan]Classic[][]"
+	
+	outlineColor: 222222
+	health: 300
+	reload: 15
+	shootSound: lasershoot
+	shoot: {
+		shots: 1
+	}
+	recoil: 0
+	rotateSpeed: 4
+	
+	requirements: [
+		stone/40
+		steel/60
+	]
+	size: 1
+	range: 75
+	inaccuracy: 0
+	targetAir: false
+	targetGround: false
+	targetHealing: true
+	shootType: {
+		type: LaserBoltBulletType
+		lifetime: 16.6666666666666
+		speed: 4.5
+		damage: 0
+		collidesTeam: true
+		healPercent: 3
+		ammoMultiplier: 1
+		height: 5
+		width: 2
+	}
+	ammoPerShot: 1
+	
+	category: effect
+	research: mender-turret
+	consumes: {
+		power: 1.5
+	}
+	conductivePower: false
+	
+	drawer: {
+		type: DrawTurret
+		basePrefix: "tier3-classic-"
+	}
+}

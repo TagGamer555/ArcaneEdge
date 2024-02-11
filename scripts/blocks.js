@@ -78,4 +78,6 @@
 	
 	// REGION - EFFECT //
 	const menderTurret = extend(PowerTurret, "mender-turret", {});
+	const regenTurret = extend(PowerTurret, "regen-turret", {});
+	const extinguisher = extend(LiquidTurret, "extinguisher", {});
 }
