@@ -24,7 +24,7 @@
 			speed: 3
 			knockback: 1
 			puddleSize: 4
-			orbSize: 0.5
+			orbSize: 1.5
 			drag: 0
 			ammoMultiplier: 1
 			statusDuration: 240
