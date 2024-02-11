@@ -19,6 +19,7 @@
 	ammoTypes: {
 		water: {
 			type: LiquidBulletType
+			liquid: water
 			lifetime: 20
 			speed: 3
 			knockback: 1
