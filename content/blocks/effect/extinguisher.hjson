@@ -1,6 +1,6 @@
 {
 	name: Extinguisher
-	description: "Extinguishes fires with steams of water.\n[stat]Tag: [sky]Classic+[][]"
+	description: "Extinguishes fires with water.\n[stat]Tag: [sky]Classic+[][]"
 	health: 200
 	size: 1
 	outlineColor: 222222
@@ -10,6 +10,7 @@
 	]
 	category: effect
 	research: mender-turret
+	targetGround: false
 	targetAir: false
 	inaccuracy: 5
 	reload: 5
@@ -23,13 +24,14 @@
 			lifetime: 20
 			speed: 3
 			knockback: 1
-			puddleSize: 4
+			puddleSize: 1
 			orbSize: 1.5
 			drag: 0
 			ammoMultiplier: 1
 			statusDuration: 240
-			damage: 0.2
+			damage: 0
 			collideAir: false
+			collideGround: false
 		}
 	}
 	drawer: {
