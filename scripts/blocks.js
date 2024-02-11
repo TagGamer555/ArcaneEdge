@@ -54,6 +54,7 @@
 	const slagSmelter = extend(GenericCrafter, "slag-smelter", {});
 	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
 	const sandMelter = extend(GenericCrafter, "sand-melter", {});
+	const sandSifter = extend(GenericCrafter, "sand-sifter", {});
 	const stoneCrusher = extend(GenericCrafter, "stone-crusher", {});
 	
 	// REGION - POWER //

@@ -29,6 +29,9 @@
 		damage: 0
 		collidesTeam: true
 		healPercent: 2
+		ammoMultiplier: 1
+		height: 5
+		width: 1
 	}
 	ammoPerShot: 1
 	

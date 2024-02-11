@@ -1,12 +1,12 @@
 {
-	name: Sand Melter
-	description: "Melts sand with coal, creating slag.\n[stat]Tag: [sky]Classic+[][]"
+	name: Sand Sifter
+	description: "Extracts oil from sand and water.\n[stat]Tag: [sky]Classic+[][]"
 	
-	health: 160
+	health: 180
 	
 	requirements: [
 		stone/40
-		iron/60
+		steel/60
 	]
 	
 	craftTime: 60
@@ -14,13 +14,13 @@
 		items: {
 			items: [
 				sand/4
-				coal/1
 			]
 		}
+		liquid: water/0.05
 	}
 	
-	outputLiquid: slag/0.05
-	research: steel-smelter
+	outputLiquid: oil/0.05
+	research: oil-solidifier
 	category: crafting
 	
 	updateEffect: {
@@ -40,7 +40,7 @@
 		}
 		{
 			type: DrawLiquidTile
-			drawLiquid: slag
+			drawLiquid: oil
 		}
 		{
 			type: DrawDefault
