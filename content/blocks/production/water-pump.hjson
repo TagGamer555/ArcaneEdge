@@ -3,6 +3,7 @@
 	description: "Extracts water from underground reservoirs. Requires oil as fuel.\n[stat]Tag: [sky]Classic+[][]"
 	health: 160
 	attribute: water
+	hasPower: false
 	size: 1
 	result: water
 	pumpAmount: 0.1
