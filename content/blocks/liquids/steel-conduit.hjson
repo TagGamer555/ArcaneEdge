@@ -7,4 +7,5 @@
 	requirements: [
 		steel/3
 	]
+	junctionReplacement: steel-junction
 }

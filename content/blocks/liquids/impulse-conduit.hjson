@@ -8,4 +8,5 @@
 		steel/3
 		titanium/2
 	]
+	junctionReplacement: steel-junction
 }
