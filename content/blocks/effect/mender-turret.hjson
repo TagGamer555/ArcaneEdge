@@ -1,16 +1,16 @@
 {
 	name: Mender Turret
-	description: "Heals allied structures with a repair beam.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Heals allied structures with a repair bolt.\n[stat]Tag: [cyan]Classic[][]"
 	
 	outlineColor: 222222
 	health: 150
-	reload: 15
+	reload: 30
 	shootSound: none
 	shoot: {
 		shots: 1
 	}
 	recoil: 0
-	rotateSpeed: 3
+	rotateSpeed: 4
 	
 	requirements: [
 		stone/20
@@ -23,14 +23,12 @@
 	targetGround: false
 	targetBuildings: true
 	shootType: {
-		type: RepairBeamWeapon
-		
-		beamWidth: 0.5
-		repairSpeed: 0.2
-		fractionRepairSpeed: 0.0025
-		widthSinMag: 0.09
-		
-		maxRange: 12
+		type: LaserBoltBulletType
+		lifetime: 10
+		speed: 4.5
+		damage: 0
+		collidesTeam: true
+		healPercent: 2
 	}
 	ammoPerShot: 1
 	
@@ -43,6 +41,6 @@
 	
 	drawer: {
 		type: DrawTurret
-		basePrefix: "tier1-classic-"
+		basePrefix: "tier2-classic-"
 	}
 }
