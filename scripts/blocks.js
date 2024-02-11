@@ -36,6 +36,7 @@
 	const stoneRouter = extend(Router, "stone-router", {})
 	const stoneJunction = extend(Junction, "stone-junction", {})
 	const ironBridgeConveyor = extend(BufferedItemBridge, "iron-bridge-conveyor", {})
+	const teleporter = extend(MassDriver, "teleporter", {})
 	
 	// REGION - LIQUIDS //
 	const pneumaticPump = extend(Pump, "pneumatic-pump", {});

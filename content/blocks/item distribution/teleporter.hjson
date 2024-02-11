@@ -1,0 +1,38 @@
+{
+	name: Teleporter
+	description: "Instantly transports items across long distances.\n[stat]Tag: [cyan]Classic[][]"
+	knockback: 0
+	rotateSpeed: 999
+	hasPower: true
+	range: 10000
+	size: 1
+	reload: 1
+	bulletSpeed: 100
+	minDistribute: 1
+	translation: 5
+	bulletLifetime: 100
+	shake: 0
+	shootSound: none
+	itemCapacity: 10
+	smokeEffect: none
+	receiveEffect: {
+		type: WaveEffect
+		sides: 4
+		sizeFrom: 8
+		sizeTo: 0
+		strokeFrom: 3
+		strokeTo: 0
+		colorFrom: B7E2CDFF
+		colorTo: 6BB2A600
+		lifetime: 25
+	}
+	category: distribution
+	requirements: [
+		steel/30
+		dirium/20
+	]
+	consumes: {
+		power: 1
+	}
+	research: dirium-conveyor
+}
