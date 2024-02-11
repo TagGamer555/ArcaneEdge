@@ -74,5 +74,5 @@
 	const diriumWallLarge = extend(Wall, "dirium-wall-large", {});
 	
 	// REGION - EFFECT //
-	const menderTurret = extend(PowerTurret, "menderTurret", {});
+	const menderTurret = extend(PowerTurret, "mender-turret", {});
 }
