@@ -4,17 +4,20 @@
 	knockback: 0
 	rotateSpeed: 999
 	hasPower: true
-	range: 10000
+	range: 20000
 	size: 1
 	reload: 1
-	bulletSpeed: 100
+	bulletSpeed: 200
 	minDistribute: 1
 	translation: 5
 	bulletLifetime: 100
+	bulletWidth: 0
+	bulletHeight: 0
 	shake: 0
 	shootSound: none
 	itemCapacity: 10
 	smokeEffect: none
+	shootEffect: none
 	receiveEffect: {
 		type: WaveEffect
 		sides: 4

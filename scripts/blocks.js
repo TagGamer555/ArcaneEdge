@@ -23,11 +23,12 @@
 	const radiator = extend(ItemTurret, "radiator", {});
 	const tesla = extend(PowerTurret, "tesla", {});
 	
-	// REGION - DRILLS //
+	// REGION - PRODUCTION //
 	const stoneDrill = extend(Drill, "stone-drill", {});
 	const ironDrill = extend(Drill, "iron-drill", {});
 	const steelDrill = extend(Drill, "steel-drill", {});
 	const omnirill = extend(Drill, "omnidrill", {});
+	const waterPump = extend(SolidPump, "water-pump", {});
 	
 	// REGION - DISTRIBUTION //
 	const stoneConveyor = extend(Conveyor, "stone-conveyor", {});
