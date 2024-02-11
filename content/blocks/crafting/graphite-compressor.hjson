@@ -4,6 +4,7 @@
 	size: 1
 	health: 160
 	craftTime: 120
+	liquidCapacity: 18
 	consumes: {
 		items: [
 			coal/2
