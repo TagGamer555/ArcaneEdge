@@ -13,6 +13,7 @@
 	requirements: [
 		stone/25
 		iron/80
+		graphite/10
 	]
 	category: crafting
 	research: solidifier
