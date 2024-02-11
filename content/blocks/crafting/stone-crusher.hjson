@@ -1,0 +1,19 @@
+{
+	name: Stone Crusher
+	description: "Crushes stone into fine sand grains. Requires stone and water.\n[stat]Tag: [cyan]Classic[][]"
+	size: 1
+	health: 160
+	craftTime: 30
+	consumes: {
+		items: [
+			stone/1
+		]
+	}
+	requirements: [
+		stone/25
+		iron/80
+	]
+	category: crafting
+	research: solidifier
+	outputItem: sand/2
+}

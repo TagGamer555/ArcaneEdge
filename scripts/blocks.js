@@ -9,7 +9,7 @@
 	
 	
 	
-	////// CLASSIC PORT //////
+	////// CLASSIC + //////
 	
 	// REGION - TURRETS //
 	const single = extend(ItemTurret, "single", {});
@@ -53,6 +53,8 @@
 	const oilSolidifier = extend(GenericCrafter, "oil-solidifier", {});
 	const slagSmelter = extend(GenericCrafter, "slag-smelter", {});
 	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
+	const sandMelter = extend(GenericCrafter, "sand-melter", {});
+	const stoneCrusher = extend(GenericCrafter, "stone-crusher", {});
 	
 	// REGION - POWER //
 	const steelNode = extend(BeamNode, "steel-node", {});
