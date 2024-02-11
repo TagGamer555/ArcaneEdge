@@ -6,7 +6,6 @@
 	health: 150
 	reload: 30
 	shootSound: lasershoot
-	shootSound: none
 	shoot: {
 		shots: 1
 	}
