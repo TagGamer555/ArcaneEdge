@@ -5,6 +5,7 @@
 	outlineColor: 222222
 	health: 150
 	reload: 30
+	shootSound: lasershoot
 	shootSound: none
 	shoot: {
 		shots: 1
@@ -22,6 +23,7 @@
 	targetAir: false
 	targetGround: false
 	targetBuildings: true
+	targetHealing: true
 	shootType: {
 		type: LaserBoltBulletType
 		lifetime: 10
