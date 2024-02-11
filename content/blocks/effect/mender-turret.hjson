@@ -22,7 +22,6 @@
 	inaccuracy: 0
 	targetAir: false
 	targetGround: false
-	targetBuildings: true
 	targetHealing: true
 	shootType: {
 		type: LaserBoltBulletType
@@ -33,7 +32,7 @@
 		healPercent: 2
 		ammoMultiplier: 1
 		height: 5
-		width: 1
+		width: 2
 	}
 	ammoPerShot: 1
 	

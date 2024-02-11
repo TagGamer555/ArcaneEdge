@@ -8,6 +8,7 @@
 		items: [
 			stone/1
 		]
+		liquid: water/0.05
 	}
 	requirements: [
 		stone/25
@@ -16,4 +17,13 @@
 	category: crafting
 	research: solidifier
 	outputItem: sand/2
+	craftEffect: {
+		particles: 5
+		colorFrom: F7CBA480
+		colorTo: D3AE8D00
+		lifetime: 45
+		length: 10
+		sizeFrom: 1.5
+		sizeTo: 0
+	}
 }
