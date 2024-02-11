@@ -72,4 +72,7 @@
 	const steelWallLarge = extend(Wall, "steel-wall-large", {});
 	const diriumWall = extend(Wall, "dirium-wall", {});
 	const diriumWallLarge = extend(Wall, "dirium-wall-large", {});
+	
+	// REGION - EFFECT //
+	const menderTurret = extend(PowerTurret, "menderTurret", {});
 }

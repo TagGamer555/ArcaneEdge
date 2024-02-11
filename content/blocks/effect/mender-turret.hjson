@@ -1,0 +1,48 @@
+{
+	name: Mender Turret
+	description: "Heals allied structures with a repair beam.\n[stat]Tag: [cyan]Classic[][]"
+	
+	outlineColor: 222222
+	health: 150
+	reload: 15
+	shootSound: none
+	shoot: {
+		shots: 1
+	}
+	recoil: 0
+	rotateSpeed: 3
+	
+	requirements: [
+		stone/20
+		iron/40
+	]
+	size: 1
+	range: 45
+	inaccuracy: 0
+	targetAir: false
+	targetGround: false
+	targetBuildings: true
+	shootType: {
+		type: RepairBeamWeapon
+		
+		beamWidth: 0.5
+		repairSpeed: 0.2
+		fractionRepairSpeed: 0.0025
+		widthSinMag: 0.09
+		
+		maxRange: 12
+	}
+	ammoPerShot: 1
+	
+	category: effect
+	research: coal-generator
+	consumes: {
+		power: 1
+	}
+	conductivePower: false
+	
+	drawer: {
+		type: DrawTurret
+		basePrefix: "tier1-classic-"
+	}
+}
