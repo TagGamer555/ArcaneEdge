@@ -57,7 +57,7 @@
 	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
 	const steelFurnace = extend(GenericCrafter, "steel-furnace", {});
 	const graphiteCompressor = extend(GenericCrafter, "graphite-compressor", {});
-	const silicon-infuser = extend(GenericCrafter, "silicon-infuser", {});
+	const siliconInfuser = extend(GenericCrafter, "silicon-infuser", {});
 	const sandMelter = extend(GenericCrafter, "sand-melter", {});
 	const sandSifter = extend(GenericCrafter, "sand-sifter", {});
 	const stoneCrusher = extend(GenericCrafter, "stone-crusher", {});
