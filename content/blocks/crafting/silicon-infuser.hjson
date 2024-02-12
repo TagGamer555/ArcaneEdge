@@ -1,0 +1,35 @@
+{
+	name: Silicon Infuser
+	description: "Slowly fuses oil and sand to create silicon. Consumes a lot of sand.\n[stat]Tag: [sky]Classic+[][]"
+	size: 1
+	health: 200
+	craftTime: 240
+	consumes: {
+		items: [
+			sand/8
+		]
+		liquid: oil/0.1
+	}
+	requirements: [
+		steel/30
+		titanium/50
+		graphite/20
+	]
+	category: crafting
+	research: graphite-compressor
+	outputItem: silicon/1
+	
+	drawer: [
+		{
+			type: DrawDefault
+		}
+		{
+			type: DrawFlame
+			flameRadius: 2
+			flameRadiusIn: 0.75
+			flameColor: FEB380
+			flameRadiusMag: 0.2
+			flameRadiusInMag: 0.2
+		}
+    ]
+}

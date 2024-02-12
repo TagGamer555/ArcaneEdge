@@ -11,14 +11,14 @@
 	
 	craftTime: 60
 	consumes: {
-		liquids: {
-			liquids: [
-				slag/0.1
-			]
-		}
 		items: {
 			items: [
 				iron/2
+			]
+		}
+		liquids: {
+			liquids: [
+				slag/0.1
 			]
 		}
 	}

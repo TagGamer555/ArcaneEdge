@@ -57,9 +57,11 @@
 	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
 	const steelFurnace = extend(GenericCrafter, "steel-furnace", {});
 	const graphiteCompressor = extend(GenericCrafter, "graphite-compressor", {});
+	const silicon-infuser = extend(GenericCrafter, "silicon-infuser", {});
 	const sandMelter = extend(GenericCrafter, "sand-melter", {});
 	const sandSifter = extend(GenericCrafter, "sand-sifter", {});
 	const stoneCrusher = extend(GenericCrafter, "stone-crusher", {});
+	const learner = extend(GenericCrafter, "learner", {});
 	
 	// REGION - POWER //
 	const steelNode = extend(BeamNode, "steel-node", {});
