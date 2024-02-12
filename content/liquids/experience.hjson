@@ -1,0 +1,11 @@
+name: Experience
+description: Multi-purpose substance. Useful for pumping in or out the data.
+heatCapacity: 0
+explosiveness: 1
+temperature: 0
+gas: true
+color: 84F491
+gasColor: 00000000
+flammability: 0
+research: steel
+coolant: false
