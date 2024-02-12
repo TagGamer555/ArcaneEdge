@@ -34,10 +34,10 @@
 	const stoneConveyor = extend(Conveyor, "stone-conveyor", {});
 	const steelConveyor = extend(Conveyor, "steel-conveyor", {});
 	const diriumConveyor = extend(Conveyor, "dirium-conveyor", {});
-	const stoneRouter = extend(Router, "stone-router", {})
-	const stoneJunction = extend(Junction, "stone-junction", {})
-	const ironBridgeConveyor = extend(BufferedItemBridge, "iron-bridge-conveyor", {})
-	const teleporter = extend(MassDriver, "teleporter", {})
+	const stoneRouter = extend(Router, "stone-router", {});
+	const stoneJunction = extend(Junction, "stone-junction", {});
+	const ironBridgeConveyor = extend(BufferedItemBridge, "iron-bridge-conveyor", {});
+	const teleporter = extend(MassDriver, "teleporter", {});
 	
 	// REGION - LIQUIDS //
 	const pneumaticPump = extend(Pump, "pneumatic-pump", {});
