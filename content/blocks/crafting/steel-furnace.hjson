@@ -1,0 +1,38 @@
+{
+	name: Steel Furnace
+	description: "Fuses iron and graphite together into steel. Very efficient.\n[stat]Tag: [sky]Classic+[][]"
+	size: 1
+	health: 200
+	craftTime: 240
+	consumes: {
+		items: [
+			iron/8
+			graphite/2
+		]
+		liquid: slag/0.1
+	}
+	itemCapacity: 16
+	requirements: [
+		steel/40
+		titanium/20
+		dirium/20
+		graphite/20
+	]
+	category: crafting
+	research: graphite-compressor
+	outputItem: steel/8
+	
+	drawer: [
+		{
+			type: DrawDefault
+		}
+		{
+			type: DrawFlame
+			flameRadius: 2
+			flameRadiusIn: 0.75
+			flameColor: A4B8FA
+			flameRadiusMag: 0.2
+			flameRadiusInMag: 0.2
+		}
+    ]
+}
