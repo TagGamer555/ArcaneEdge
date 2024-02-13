@@ -61,6 +61,7 @@
 	const sandMelter = extend(GenericCrafter, "sand-melter", {});
 	const sandSifter = extend(GenericCrafter, "sand-sifter", {});
 	const stoneCrusher = extend(GenericCrafter, "stone-crusher", {});
+	const slagSeparator = extend(Separator, "slag-separator", {});
 	const learner = extend(GenericCrafter, "learner", {});
 	
 	// REGION - POWER //

@@ -1,0 +1,52 @@
+{
+	name: Slag Separator
+	description: "Separates slag into more useful resources. Requires coal.\n[stat]Tag: [sky]Classic+[][]"
+	
+	consumes: {
+		liquid: slag/0.1
+		items: [
+			coal/1
+		]
+	}
+	
+	size: 1
+	research: slag-smelter
+	craftTime: 30
+	category: crafting
+	
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawRegion
+				suffix: -bottom
+			}
+			{
+				type: DrawRegion
+				spinSprite: true
+				rotateSpeed: 2
+				suffix: -rotator
+			}
+			{
+				type: DrawDefault
+			}
+		]
+	}
+	
+	hasItems: true
+	itemCapacity: 10
+	health: 240
+	
+	requirements: [
+		stone/60
+		steel/40
+		titanium/20
+		graphite/30
+	]
+	
+	results: [
+		iron/8
+		titanium/4
+		uranium/1
+	]
+}
