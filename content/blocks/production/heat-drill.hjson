@@ -12,7 +12,7 @@
 	craftTime: 60
 	category: production
 	
-	baseEfficiency: 10
+	baseEfficiency: 0.1
 	
 	updateEffect: {
 		particles: 2
