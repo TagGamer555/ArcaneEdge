@@ -1,0 +1,7 @@
+{
+	name: Rocknite
+	description: "Useful in power generation and resource excavation.\n[stat]Tag: [orange]Classic++[][]"
+	color: FF884C
+	research: experience
+	hardness: 0
+}

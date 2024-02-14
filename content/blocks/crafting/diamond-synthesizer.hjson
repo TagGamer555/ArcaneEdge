@@ -1,0 +1,46 @@
+{
+	name: Diamond Synthesizer
+	description: "Synthesizes diamond from coal, oil and experience.\n[stat]Tag: [orange]Classic++[][]"
+	
+	health: 300
+	
+	requirements: [
+		stone/90
+		iron/80
+		steel/70
+		titanium/60
+		dirium/50
+	]
+	
+	craftTime: 600
+	consumes: {
+		liquids: {
+			liquids: [
+				experience/0.005
+				oil/0.3
+			]
+		}
+		items: {
+			items: [
+				coal/16
+			]
+		}
+	}
+	
+	itemCapacity: 32
+	liquidCapacity: 1.2
+	
+	outputItem: diamond/1
+	research: dirium-crucible
+	category: crafting
+	
+	updateEffect: {
+		particles: 2
+		sizeFrom: 1
+		sizeTo: 0
+		lifetime: 30
+		length: 5
+		colorFrom: 80808080
+		colorTo: 00000000
+	}
+}

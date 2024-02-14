@@ -1,0 +1,7 @@
+{
+	name: Scalium
+	description: "Used as a component for turrets and as ammunition.\n[stat]Tag: [orange]Classic++[][]"
+	color: FF4C4C
+	research: experience
+	hardness: 0
+}

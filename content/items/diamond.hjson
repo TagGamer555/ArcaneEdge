@@ -1,0 +1,7 @@
+{
+	name: Diamond
+	description: "It is primarily used in self-regenerating structures, walls, and other defensive mechanisms.\n[stat]Tag: [orange]Classic++[][]"
+	color: FFFFFF
+	research: experience
+	hardness: 0
+}

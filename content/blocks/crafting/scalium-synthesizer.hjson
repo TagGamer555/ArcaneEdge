@@ -1,0 +1,45 @@
+{
+	name: Scalium Synthesizer
+	description: "Synthesizes scalium from iron and experience.\n[stat]Tag: [orange]Classic++[][]"
+	
+	health: 300
+	
+	requirements: [
+		stone/90
+		iron/80
+		steel/70
+		titanium/60
+		dirium/50
+	]
+	
+	craftTime: 600
+	consumes: {
+		liquids: {
+			liquids: [
+				experience/0.005
+			]
+		}
+		items: {
+			items: [
+				iron/8
+			]
+		}
+	}
+	
+	itemCapacity: 32
+	liquidCapacity: 1.2
+	
+	outputItem: scalium/1
+	research: dirium-crucible
+	category: crafting
+	
+	updateEffect: {
+		particles: 2
+		sizeFrom: 1
+		sizeTo: 0
+		lifetime: 30
+		length: 5
+		colorFrom: 80808080
+		colorTo: 00000000
+	}
+}

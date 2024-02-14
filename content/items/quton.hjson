@@ -1,0 +1,7 @@
+{
+	name: Quton
+	description: "It's potency is harnessed to create power and tide-turning devices, useful for healing and protection, like Force Field Projectors.\n[stat]Tag: [orange]Classic++[][]"
+	color: FFD24C
+	research: experience
+	hardness: 0
+}

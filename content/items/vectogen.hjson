@@ -1,0 +1,7 @@
+{
+	name: Vectogen
+	description: "Required for advanced and efficient distribution of both items and liquids.\n[stat]Tag: [orange]Classic++[][]"
+	color: 4C4CFF
+	research: experience
+	hardness: 0
+}
