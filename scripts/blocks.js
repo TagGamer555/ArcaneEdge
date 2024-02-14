@@ -29,6 +29,7 @@
 	const steelDrill = extend(Drill, "steel-drill", {});
 	const omnirill = extend(Drill, "omnidrill", {});
 	const waterPump = extend(SolidPump, "water-pump", {});
+	const heatDrill = extend(AttributeCrafter, "heat-drill", {});
 	
 	// REGION - DISTRIBUTION //
 	const stoneConveyor = extend(Conveyor, "stone-conveyor", {});

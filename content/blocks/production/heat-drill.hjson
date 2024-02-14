@@ -1,0 +1,36 @@
+{
+	name: Heat Drill
+	description: "When placed on hot tiles and supplied with enough oil, it will drill through crust to gather iron in moderate quantities.\n[stat]Tag: [sky]Classic+[][]"
+	
+	consumes: {
+		liquid: oil/0.2
+	}
+	
+	attribute: heat
+	
+	research: water-pump
+	craftTime: 60
+	category: production
+	
+	baseEfficiency: 0
+	minEfficiency: 1
+	
+	updateEffect: {
+		particles: 2
+		sizeFrom: 1
+		sizeTo: 0
+		lifetime: 30
+		length: 5
+		colorFrom: 80808080
+		colorTo: 00000000
+	}
+	
+	requirements: [
+		stone/60
+		iron/40
+		graphite/30
+	]
+	
+	outputItem: iron/1
+	liquidCapacity: 12
+}
