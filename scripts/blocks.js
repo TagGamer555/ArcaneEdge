@@ -50,6 +50,7 @@
 	const steelJunction = extend(LiquidJunction, "steel-junction", {});
 	
 	// REGION - CRAFTING //
+	const stoneCompressor = extend(GenericCrafter, "stone-compressor", {});
 	const steelSmelter = extend(GenericCrafter, "steel-smelter", {});
 	const diriumCrucible = extend(GenericCrafter, "dirium-crucible", {});
 	const solidifier = extend(GenericCrafter, "solidifier", {});
