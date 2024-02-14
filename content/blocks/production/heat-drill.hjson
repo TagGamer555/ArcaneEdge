@@ -7,14 +7,10 @@
 	}
 	
 	attribute: heat
-	group: liquids
 	
 	research: water-pump
 	craftTime: 60
 	category: production
-	
-	baseEfficiency: 0
-	minEfficiency: 1
 	
 	updateEffect: {
 		particles: 2
