@@ -42,7 +42,7 @@
 		sizeFrom: 2
 		sizeTo: 0
 		lifetime: 90
-		length: 5
+		length: 15
 		colorFrom: FFFFFF80
 		colorTo: 00000000
 	}
