@@ -3,7 +3,7 @@
 	description: "Separates slag into more useful resources. Requires coal.\n[stat]Tag: [sky]Classic+[][]"
 	
 	consumes: {
-		liquid: slag/0.1
+		liquid: slag/0.2
 		items: [
 			coal/1
 		]
