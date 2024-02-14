@@ -3,16 +3,16 @@
 	description: "When placed on hot tiles and supplied with enough oil, it will drill through crust to gather iron in moderate quantities.\n[stat]Tag: [sky]Classic+[][]"
 	
 	consumes: {
-		liquid: oil/0.2
+		liquid: oil/0.4
 	}
 	
 	attribute: heat
 	
 	research: water-pump
-	craftTime: 60
+	craftTime: 120
 	category: production
 	
-	baseEfficiency: 0.1
+	baseEfficiency: 1
 	
 	updateEffect: {
 		particles: 2
