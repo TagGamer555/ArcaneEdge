@@ -28,7 +28,7 @@
 	}
 	
 	itemCapacity: 32
-	liquidCapacity: 1.2
+	liquidCapacity: 36
 	
 	outputItem: diamond/1
 	research: dirium-crucible
