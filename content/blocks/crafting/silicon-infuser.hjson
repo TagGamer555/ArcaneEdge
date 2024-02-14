@@ -4,6 +4,7 @@
 	size: 1
 	health: 200
 	craftTime: 240
+	itemCapacity: 16
 	consumes: {
 		items: [
 			sand/8
