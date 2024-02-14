@@ -1,0 +1,11 @@
+{
+	name: Steel Sorter
+	description: "Selected items go through, others are distributed to the sides.\n[stat]Tag: [cyan]Classic[][]"
+	health: 90
+	solid: false
+	research: steel-conveyor
+	requirements: [
+		stone/5
+		steel/2
+	]
+}
