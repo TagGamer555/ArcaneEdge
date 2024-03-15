@@ -67,10 +67,12 @@
 	const slagSeparator = extend(Separator, "slag-separator", {});
 	const learner = extend(GenericCrafter, "learner", {});
 	const rockniteSynthesizer = extend(GenericCrafter, "rocknite-synthesizer", {});
+	/*
 	const scaliumSynthesizer = extend(GenericCrafter, "scalium-synthesizer", {});
 	const vectogenSynthesizer = extend(GenericCrafter, "vectogen-synthesizer", {});
 	const qutonSynthesizer = extend(GenericCrafter, "quton-synthesizer", {});
 	const diamondSynthesizer = extend(GenericCrafter, "diamond-synthesizer", {});
+	*/
 	
 	// REGION - POWER //
 	const steelNode = extend(BeamNode, "steel-node", {});
