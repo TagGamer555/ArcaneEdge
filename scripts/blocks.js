@@ -53,13 +53,14 @@
 	// REGION - CRAFTING //
 	const stoneCompressor = extend(GenericCrafter, "stone-compressor", {});
 	const steelSmelter = extend(GenericCrafter, "steel-smelter", {});
+	const slagSmelter = extend(GenericCrafter, "slag-smelter", {});
+	const steelFurnace = extend(GenericCrafter, "steel-furnace", {});
 	const diriumCrucible = extend(GenericCrafter, "dirium-crucible", {});
+	const diriumMerger = extend(GenericCrafter, "dirium-merger", {});
 	const solidifier = extend(GenericCrafter, "solidifier", {});
 	const coalExtractor = extend(GenericCrafter, "coal-extractor", {});
 	const oilSolidifier = extend(GenericCrafter, "oil-solidifier", {});
-	const slagSmelter = extend(GenericCrafter, "slag-smelter", {});
 	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
-	const steelFurnace = extend(GenericCrafter, "steel-furnace", {});
 	const graphiteCompressor = extend(GenericCrafter, "graphite-compressor", {});
 	const siliconInfuser = extend(GenericCrafter, "silicon-infuser", {});
 	const sandMelter = extend(GenericCrafter, "sand-melter", {});
