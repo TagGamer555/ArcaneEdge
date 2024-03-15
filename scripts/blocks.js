@@ -84,6 +84,7 @@
 	const slagGenerator = extend(ConsumeGenerator, "slag-generator", {});
 	const uraniumRtgGenerator = extend(ConsumeGenerator, "uranium-rtg-generator", {});
 	const uraniumReactor = extend(NuclearReactor, "uranium-reactor", {});
+	const steamTurbine = extend(ConsumeGenerator, "steam-turbine", {});
 	/*
 	const isotopeGenerator = extend(ThermalGenerator, "isotope-generator", {});
 	*/
