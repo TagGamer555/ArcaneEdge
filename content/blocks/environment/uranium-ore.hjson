@@ -3,4 +3,7 @@
 	type: OreBlock
 	itemDrop: uranium
 	playerUnmineable: false
+	attributes: {
+		isotopeOre: 1.2
+	}
 }

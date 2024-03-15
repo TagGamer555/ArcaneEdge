@@ -1,6 +1,6 @@
 {
 	name: Dirium Merger
-	description: "Produces dirium at fast rate by smelting titanium, steel and silicon together.\n[stat]Tag: [sky]Classic+[][]"
+	description: "Produces dirium at a fast rate by smelting titanium, steel and silicon together.\n[stat]Tag: [sky]Classic+[][]"
 	size: 1
 	craftTime: 120
 	consumes: {
