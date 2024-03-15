@@ -1,0 +1,24 @@
+{
+	name: Copper Drill
+	description: "A faster variant of iron drill, capable of mining at higher rates.\n[stat]Tag: [sky]Classic+[][]"
+	size: 1
+	itemCapacity: 10
+	tier: 2
+	drillTime: 175
+	envDisabled: 16
+	drawMineItem: true
+	consumes: {
+		liquid: {
+			liquid: water
+			amount: 0.04
+			optional: true
+			booster: true
+		}
+	}
+	requirements: [
+		stone/40
+		copper/20
+	]
+	category: production
+	research: stone-drill
+}
