@@ -5,6 +5,7 @@
 	category: power
 	health: 200
 	powerProduction: 0.5
+	minEfficiency: 0.0001
 	attribute: isotopeOre
 	requirements: [
 		stone/30
