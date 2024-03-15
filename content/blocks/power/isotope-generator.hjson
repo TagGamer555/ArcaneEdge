@@ -1,0 +1,15 @@
+{
+	name: Isotope Generator
+	description: "Generates power from radioactive isotopes of some radiactive ores.\n[stat]Tag: [sky]Classic+[][]"
+	size: 1
+	category: power
+	health: 200
+	powerProduction: 0.5
+	attribute: isotopeOre
+	requirements: [
+		stone/30
+		copper/10
+		lead/10
+	]
+	research: copper-drill
+}
