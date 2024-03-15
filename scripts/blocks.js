@@ -80,11 +80,13 @@
 	const steelNode = extend(BeamNode, "steel-node", {});
 	const accumulator = extend(Battery, "accumulator", {});
 	const coalGenerator = extend(ConsumeGenerator, "coal-generator", {});
-	const isotopeGenerator = extend(ThermalGenerator, "isotope-generator", {});
 	const oilGenerator = extend(ConsumeGenerator, "oil-generator", {});
 	const slagGenerator = extend(ConsumeGenerator, "slag-generator", {});
 	const uraniumRtgGenerator = extend(ConsumeGenerator, "uranium-rtg-generator", {});
 	const uraniumReactor = extend(NuclearReactor, "uranium-reactor", {});
+	/*
+	const isotopeGenerator = extend(ThermalGenerator, "isotope-generator", {});
+	*/
 	
 	// REGION - DEFENSE //
 	const stoneWallClassic = extend(Wall, "stone-wall-classic", {});

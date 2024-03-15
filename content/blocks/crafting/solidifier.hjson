@@ -22,6 +22,7 @@
 	outputItem: stone/4
 	research: steel-smelter
 	category: crafting
+	outputLiquid: steam/0.2
 	
 	updateEffect: {
 		particles: 1

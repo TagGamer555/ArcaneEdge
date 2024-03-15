@@ -1,6 +1,6 @@
 {
 	name: Slag Generator
-	description: Uses heat from slag to generate power.
+	description: "Uses heat from slag to generate power.\n[stat]Tag: [cyan]Classic[][]"
 	size: 1
 	health: 120
 	itemDuration: 60

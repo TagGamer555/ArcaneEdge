@@ -1,0 +1,13 @@
+{
+	name: Steam
+	description: "Water in the gas state. Useful for heating up or generating pressure.\n[stat]Tag: [sky]Classic+[][]"
+	heatCapacity: 0.25
+	explosiveness: 0
+	temperature: 0
+	gas: true
+	color: FFFFFF
+	gasColor: FFFFFF
+	flammability: 0
+	research: water
+	coolant: false
+}
