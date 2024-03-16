@@ -1,0 +1,23 @@
+{
+	name: Algae Farm
+	description: "Grows algae if placed on a non-tainted water area. Shallower depth is better.\n[stat]Tag: [sky]Classic+[][]"
+	
+	health: 160
+	consumes: {}
+	
+	attribute: algae
+	
+	research: stone-drill
+	craftTime: 600
+	category: production
+	
+	baseEfficiency: 0
+	minEfficiency: 0.00001
+	
+	requirements: [
+		stone/80
+		iron/40
+	]
+	
+	outputItem: algae/4
+}

@@ -1,5 +1,6 @@
 {
 	const stone = extend(Item, "stone", {});
+	const algae = extend(Item, "algae", {});
 	const scalar = extend(Item, "scalar", {});
 	const iron = extend(Item, "iron", {});
 	const steel = extend(Item, "steel", {});

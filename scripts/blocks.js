@@ -31,6 +31,7 @@
 	const waterPump = extend(SolidPump, "water-pump", {});
 	const heatDrill = extend(AttributeCrafter, "heat-drill", {});
 	const copperDrill = extend(Drill, "copper-drill", {});
+	const algaeFarm = extend(AttributeCrafter, "algae-farm", {});
 	
 	// REGION - DISTRIBUTION //
 	const stoneConveyor = extend(Conveyor, "stone-conveyor", {});

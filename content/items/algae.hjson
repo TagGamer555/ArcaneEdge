@@ -1,0 +1,9 @@
+{
+	name: Algae
+	description: "Organic substance.\n[stat]Tag: [sky]Classic+[][]"
+	color: D2DD76
+	research: water
+	cost: 3
+	flammability: 0.7
+	explosiveness: 0.3
+}
