@@ -80,10 +80,10 @@
 	// REGION - POWER //
 	const steelNode = extend(BeamNode, "steel-node", {});
 	const accumulator = extend(Battery, "accumulator", {});
-	const coalGenerator = extend(ConsumeGenerator, "coal-generator", {});
+	const combustor = extend(ConsumeGenerator, "combustor", {}); //prev.: coal-generator
 	const oilGenerator = extend(ConsumeGenerator, "oil-generator", {});
 	const slagGenerator = extend(ConsumeGenerator, "slag-generator", {});
-	const uraniumRtgGenerator = extend(ConsumeGenerator, "uranium-rtg-generator", {});
+	const rtg = extend(ConsumeGenerator, "rtg", {}); //prev.: uranium-rtg-generator
 	const uraniumReactor = extend(NuclearReactor, "uranium-reactor", {});
 	const steamTurbine = extend(ConsumeGenerator, "steam-turbine", {});
 	/*

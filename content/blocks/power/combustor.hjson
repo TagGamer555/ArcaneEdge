@@ -1,13 +1,13 @@
 {
-	name: Coal Generator
-	description: "Combusts raw coal to generate some power.\n[stat]Tag: [cyan]Classic[][]"
+	name: Combustor
+	description: "Combusts raw coal to generate power.\n[stat]Tag: [cyan]Classic[][]"
 	size: 1
 	health: 100
 	itemDuration: 120
 	consumes: {
 		items: {
 			items: [
-				coal/1
+				itemFlammable: {}
 			]
 		}
 	}
