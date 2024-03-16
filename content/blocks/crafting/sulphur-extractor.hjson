@@ -21,7 +21,7 @@
 		power: 1.25
 	}
 	
-	outputItem: sulpur/1
+	outputItem: sulphur/1
 	research: coal-extractor
 	category: crafting
 	
