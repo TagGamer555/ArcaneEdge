@@ -42,6 +42,6 @@
 		graphite/30
 	]
 	
-	outputItem: iron/1
+	outputItems: [iron/1,lead/1]
 	liquidCapacity: 12
 }
