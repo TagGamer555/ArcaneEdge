@@ -5,11 +5,7 @@
 	health: 240
 	itemDuration: 300
 	consumes: {
-		items: {
-			items: [
-				itemRadioactive: {}
-			]
-		}
+		itemRadioactive: {}
 	}
 	category: power
 	research: coal-generator

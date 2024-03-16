@@ -5,11 +5,7 @@
 	health: 100
 	itemDuration: 120
 	consumes: {
-		items: {
-			items: [
-				itemFlammable: {}
-			]
-		}
+		itemFlammable: {}
 	}
 	category: power
 	research: steel-node
