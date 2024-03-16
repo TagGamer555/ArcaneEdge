@@ -1,0 +1,61 @@
+{
+	name: Sulphur Extractor
+	description: "Requires hydrogen and oil to extract sulphur.\n[stat]Tag: [sky]Classic+[][]"
+	
+	health: 160
+	
+	requirements: [
+		stone/80
+		copper/40
+		steel/20
+	]
+	
+	craftTime: 30
+	consumes: {
+		liquids: {
+			liquids: [
+				oil/0.3
+				hydrogen/0.016666666666666666
+			]
+		}
+		power: 1.25
+	}
+	
+	outputItem: sulpur/1
+	research: coal-extractor
+	category: crafting
+	
+	updateEffect: {
+		particles: 2
+		sizeFrom: 1
+		sizeTo: 0
+		lifetime: 30
+		length: 5
+		colorFrom: 80808080
+		colorTo: 00000000
+	}
+	
+	craftEffect: {
+		particles: 5
+		sizeFrom: 2
+		sizeTo: 0
+		lifetime: 90
+		length: 15
+		colorFrom: FFFFFF80
+		colorTo: 00000000
+	}
+	
+	drawer: [
+		{
+			type: DrawRegion
+			suffix: "-bottom"
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: oil
+		}
+		{
+			type: DrawDefault
+		}
+    ]
+}

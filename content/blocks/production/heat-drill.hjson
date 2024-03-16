@@ -1,6 +1,6 @@
 {
 	name: Heat Drill
-	description: "When placed on hot tiles and supplied with enough oil, it will drill through crust to gather iron in moderate quantities.\n[stat]Tag: [sky]Classic+[][]"
+	description: "When placed on hot tiles and supplied with enough oil, it will drill through crust to gather iron and lead in moderate quantities.\n[stat]Tag: [sky]Classic+[][]"
 	
 	consumes: {
 		liquid: oil/0.2

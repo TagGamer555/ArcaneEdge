@@ -68,6 +68,7 @@
 	const sandSifter = extend(GenericCrafter, "sand-sifter", {});
 	const stoneCrusher = extend(GenericCrafter, "stone-crusher", {});
 	const slagSeparator = extend(Separator, "slag-separator", {});
+	const sulphurExtractor = extend(GenericCrafter, "sulphur-extractor", {});
 	/*
 	const learner = extend(GenericCrafter, "learner", {});
 	const rockniteSynthesizer = extend(GenericCrafter, "rocknite-synthesizer", {});

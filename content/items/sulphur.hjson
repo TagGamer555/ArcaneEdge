@@ -1,0 +1,8 @@
+{
+	name: Sulphur
+	description: "Highly flammable mineral.\n[stat]Tag: [sky]Classic+[][]"
+	flammability: 1.25
+	explosiveness: 0.25
+	color: DDC96E
+	research: acid-liquid
+}
