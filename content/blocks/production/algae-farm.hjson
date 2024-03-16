@@ -13,6 +13,7 @@
 	
 	baseEfficiency: 0
 	minEfficiency: 0.00001
+	maxBoost: 10000000
 	
 	requirements: [
 		stone/80
