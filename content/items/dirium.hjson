@@ -1,6 +1,6 @@
 {
 	name: Dirium
-	description: "Synthetic alloy, made from steel and titanium under the influence of uranium. Capable of supporting and creating teleportaton devices.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Synthetic alloy, capable of supporting and creating teleportaton devices.\n[stat]Tag: [cyan]Classic[][]"
 	color: 8ECCB7
 	research: steel
 	cost: 5
