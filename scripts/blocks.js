@@ -36,6 +36,7 @@
 	// REGION - DISTRIBUTION //
 	const stoneConveyor = extend(Conveyor, "stone-conveyor", {});
 	const steelConveyor = extend(Conveyor, "steel-conveyor", {});
+	const heavyConveyor = extend(ArmoredConveyor, "heavy-conveyor", {});
 	const diriumConveyor = extend(Conveyor, "dirium-conveyor", {});
 	const stoneRouter = extend(Router, "stone-router", {});
 	const stoneJunction = extend(Junction, "stone-junction", {});
