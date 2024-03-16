@@ -1,0 +1,46 @@
+{
+	name: Water Electrolyzer
+	description: "Electrolyzes water to produce hydrogen.\n[stat]Tag: [sky]Classic+[][]"
+	
+	health: 120
+	
+	requirements: [
+		stone/60
+		lead/40
+		steel/20
+	]
+	
+	craftTime: 60
+	consumes: {
+		liquid: water/0.1
+		power: 1.5
+	}
+	
+	outputLiquid: hydrogen/0.1
+	research: water-pump
+	category: crafting
+	
+	updateEffect: {
+		particles: 1
+		sizeFrom: 1
+		sizeTo: 0
+		lifetime: 30
+		length: 5
+		colorFrom: 80808080
+		colorTo: 00000000
+	}
+	
+	drawer: [
+		{
+			type: DrawRegion
+			suffix: "-bottom"
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: hydrogen
+		}
+		{
+			type: DrawDefault
+		}
+    ]
+}

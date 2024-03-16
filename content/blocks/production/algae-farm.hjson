@@ -1,12 +1,12 @@
 {
 	name: Algae Farm
-	description: "Grows algae if placed on a non-tainted water area. Shallower depth is better. Can be placed in deep liquids.\n[stat]Tag: [sky]Classic+[][]"
+	description: "Grows algae if placed on a non-tainted water area. Shallower depth is better.\n[stat]Tag: [sky]Classic+[][]"
 	
 	health: 160
 	consumes: {}
 	
 	attribute: algae
-	placeableLiquid: true
+	placeableLiquid: false
 	
 	research: stone-drill
 	craftTime: 600
