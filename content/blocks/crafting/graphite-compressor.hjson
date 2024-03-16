@@ -10,6 +10,7 @@
 			coal/2
 		]
 		liquid: water/0.3
+		power: 1.25
 	}
 	requirements: [
 		stone/60

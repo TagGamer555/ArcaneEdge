@@ -9,6 +9,7 @@
 			titanium/2
 			uranium/2
 		]
+		power: 1
 	}
 	requirements: [
 		stone/90

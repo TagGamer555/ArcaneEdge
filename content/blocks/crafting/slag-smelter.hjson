@@ -21,6 +21,7 @@
 				slag/0.1
 			]
 		}
+		power: 0.75
 	}
 	
 	outputItem: steel/1

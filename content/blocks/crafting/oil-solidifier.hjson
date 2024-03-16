@@ -17,6 +17,7 @@
 				oil/0.2
 			]
 		}
+		power: 0.5
 	}
 	
 	outputItem: coal/2

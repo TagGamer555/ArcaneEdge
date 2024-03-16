@@ -10,6 +10,7 @@
 			sand/8
 		]
 		liquid: oil/0.1
+		power: 1.5
 	}
 	requirements: [
 		steel/30

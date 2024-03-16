@@ -22,6 +22,7 @@
 				steel/2
 			]
 		}
+		power: 1.25
 	}
 	
 	outputItem: titanium/1

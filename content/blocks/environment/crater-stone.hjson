@@ -1,4 +1,7 @@
 {
 	itemDrop: stone
 	playerUnmineable: true
+	attributes: {
+		shaleLevel: 0.2
+	}
 }

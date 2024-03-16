@@ -17,6 +17,7 @@
 				coal/1
 			]
 		}
+		power: 1
 	}
 	
 	outputLiquid: slag/0.05

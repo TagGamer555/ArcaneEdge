@@ -17,6 +17,7 @@
 				slag/0.1
 			]
 		}
+		power: 0.25
 	}
 	
 	outputItem: stone/4

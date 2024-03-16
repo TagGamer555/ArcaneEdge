@@ -9,7 +9,7 @@
 			titanium/2
 			silicon/3
 		]
-		power: 1
+		power: 2
 	}
 	requirements: [
 		steel/40

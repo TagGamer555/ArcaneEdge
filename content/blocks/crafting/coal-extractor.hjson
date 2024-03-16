@@ -21,6 +21,7 @@
 				stone/4
 			]
 		}
+		power: 0.5
 	}
 	
 	outputItem: coal/1

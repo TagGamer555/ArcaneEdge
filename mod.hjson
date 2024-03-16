@@ -1,9 +1,9 @@
 name: "tg555-ae"
-subtitle: "Alpha 83"
+subtitle: "Alpha 83A"
 displayName: "Arcane Edge"
 description: "Early Access."
 author: "TagGamer555"
 minGameVersion: "136"
-version: "Alpha 83"
+version: "Alpha 83A"
 main: "tg555-ae.tg555-ae-Mod"
 java: false

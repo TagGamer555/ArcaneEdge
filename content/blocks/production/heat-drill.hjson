@@ -4,6 +4,7 @@
 	
 	consumes: {
 		liquid: oil/0.2
+		power: 0.25
 	}
 	
 	attribute: heat
