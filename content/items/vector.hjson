@@ -1,0 +1,9 @@
+{
+	name: Vector
+	description: "Radioactive crystalline mineral.\n[stat]Tag: [sky]Classic+[][]"
+	color: FF884C
+	research: scalar
+	cost: 5
+	hardness: 2
+	radioactivity: 0.9
+}

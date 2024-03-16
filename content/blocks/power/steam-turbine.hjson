@@ -5,7 +5,7 @@
 	health: 160
 	itemDuration: 60
 	consumes: {
-		liquid: steam/0.01666666666666666666
+		liquid: steam/0.1
 	}
 	category: power
 	research: coal-generator
@@ -15,7 +15,7 @@
 		lead/20
 		iron/20
 	]
-	outputLiquid: water/0.0083333333333333
+	outputLiquid: water/0.05
 	
 	drawer: [
 		{

@@ -1,0 +1,9 @@
+{
+	name: Scalar
+	description: "Radioactive crystalline mineral.\n[stat]Tag: [sky]Classic+[][]"
+	color: FF4C4C
+	research: stone
+	cost: 4
+	hardness: 1
+	radioactivity: 0.6
+}

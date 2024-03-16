@@ -1,0 +1,9 @@
+{
+	name: Manifold
+	description: "Radioactive crystalline mineral.\n[stat]Tag: [sky]Classic+[][]"
+	color: 4C4CFF
+	research: tensor
+	cost: 8
+	hardness: 5
+	radioactivity: 3.6
+}

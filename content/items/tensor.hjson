@@ -1,0 +1,9 @@
+{
+	name: Tensor
+	description: "Radioactive crystalline mineral.\n[stat]Tag: [sky]Classic+[][]"
+	color: 4CFF4C
+	research: matrix
+	cost: 7
+	hardness: 4
+	radioactivity: 2.4
+}

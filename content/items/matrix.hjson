@@ -1,0 +1,9 @@
+{
+	name: Matrix
+	description: "Radioactive crystalline mineral.\n[stat]Tag: [sky]Classic+[][]"
+	color: FFD24C
+	research: vector
+	cost: 6
+	hardness: 3
+	radioactivity: 1.5
+}
