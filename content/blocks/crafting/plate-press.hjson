@@ -1,0 +1,28 @@
+{
+	name: Plate Press
+	description: "Presses copper and lead into a plate. Consumes coal to generate heat required for production.\n[stat]Tag: [sky]Classic+[][]"
+	size: 1
+	health: 120
+	craftTime: 240
+	consumes: {
+		items: [
+			copper/1
+			lead/1
+			coal/1
+		]
+	}
+	requirements: [
+		stone/30
+		copper/20
+		lead/20
+	]
+	category: crafting
+	research: copper-drill
+	outputItem: plate/1
+	
+	drawer: [
+		{
+			type: DrawDefault
+		}
+    ]
+}

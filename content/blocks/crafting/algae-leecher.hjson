@@ -1,6 +1,6 @@
 {
 	name: Algae Leecher
-	description: "Leeches copper and iron from algae by combusting sulphur and then mixing resulting gas with water to create sulphuric acid.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Leeches copper and iron from algae by combusting sulphur and then mixing resulting gas with water to create sulphuric acid.\n[sky]Tag: [cyan]Classic+[][]"
 	
 	health: 160
 	

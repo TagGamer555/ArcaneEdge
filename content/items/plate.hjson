@@ -1,0 +1,8 @@
+{
+	name: Plate
+	description: "Alloyed plating, made from copper and lead.\n[stat]Tag: [sky]Classic+[][]"
+	color: CCCCCC
+	research: stone
+	hardness: 1
+	cost: 3
+}

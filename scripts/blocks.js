@@ -72,6 +72,7 @@
 	const sulphurExtractor = extend(GenericCrafter, "sulphur-extractor", {});
 	const waterElectrolyzer = extend(GenericCrafter, "water-electrolyzer", {});
 	const algaeLeecher = extend(GenericCrafter, "algae-leecher", {});
+	const platePress = extend(GenericCrafter, "plate-press", {});
 	/*
 	const learner = extend(GenericCrafter, "learner", {});
 	const rockniteSynthesizer = extend(GenericCrafter, "rocknite-synthesizer", {});

@@ -5,6 +5,7 @@
 	const scalar = extend(Item, "scalar", {});
 	const iron = extend(Item, "iron", {});
 	const steel = extend(Item, "steel", {});
+	const plate = extend(Item, "plate", {});
 	const vector = extend(Item, "vector", {});
 	const uranium = extend(Item, "uranium", {});
 	const matrix = extend(Item, "matrix", {});
