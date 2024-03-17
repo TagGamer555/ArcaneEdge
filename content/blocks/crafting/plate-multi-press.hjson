@@ -17,6 +17,8 @@
 		plate/40
 		titanium/30
 	]
+	itemCapacity: 16
+	liquidCapacity: 16
 	category: crafting
 	research: plate-press
 	outputItem: plate/4

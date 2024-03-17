@@ -70,6 +70,8 @@
 	const graphiteCompressor = extend(GenericCrafter, "graphite-compressor", {});
 	// silicon //
 	const siliconInfuser = extend(GenericCrafter, "silicon-infuser", {});
+	// steam //
+	const steamKettle = extend(GenericCrafter, "steam-kettle", {});
 	// stone //
 	const stoneCompressor = extend(GenericCrafter, "stone-compressor", {});
 	const solidifier = extend(GenericCrafter, "solidifier", {});

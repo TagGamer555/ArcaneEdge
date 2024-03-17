@@ -1,0 +1,49 @@
+{
+	name: Steam Kettle
+	description: "Boils water by burning coal.\n[stat]Tag: [sky]Classic+[][]"
+	
+	health: 120
+	
+	requirements: [
+		stone/30
+		plate/15
+	]
+	
+	craftTime: 60
+	consumes: {
+		items: {
+			items: [
+				coal/1
+			]
+		}
+		liquids: [water/0.1]
+	}
+	
+	outputLiquid: steam/0.1
+	research: plate-press
+	category: crafting
+	
+	updateEffect: {
+		particles: 1
+		sizeFrom: 1
+		sizeTo: 0
+		lifetime: 30
+		length: 5
+		colorFrom: FFFFFF7F
+		colorTo: 00000000
+	}
+	
+	drawer: [
+		{
+			type: DrawRegion
+			suffix: "-bottom"
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: steam
+		}
+		{
+			type: DrawDefault
+		}
+    ]
+}
