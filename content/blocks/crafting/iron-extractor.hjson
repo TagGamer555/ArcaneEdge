@@ -1,0 +1,53 @@
+{
+	name: Iron Extractor
+	description: "Requires stone and slag to extract iron.\n[stat]Tag: [sky]Classic+[][]"
+	
+	health: 120
+	
+	requirements: [
+		stone/40
+		lead/20
+	]
+	
+	craftTime: 120
+	consumes: {
+		liquids: {
+			liquids: [
+				slag/0.01666666666666666666666666
+			]
+		}
+		items: {
+			items: [
+				stone/2
+			]
+		}
+	}
+	
+	outputItem: iron/1
+	research: friction-heater
+	category: crafting
+	
+	updateEffect: {
+		particles: 2
+		sizeFrom: 1
+		sizeTo: 0
+		lifetime: 30
+		length: 5
+		colorFrom: 80808080
+		colorTo: 00000000
+	}
+	
+	drawer: [
+		{
+			type: DrawRegion
+			suffix: "-bottom"
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: slag
+		}
+		{
+			type: DrawDefault
+		}
+    ]
+}

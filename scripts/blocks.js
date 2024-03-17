@@ -60,6 +60,7 @@
 	const diriumCrucible = extend(GenericCrafter, "dirium-crucible", {});
 	const diriumMerger = extend(GenericCrafter, "dirium-merger", {});
 	const solidifier = extend(GenericCrafter, "solidifier", {});
+	const ironExtractor = extend(GenericCrafter, "iron-extractor", {});
 	const coalExtractor = extend(GenericCrafter, "coal-extractor", {});
 	const oilSolidifier = extend(GenericCrafter, "oil-solidifier", {});
 	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
