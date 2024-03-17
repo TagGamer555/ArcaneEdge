@@ -1,16 +1,15 @@
 {
-	name: Titanium Extractor
-	description: "Requires steel and water to extract titanium.\n[stat]Tag: [cyan]Classic[][]"
+	name: Coal Extractor
+	description: "Requires stone and water to extract coal.\n[stat]Tag: [cyan]Classic[][]"
 	
 	health: 120
 	
 	requirements: [
-		stone/80
-		steel/20
-		titanium/60
+		stone/75
+		steel/50
 	]
 	
-	craftTime: 240
+	craftTime: 120
 	consumes: {
 		liquids: {
 			liquids: [
@@ -19,15 +18,15 @@
 		}
 		items: {
 			items: [
-				steel/2
+				stone/4
 			]
 		}
-		power: 1.25
+		power: 0.5
 	}
 	
-	outputItem: titanium/1
+	outputItem: coal/1
 	research: steel-smelter
-	category: crafting
+	category: production
 	
 	updateEffect: {
 		particles: 2
@@ -36,6 +35,16 @@
 		lifetime: 30
 		length: 5
 		colorFrom: 80808080
+		colorTo: 00000000
+	}
+	
+	craftEffect: {
+		particles: 5
+		sizeFrom: 2
+		sizeTo: 0
+		lifetime: 90
+		length: 15
+		colorFrom: FFFFFF80
 		colorTo: 00000000
 	}
 	

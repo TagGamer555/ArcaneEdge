@@ -29,9 +29,12 @@
 	const steelDrill = extend(Drill, "steel-drill", {});
 	const omnirill = extend(Drill, "omnidrill", {});
 	const waterPump = extend(SolidPump, "water-pump", {});
-	const heatDrill = extend(AttributeCrafter, "heat-drill", {});
 	const copperDrill = extend(Drill, "copper-drill", {});
 	const algaeFarm = extend(AttributeCrafter, "algae-farm", {});
+	const ironExtractor = extend(GenericCrafter, "iron-extractor", {});
+	const heatDrill = extend(AttributeCrafter, "heat-drill", {});
+	const coalExtractor = extend(GenericCrafter, "coal-extractor", {});
+	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
 	
 	// REGION - DISTRIBUTION //
 	const stoneConveyor = extend(Conveyor, "stone-conveyor", {});
@@ -53,35 +56,46 @@
 	const steelJunction = extend(LiquidJunction, "steel-junction", {});
 	
 	// REGION - CRAFTING //
-	const stoneCompressor = extend(GenericCrafter, "stone-compressor", {});
+	// steel //
 	const steelSmelter = extend(GenericCrafter, "steel-smelter", {});
 	const slagSmelter = extend(GenericCrafter, "slag-smelter", {});
 	const steelFurnace = extend(GenericCrafter, "steel-furnace", {});
+	// plate //
+	const platePress = extend(GenericCrafter, "plate-press", {});
+	// dirium //
 	const diriumCrucible = extend(GenericCrafter, "dirium-crucible", {});
 	const diriumMerger = extend(GenericCrafter, "dirium-merger", {});
-	const solidifier = extend(GenericCrafter, "solidifier", {});
-	const ironExtractor = extend(GenericCrafter, "iron-extractor", {});
-	const coalExtractor = extend(GenericCrafter, "coal-extractor", {});
-	const oilSolidifier = extend(GenericCrafter, "oil-solidifier", {});
-	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
+	// graphite //
 	const graphiteCompressor = extend(GenericCrafter, "graphite-compressor", {});
+	// silicon //
 	const siliconInfuser = extend(GenericCrafter, "silicon-infuser", {});
-	const sandMelter = extend(GenericCrafter, "sand-melter", {});
-	const frictionMelter = extend(GenericCrafter, "friction-melter", {});
-	const sandSifter = extend(GenericCrafter, "sand-sifter", {});
-	const stoneCrusher = extend(GenericCrafter, "stone-crusher", {});
-	const slagSeparator = extend(Separator, "slag-separator", {});
+	// stone //
+	const stoneCompressor = extend(GenericCrafter, "stone-compressor", {});
+	const solidifier = extend(GenericCrafter, "solidifier", {});
+	// iron //
+	// sulphur //
 	const sulphurExtractor = extend(GenericCrafter, "sulphur-extractor", {});
+	// coal //
+	const oilSolidifier = extend(GenericCrafter, "oil-solidifier", {});
+	// sand //
+	const stoneCrusher = extend(GenericCrafter, "stone-crusher", {});
+	// titanium //
+	// oil //
+	const sandSifter = extend(GenericCrafter, "sand-sifter", {});
+	// slag //
+	const frictionMelter = extend(GenericCrafter, "friction-melter", {});
+	const sandMelter = extend(GenericCrafter, "sand-melter", {});
+	// other //
 	const waterElectrolyzer = extend(GenericCrafter, "water-electrolyzer", {});
 	const algaeDigestor = extend(GenericCrafter, "algae-digestor", {}); //prev.: algae-leecher
-	const platePress = extend(GenericCrafter, "plate-press", {});
+	const slagSeparator = extend(Separator, "slag-separator", {});
 	/*
-	const learner = extend(GenericCrafter, "learner", {});
-	const rockniteSynthesizer = extend(GenericCrafter, "rocknite-synthesizer", {});
-	const scaliumSynthesizer = extend(GenericCrafter, "scalium-synthesizer", {});
-	const vectogenSynthesizer = extend(GenericCrafter, "vectogen-synthesizer", {});
-	const qutonSynthesizer = extend(GenericCrafter, "quton-synthesizer", {});
-	const diamondSynthesizer = extend(GenericCrafter, "diamond-synthesizer", {});
+	const learner = extend(GenericCrafter, "learner", {}); //BLOAT
+	const rockniteSynthesizer = extend(GenericCrafter, "rocknite-synthesizer", {}); //BLOAT
+	const scaliumSynthesizer = extend(GenericCrafter, "scalium-synthesizer", {}); //BLOAT
+	const vectogenSynthesizer = extend(GenericCrafter, "vectogen-synthesizer", {}); //BLOAT
+	const qutonSynthesizer = extend(GenericCrafter, "quton-synthesizer", {}); //BLOAT
+	const diamondSynthesizer = extend(GenericCrafter, "diamond-synthesizer", {}); //BLOAT
 	*/
 	
 	// REGION - POWER //
@@ -94,7 +108,7 @@
 	const uraniumReactor = extend(NuclearReactor, "uranium-reactor", {});
 	const steamTurbine = extend(ConsumeGenerator, "steam-turbine", {});
 	/*
-	const isotopeGenerator = extend(ThermalGenerator, "isotope-generator", {});
+	const isotopeGenerator = extend(ThermalGenerator, "isotope-generator", {}); //BUGGED
 	*/
 	
 	// REGION - DEFENSE //

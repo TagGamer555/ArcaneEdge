@@ -25,7 +25,7 @@
 	
 	outputItem: iron/1
 	research: friction-heater
-	category: crafting
+	category: production
 	
 	updateEffect: {
 		particles: 2

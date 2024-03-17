@@ -10,7 +10,7 @@
 	attribute: heat
 	
 	research: water-pump
-	craftTime: 120
+	craftTime: 60
 	category: production
 	
 	baseEfficiency: 0
