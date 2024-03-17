@@ -9,6 +9,6 @@
 	]
 	category: power
 	research: steel-smelter
-	laserColor1: FFFFFF
-	laserColor2: FFFFFF3F
+	laserColor1: ffffff
+	laserColor2: 7f7f7f
 }
