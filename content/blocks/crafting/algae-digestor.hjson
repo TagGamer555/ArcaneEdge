@@ -1,16 +1,15 @@
 {
-	name: Algae Leecher
-	description: "Leeches copper and iron from algae by combusting sulphur and then mixing resulting gas with water to create sulphuric acid.\n[sky]Tag: [cyan]Classic+[][]"
+	name: Algae Digestor
+	description: "Uses acid (In this case, sulphur combustion result, mixed with water) to digest algae into iron and copper metals, and automatically purifies the product.\n[sky]Tag: [cyan]Classic+[][]"
 	
 	health: 160
 	
 	requirements: [
-		stone/80
-		copper/40
-		iron/40
+		stone/50
+		plate/25
 	]
 	
-	craftTime: 60
+	craftTime: 180
 	consumes: {
 		liquids: {
 			liquids: [
@@ -19,14 +18,14 @@
 		}
 		items: {
 			items: [
-				sulphur/1
-				algae/4
+				sulphur/2
+				algae/5
 			]
 		}
 		power: 0.5
 	}
 	
-	outputItems: [copper/1,iron/1]
+	outputItems: [copper/1,iron/3]
 	research: algae-farm
 	category: crafting
 	

@@ -2,7 +2,7 @@
 	// EXAMPLE (replace <> with actual information)
 	// const <exampleStructure> = extend(<TYPE>, "<example-structure>", {});
 	
-	////// ORIGINAL //////
+	////// OTHER //////
 	
 	// REGION - TURRETS //
 	const starStriker = extend(PowerTurret, "star-striker", {});
@@ -13,7 +13,7 @@
 	
 	// REGION - TURRETS //
 	const single = extend(ItemTurret, "single", {});
-	const doubleTurret = extend(ItemTurret, "double", {}); //DO NOT USE "double" BECAUSE THIS IS JS!!
+	const doubleTurret = extend(ItemTurret, "double", {}); //DO NOT USE JUST "double" BECAUSE THIS IS JS!! //Edit from the future: I actually didn't know "double" was a thing before.
 	const repeater = extend(ItemTurret, "repeater", {});
 	const broadshot = extend(ItemTurret, "broadshot", {});
 	const railgun = extend(ItemTurret, "railgun", {});
@@ -66,12 +66,13 @@
 	const graphiteCompressor = extend(GenericCrafter, "graphite-compressor", {});
 	const siliconInfuser = extend(GenericCrafter, "silicon-infuser", {});
 	const sandMelter = extend(GenericCrafter, "sand-melter", {});
+	const frictionMelter = extend(GenericCrafter, "friction-melter", {});
 	const sandSifter = extend(GenericCrafter, "sand-sifter", {});
 	const stoneCrusher = extend(GenericCrafter, "stone-crusher", {});
 	const slagSeparator = extend(Separator, "slag-separator", {});
 	const sulphurExtractor = extend(GenericCrafter, "sulphur-extractor", {});
 	const waterElectrolyzer = extend(GenericCrafter, "water-electrolyzer", {});
-	const algaeLeecher = extend(GenericCrafter, "algae-leecher", {});
+	const algaeDigestor = extend(GenericCrafter, "algae-digestor", {}); //prev.: algae-leecher
 	const platePress = extend(GenericCrafter, "plate-press", {});
 	/*
 	const learner = extend(GenericCrafter, "learner", {});
