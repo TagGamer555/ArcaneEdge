@@ -78,6 +78,7 @@
 	// coal //
 	const oilSolidifier = extend(GenericCrafter, "oil-solidifier", {});
 	// sand //
+	const stonePulverizer = extend(GenericCrafter, "stone-pulverizer", {});
 	const stoneCrusher = extend(GenericCrafter, "stone-crusher", {});
 	// titanium //
 	// oil //

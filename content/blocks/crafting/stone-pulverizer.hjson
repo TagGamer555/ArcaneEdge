@@ -1,0 +1,30 @@
+{
+	name: Stone Pulverizer
+	description: "Pulverizes stone into fine sand grains. Requires lead.\n[stat]Tag: [sky]Classic+[][]"
+	size: 1
+	health: 120
+	craftTime: 60
+	consumes: {
+		items: [
+			stone/3
+			lead/1
+		]
+	}
+	requirements: [
+		stone/40
+		lead/20
+		plate/30
+	]
+	category: crafting
+	research: plate-press
+	outputItem: sand/1
+	craftEffect: {
+		particles: 5
+		colorFrom: F7CBA480
+		colorTo: D3AE8D00
+		lifetime: 45
+		length: 10
+		sizeFrom: 1.5
+		sizeTo: 0
+	}
+}

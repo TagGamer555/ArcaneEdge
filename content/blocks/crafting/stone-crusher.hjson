@@ -1,6 +1,6 @@
 {
 	name: Stone Crusher
-	description: "Crushes stone into fine sand grains. Requires stone and water.\n[stat]Tag: [sky]Classic+[][]"
+	description: "Crushes stone into fine sand grains. Requires water.\n[stat]Tag: [sky]Classic+[][]"
 	size: 1
 	health: 160
 	craftTime: 30
