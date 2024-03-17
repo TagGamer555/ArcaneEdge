@@ -26,8 +26,6 @@
 		power: 0.5
 	}
 	
-	outputPower: 0.75
-	
 	outputItems: [copper/1,iron/1]
 	research: algae-farm
 	category: crafting
