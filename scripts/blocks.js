@@ -90,6 +90,7 @@
 	// titanium //
 	// oil //
 	const sandSifter = extend(GenericCrafter, "sand-sifter", {});
+	const algaePress = extend(GenericCrafter, "algae-press", {});
 	// slag //
 	const frictionMelter = extend(GenericCrafter, "friction-melter", {});
 	const sandMelter = extend(GenericCrafter, "sand-melter", {});
