@@ -44,14 +44,6 @@
 	
 	drawer: [
 		{
-			type: DrawRegion
-			suffix: "-bottom"
-		}
-		{
-			type: DrawLiquidTile
-			drawLiquid: water
-		}
-		{
 			type: DrawDefault
 		}
     ]
