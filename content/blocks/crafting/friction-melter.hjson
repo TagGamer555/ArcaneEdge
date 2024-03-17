@@ -6,7 +6,7 @@
 	
 	requirements: [
 		stone/30
-		alloy/20
+		plate/20
 	]
 	
 	craftTime: 60
@@ -20,7 +20,7 @@
 	}
 	
 	outputLiquid: slag/0.01666666666666666666
-	research: alloy-press
+	research: plate-press
 	category: crafting
 	
 	updateEffect: {
