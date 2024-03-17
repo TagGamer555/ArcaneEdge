@@ -4,17 +4,11 @@
 	size: 1
 	itemCapacity: 10
 	tier: 3
-	drillTime: 225
+	drillTime: 200
 	envDisabled: 16
 	drawMineItem: true
 	consumes: {
 		liquids: [
-			{
-				liquid: water
-				amount: 0.08
-				optional: true
-				booster: true
-			}
 			{
 				liquid: steam
 				amount: 0.0166666666666666666666
