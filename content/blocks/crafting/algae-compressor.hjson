@@ -1,0 +1,28 @@
+{
+	name: Algae Compressor
+	description: "Compresses algae to produce coal.\n[stat]Tag: [sky]Classic+[][]"
+	size: 1
+	health: 120
+	craftTime: 60
+	consumes: {
+		items: [
+			algae/2
+		]
+	}
+	requirements: [
+		stone/40
+		plate/20
+	]
+	category: crafting
+	research: algae-farm
+	outputItem: coal/1
+	craftEffect: {
+		particles: 5
+		colorFrom: 408040FF
+		colorTo: 004000FF
+		lifetime: 40
+		length: 10
+		sizeFrom: 2
+		sizeTo: 0
+	}
+}

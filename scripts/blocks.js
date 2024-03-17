@@ -83,6 +83,7 @@
 	// sulphur //
 	const sulphurExtractor = extend(GenericCrafter, "sulphur-extractor", {});
 	// coal //
+	const algaeCompressor = extend(GenericCrafter, "algae-compressor", {});
 	const oilSolidifier = extend(GenericCrafter, "oil-solidifier", {});
 	// sand //
 	const stonePulverizer = extend(GenericCrafter, "stone-pulverizer", {});

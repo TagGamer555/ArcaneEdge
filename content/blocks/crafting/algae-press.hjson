@@ -2,11 +2,12 @@
 	name: Algae Press
 	description: "Presses algae to produce oil.\n[stat]Tag: [sky]Classic+[][]"
 	size: 1
-	health: 120
+	health: 160
 	craftTime: 300
+	itemCapacity: 20
 	consumes: {
 		items: [
-			algae/5
+			algae/10
 		]
 		power: 0.75
 	}
@@ -16,7 +17,7 @@
 		titanium/40
 	]
 	category: crafting
-	research: plate-press
+	research: algae-compressor
 	outputLiquid: oil/0.05
 	craftEffect: {
 		particles: 5
