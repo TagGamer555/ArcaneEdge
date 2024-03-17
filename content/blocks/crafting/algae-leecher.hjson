@@ -1,0 +1,58 @@
+{
+	name: Algae Leecher
+	description: "Leeches copper and iron from algae by combusting sulphur and then mixing resulting gas with water to create sulphuric acid.\n[stat]Tag: [cyan]Classic[][]"
+	
+	health: 160
+	
+	requirements: [
+		stone/80
+		copper/40
+		iron/40
+	]
+	
+	craftTime: 60
+	consumes: {
+		liquids: {
+			liquids: [
+				water/0.1
+			]
+		}
+		items: {
+			items: [
+				sulphur/1
+				algae/4
+			]
+		}
+		power: 0.5
+	}
+	
+	outputPower: 0.75
+	
+	outputItems: [copper/1,iron/1]
+	research: algae-farm
+	category: crafting
+	
+	updateEffect: {
+		particles: 2
+		sizeFrom: 1
+		sizeTo: 0
+		lifetime: 30
+		length: 5
+		colorFrom: 80808080
+		colorTo: 00000000
+	}
+	
+	drawer: [
+		{
+			type: DrawRegion
+			suffix: "-bottom"
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: water
+		}
+		{
+			type: DrawDefault
+		}
+    ]
+}
