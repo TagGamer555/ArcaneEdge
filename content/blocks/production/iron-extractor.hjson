@@ -24,7 +24,7 @@
 	}
 	
 	outputItem: iron/1
-	research: friction-heater
+	research: friction-melter
 	category: production
 	
 	updateEffect: {
