@@ -14,8 +14,8 @@
 			optional: true
 			booster: true
 		}
+		consumeLiquid: steam/0.016666666666666666
 	}
-	consumeLiquid: steam/0.016666666666666666
 	requirements: [
 		stone/40
 		lead/40
