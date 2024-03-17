@@ -9,12 +9,10 @@
 	drawMineItem: true
 	consumes: {
 		liquid: {
-			{
-				liquid: water
-				amount: 0.08
-				optional: true
-				booster: true
-			}
+			liquid: water
+			amount: 0.08
+			optional: true
+			booster: true
 		}
 	}
 	consumeLiquid: steam/0.016666666666666666
