@@ -62,6 +62,7 @@
 	const steelFurnace = extend(GenericCrafter, "steel-furnace", {});
 	// plate //
 	const platePress = extend(GenericCrafter, "plate-press", {});
+	const plateMultiPress = extend(GenericCrafter, "plate-multi-press", {});
 	// dirium //
 	const diriumCrucible = extend(GenericCrafter, "dirium-crucible", {});
 	const diriumMerger = extend(GenericCrafter, "dirium-merger", {});

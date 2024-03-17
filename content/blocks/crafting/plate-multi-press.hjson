@@ -1,0 +1,30 @@
+{
+	name: Plate Multi-Press
+	description: "Presses copper and lead into a plate. Consumes power, requires water cooling.\n[stat]Tag: [sky]Classic+[][]"
+	size: 1
+	health: 160
+	craftTime: 240
+	consumes: {
+		items: [
+			copper/4
+			lead/4
+		]
+		liquids:[water/0.1]
+		power: 1.5
+	}
+	requirements: [
+		stone/60
+		plate/40
+		titanium/30
+	]
+	category: crafting
+	research: plate-press
+	outputItem: plate/4
+	outputLiquid: steam/0.1
+	
+	drawer: [
+		{
+			type: DrawDefault
+		}
+    ]
+}
