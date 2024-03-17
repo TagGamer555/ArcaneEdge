@@ -9,4 +9,5 @@
 		titanium/2
 	]
 	junctionReplacement: steel-junction
+	bridgeReplacement: steel-bridge-conduit
 }

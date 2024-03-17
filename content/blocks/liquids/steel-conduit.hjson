@@ -8,4 +8,5 @@
 		steel/3
 	]
 	junctionReplacement: steel-junction
+	bridgeReplacement: steel-bridge-conduit
 }

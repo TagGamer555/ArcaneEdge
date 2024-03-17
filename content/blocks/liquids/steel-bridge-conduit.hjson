@@ -1,0 +1,13 @@
+{
+	name: Steel Bridge Conduit
+	description: "Laterally transfers liquids to other bridges.\n[stat]Tag: [sky]Classic+[][]"
+	
+	liquidCapacity: 3
+	category: liquid
+	research: steel-router
+	range: 4
+	requirements: [
+		stone/6
+		steel/6
+	]
+}

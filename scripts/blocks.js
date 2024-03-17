@@ -55,6 +55,7 @@
 	const impulseConduit = extend(Conduit, "impulse-conduit", {});
 	const steelRouter = extend(LiquidRouter, "steel-router", {});
 	const steelJunction = extend(LiquidJunction, "steel-junction", {});
+	const steelBridgeConduit = extend(LiquidBridge, "steel-bridge-conduit", {});
 	
 	// REGION - CRAFTING //
 	// steel //
