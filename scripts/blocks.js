@@ -30,6 +30,7 @@
 	const omnirill = extend(Drill, "omnidrill", {});
 	const waterPump = extend(SolidPump, "water-pump", {});
 	const copperDrill = extend(Drill, "copper-drill", {});
+	const steamDrill = extend(Drill, "steam-drill", {});
 	const algaeFarm = extend(AttributeCrafter, "algae-farm", {});
 	const ironExtractor = extend(GenericCrafter, "iron-extractor", {});
 	const heatDrill = extend(AttributeCrafter, "heat-drill", {});

@@ -2,9 +2,9 @@
 	name: Copper Drill
 	description: "A faster variant of iron drill, capable of mining at higher rates.\n[stat]Tag: [sky]Classic+[][]"
 	size: 1
-	itemCapacity: 10
+	itemCapacity: 8
 	tier: 2
-	drillTime: 175
+	drillTime: 250
 	envDisabled: 16
 	drawMineItem: true
 	consumes: {
@@ -16,8 +16,8 @@
 		}
 	}
 	requirements: [
-		stone/40
-		copper/20
+		stone/60
+		copper/40
 	]
 	category: production
 	research: stone-drill

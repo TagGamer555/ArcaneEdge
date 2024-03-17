@@ -1,0 +1,35 @@
+{
+	name: Steam Drill
+	description: "A fast drill, which uses pressure from steam to mine at high rates.\n[stat]Tag: [sky]Classic+[][]"
+	size: 1
+	itemCapacity: 10
+	tier: 3
+	drillTime: 225
+	envDisabled: 16
+	drawMineItem: true
+	consumes: {
+		liquid: {
+			liquids: [
+				{
+					liquid: steam
+					amount: 0.01666666666666
+					optional: false
+					booster: false
+				}
+				{
+					liquid: water
+					amount: 0.08
+					optional: true
+					booster: true
+				}
+			]
+		}
+	}
+	requirements: [
+		stone/40
+		lead/40
+		plate/20
+	]
+	category: production
+	research: copper-drill
+}
