@@ -1,6 +1,6 @@
 {
 	name: Steam Kettle
-	description: "Boils water by burning coal.\n[stat]Tag: [sky]Classic+[][]"
+	description: "Boils water by burning flammable materials.\n[stat]Tag: [sky]Classic+[][]"
 	
 	health: 120
 	
@@ -11,11 +11,7 @@
 	
 	craftTime: 60
 	consumes: {
-		items: {
-			items: [
-				coal/1
-			]
-		}
+		itemFlammable: {}
 		liquids: [water/0.1]
 	}
 	

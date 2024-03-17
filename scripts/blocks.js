@@ -26,16 +26,17 @@
 	// REGION - PRODUCTION //
 	const stoneDrill = extend(Drill, "stone-drill", {});
 	const ironDrill = extend(Drill, "iron-drill", {});
+	const copperDrill = extend(Drill, "copper-drill", {});
 	const steelDrill = extend(Drill, "steel-drill", {});
+	const steamDrill = extend(Drill, "steam-drill", {});
 	const omnirill = extend(Drill, "omnidrill", {});
 	const waterPump = extend(SolidPump, "water-pump", {});
-	const copperDrill = extend(Drill, "copper-drill", {});
-	const steamDrill = extend(Drill, "steam-drill", {});
-	const algaeFarm = extend(AttributeCrafter, "algae-farm", {});
 	const ironExtractor = extend(GenericCrafter, "iron-extractor", {});
 	const heatDrill = extend(AttributeCrafter, "heat-drill", {});
 	const coalExtractor = extend(GenericCrafter, "coal-extractor", {});
 	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
+	const algaeFarm = extend(AttributeCrafter, "algae-farm", {});
+	const algaeGreenhouse = extend(GenericCrafter, "algae-greenhouse", {});
 	
 	// REGION - DISTRIBUTION //
 	const stoneConveyor = extend(Conveyor, "stone-conveyor", {});

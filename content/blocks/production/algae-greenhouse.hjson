@@ -1,0 +1,64 @@
+{
+	name: Algae Greenhouse
+	description: "Produces algae on any terrain, but slowly. Requires frequent water and sand replacements.\n[stat]Tag: [sky]Classic+[][]"
+	
+	health: 160
+	
+	requirements: [
+		stone/60
+		copper/40
+		plate/40
+	]
+	
+	craftTime: 600
+	consumes: {
+		liquids: {
+			liquids: [
+				water/0.2
+			]
+		}
+		items: {
+			items: [
+				sand/5
+			]
+		}
+		power: 1.75
+	}
+	
+	outputItem: algae/5
+	research: algae-farm
+	category: production
+	
+	craftEffect: {
+		particles: 3
+		sizeFrom: 2
+		sizeTo: 0
+		lifetime: 40
+		length: 5
+		colorFrom: 408040FF
+		colorTo: 004000FF
+	}
+	updateEffect: {
+		particles: 2
+		sizeFrom: 1
+		sizeTo: 0
+		lifetime: 30
+		length: 5
+		colorFrom: 40804080
+		colorTo: 00000000
+	}
+	
+	drawer: [
+		{
+			type: DrawRegion
+			suffix: "-bottom"
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: water
+		}
+		{
+			type: DrawDefault
+		}
+    ]
+}
