@@ -35,6 +35,7 @@
 	const heatDrill = extend(AttributeCrafter, "heat-drill", {});
 	const coalExtractor = extend(GenericCrafter, "coal-extractor", {});
 	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
+	const uraniumExtractor = extend(GenericCrafter, "uranium-extractor", {});
 	const algaeFarm = extend(AttributeCrafter, "algae-farm", {});
 	const algaeGreenhouse = extend(GenericCrafter, "algae-greenhouse", {});
 	

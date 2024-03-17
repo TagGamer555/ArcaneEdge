@@ -1,0 +1,55 @@
+{
+	name: Uranium Extractor
+	description: "Uses sulphur and hydrogen to extract uranium at a very slow rate.\n[stat]Tag: [sky]Classic+[][]"
+	
+	health: 160
+	
+	requirements: [
+		stone/100
+		steel/80
+		titanium/40
+	]
+	
+	craftTime: 300
+	consumes: {
+		liquids: {
+			liquids: [
+				hydrogen/0.033333333333333333
+			]
+		}
+		items: {
+			items: [
+				sulphur/5
+			]
+		}
+		power: 1.25
+	}
+	
+	outputItem: uranium/1
+	research: titanium-extractor
+	category: production
+	
+	updateEffect: {
+		particles: 2
+		sizeFrom: 1
+		sizeTo: 0
+		lifetime: 30
+		length: 5
+		colorFrom: 80808080
+		colorTo: 00000000
+	}
+	
+	drawer: [
+		{
+			type: DrawRegion
+			suffix: "-bottom"
+		}
+		{
+			type: DrawLiquidTile
+			drawLiquid: hydrogen
+		}
+		{
+			type: DrawDefault
+		}
+    ]
+}

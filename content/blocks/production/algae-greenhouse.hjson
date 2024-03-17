@@ -14,7 +14,7 @@
 	consumes: {
 		liquids: {
 			liquids: [
-				water/0.2
+				water/0.1
 			]
 		}
 		items: {
@@ -25,7 +25,7 @@
 		power: 1.75
 	}
 	
-	outputItem: algae/5
+	outputItem: algae/2
 	research: algae-farm
 	category: production
 	
