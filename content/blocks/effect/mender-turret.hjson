@@ -36,7 +36,7 @@
 	ammoPerShot: 1
 	
 	category: effect
-	research: coal-generator
+	research: combustor
 	consumes: {
 		power: 1
 	}

@@ -8,7 +8,7 @@
 		itemRadioactive: {}
 	}
 	category: power
-	research: coal-generator
+	research: combustor
 	powerProduction: 2.5
 	requirements: [
 		stone/120

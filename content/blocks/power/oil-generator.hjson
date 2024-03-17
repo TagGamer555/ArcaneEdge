@@ -8,7 +8,7 @@
 		liquid: oil/0.2
 	}
 	category: power
-	research: coal-generator
+	research: combustor
 	powerProduction: 3
 	requirements: [
 		stone/50
