@@ -8,13 +8,18 @@
 	envDisabled: 16
 	drawMineItem: true
 	consumes: {
-		liquid: {
-			liquid: water
-			amount: 0.08
-			optional: true
-			booster: true
-		}
-		consumeLiquid: steam/0.016666666666666666
+		liquids: [
+			{
+				liquid: water
+				amount: 0.08
+				optional: true
+				booster: true
+			}
+			{
+				liquid: steam
+				amount: 0.0166666666666666666666
+			}
+		]
 	}
 	requirements: [
 		stone/40
