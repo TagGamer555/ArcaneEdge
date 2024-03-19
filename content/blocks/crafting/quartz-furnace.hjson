@@ -1,0 +1,35 @@
+{
+	name: Quartz Furnace
+	description: "Melts sand, then cools it down to allow crystallization.\n[stat]Tag: [sky]Classic+[][]"
+	size: 1
+	health: 120
+	craftTime: 60
+	itemCapacity: 10
+	consumes: {
+		items: [
+			sand/5
+		]
+		power: 0.25
+	}
+	requirements: [
+		stone/60
+		lead/40
+	]
+	category: crafting
+	research: copper-drill
+	outputItem: quartz/1
+	
+	drawer: [
+		{
+			type: DrawDefault
+		}
+		{
+			type: DrawFlame
+			flameRadius: 2
+			flameRadiusIn: 0.75
+			flameColor: 91788B
+			flameRadiusMag: 0.2
+			flameRadiusInMag: 0.2
+		}
+    ]
+}

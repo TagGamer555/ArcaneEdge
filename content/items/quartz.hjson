@@ -1,0 +1,8 @@
+{
+	name: Quartz
+	description: "Brittle crystalline material. Can be used as a glass substitute.\n[stat]Tag: [sky]Classic+[][]"
+	color: 91788B
+	research: stone
+	hardness: 0
+	cost: 3
+}

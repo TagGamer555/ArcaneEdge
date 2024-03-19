@@ -1,6 +1,7 @@
 {
 	const stone = extend(Item, "stone", {});
 	const algae = extend(Item, "algae", {});
+	const quartz = extend(Item, "quartz", {});
 	const sulphur = extend(Item, "sulphur", {});
 	const iron = extend(Item, "iron", {});
 	const steel = extend(Item, "steel", {});
