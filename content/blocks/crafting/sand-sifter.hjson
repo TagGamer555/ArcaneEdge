@@ -8,6 +8,7 @@
 		stone/40
 		steel/60
 		graphite/10
+		quartz/10
 	]
 	
 	craftTime: 60

@@ -8,6 +8,7 @@
 		stone/60
 		lead/40
 		steel/20
+		quartz/20
 	]
 	
 	craftTime: 60
