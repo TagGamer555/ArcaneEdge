@@ -36,15 +36,15 @@
 	
 	drawer: [
 		{
-			type: DrawRegion
-			suffix: "-bottom"
-		}
-		{
-			type: DrawLiquidTile
-			drawLiquid: slag
-		}
-		{
 			type: DrawDefault
+		}
+		{
+			type: DrawFlame
+			flameRadius: 2
+			flameRadiusIn: 0.75
+			flameColor: FEB380
+			flameRadiusMag: 0.2
+			flameRadiusInMag: 0.2
 		}
     ]
 }
