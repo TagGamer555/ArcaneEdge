@@ -7,8 +7,8 @@
 	gas: false
 	color: FF7F66
 	gasColor: 888888
-	lightColor: FF7F66
-	viscosity: 0.75
+	lightColor: FF7F6640
+	viscosity: 0.85
 	flammability: 0
 	research: stone
 	coolant: false
