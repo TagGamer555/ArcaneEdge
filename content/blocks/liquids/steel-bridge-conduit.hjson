@@ -5,6 +5,7 @@
 	liquidCapacity: 3
 	category: liquid
 	research: steel-router
+	hasPower: false
 	range: 4
 	requirements: [
 		stone/6

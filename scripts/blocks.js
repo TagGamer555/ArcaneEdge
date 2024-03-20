@@ -60,27 +60,28 @@
 	const steelBridgeConduit = extend(LiquidBridge, "steel-bridge-conduit", {});
 	
 	// REGION - CRAFTING //
+	// plate //
+	const platePress = extend(GenericCrafter, "plate-press", {});
+	const plateMultiPress = extend(GenericCrafter, "plate-multi-press", {});
+	// silicon //
+	const siliconFurnace = extend(GenericCrafter, "silicon-furnace", {});
+	const siliconInfuser = extend(GenericCrafter, "silicon-infuser", {});
 	// steel //
 	const steelSmelter = extend(GenericCrafter, "steel-smelter", {});
 	const slagSmelter = extend(GenericCrafter, "slag-smelter", {});
 	const steelFurnace = extend(GenericCrafter, "steel-furnace", {});
-	// plate //
-	const platePress = extend(GenericCrafter, "plate-press", {});
-	const plateMultiPress = extend(GenericCrafter, "plate-multi-press", {});
-	// quartz //
-	const quartzFurnace = extend(GenericCrafter, "quartz-furnace", {});
 	// dirium //
 	const diriumCrucible = extend(GenericCrafter, "dirium-crucible", {});
 	const diriumMerger = extend(GenericCrafter, "dirium-merger", {});
 	// graphite //
 	const graphiteCompressor = extend(GenericCrafter, "graphite-compressor", {});
-	// silicon //
-	const siliconInfuser = extend(GenericCrafter, "silicon-infuser", {});
 	// steam //
 	const steamKettle = extend(GenericCrafter, "steam-kettle", {});
 	// stone //
 	const stoneCompressor = extend(GenericCrafter, "stone-compressor", {});
 	const solidifier = extend(GenericCrafter, "solidifier", {});
+	// quartz //
+	const quartzFurnace = extend(GenericCrafter, "quartz-furnace", {});
 	// iron //
 	// sulphur //
 	const sulphurExtractor = extend(GenericCrafter, "sulphur-extractor", {});
