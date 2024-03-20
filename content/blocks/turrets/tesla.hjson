@@ -43,7 +43,7 @@
 	ammoPerShot: 1
 	
 	category: turret
-	research: radiator
+	research: irradiator
 	consumes: {
 		power: 3
 	}
