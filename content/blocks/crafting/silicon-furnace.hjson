@@ -18,7 +18,7 @@
 		plate/15
 	]
 	category: crafting
-	research: graphite-compressor
+	research: plate-press
 	outputItem: silicon/1
 	
 	drawer: [
