@@ -1,9 +1,9 @@
 name: "tg555-ae"
-subtitle: "Beta 103A"
+subtitle: "Beta 103B"
 displayName: "Arcane Edge"
 description: "Modification, aiming to revive Classic Mindustry content and merge it with modern versions."
 author: "TagGamer555"
 minGameVersion: "136"
-version: "Beta 103A"
+version: "Beta 103B"
 main: "tg555-ae.tg555-ae-Mod"
 java: false
