@@ -23,7 +23,7 @@
 	inaccuracy: 15
 	ammoTypes: {
 		uranium: {
-			damage: 90
+			damage: 95
 			
 			status: slow
 			statusDuration: 40

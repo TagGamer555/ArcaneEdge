@@ -23,7 +23,7 @@
 	inaccuracy: 15
 	ammoTypes: {
 		coal: {
-			damage: 125
+			damage: 155
 			
 			pierce: false
 			

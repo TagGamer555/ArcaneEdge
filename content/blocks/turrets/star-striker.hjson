@@ -23,7 +23,7 @@
 	range: 120
 	inaccuracy: 3
 	shootType: {
-		damage: 35
+		damage: 65
 		
 		pierce: true
 		pierceCap: 2

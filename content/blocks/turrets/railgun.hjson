@@ -21,7 +21,7 @@
 	inaccuracy: 0
 	ammoTypes: {
 		steel: {
-			damage: 75
+			damage: 90
 			
 			pierce: true
 			pierceCap: 2

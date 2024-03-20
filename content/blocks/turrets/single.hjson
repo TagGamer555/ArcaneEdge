@@ -19,7 +19,7 @@
 	inaccuracy: 0
 	ammoTypes: {
 		stone: {
-			damage: 20
+			damage: 35
 			
 			pierce: false
 			

@@ -27,7 +27,7 @@
 			type: DrawFlame
 			flameRadius: 2
 			flameRadiusIn: 0.75
-			flameColor: 91788B
+			flameColor: CCA3CC
 			flameRadiusMag: 0.2
 			flameRadiusInMag: 0.2
 		}

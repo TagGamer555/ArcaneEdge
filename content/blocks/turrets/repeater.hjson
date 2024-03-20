@@ -20,7 +20,7 @@
 	inaccuracy: 0
 	ammoTypes: {
 		iron: {
-			damage: 25
+			damage: 45
 			
 			pierce: false
 			

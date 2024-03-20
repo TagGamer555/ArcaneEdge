@@ -15,7 +15,7 @@
 	
 	size: 1
 	range: 90
-	damage: 5
+	damage: 10
 	
 	targetAir: true
 	targetGround: true
