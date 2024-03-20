@@ -1,6 +1,6 @@
 {
 	name: Oil Generator
-	description: "Combusts raw oil to generate lots of power.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Combusts raw oil to generate power.\n[stat]Tag: [cyan]Classic[][]"
 	size: 1
 	health: 200
 	itemDuration: 60
@@ -11,8 +11,9 @@
 	research: combustor
 	powerProduction: 3
 	requirements: [
-		stone/50
-		steel/25
+		stone/30
+		steel/10
+		graphite/10
 	]
 	
 	drawer: [

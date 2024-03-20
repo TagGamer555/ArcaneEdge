@@ -5,9 +5,10 @@
 	size: 1
 	outlineColor: 222222
 	requirements: [
-		stone/60
-		steel/20
-		graphite/20
+		stone/20
+		quartz/10
+		steel/5
+		graphite/5
 	]
 	category: effect
 	research: mender-turret

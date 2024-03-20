@@ -5,7 +5,8 @@
 	research: pneumatic-pump
 	liquidCapacity: 1
 	requirements: [
-		steel/3
+		quartz/1
+		steel/1
 	]
 	junctionReplacement: steel-junction
 	bridgeReplacement: steel-bridge-conduit

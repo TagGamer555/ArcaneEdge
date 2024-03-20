@@ -12,7 +12,7 @@
 	}
 	requirements: [
 		stone/25
-		iron/50
+		iron/25
 	]
 	category: crafting
 	research: iron-drill

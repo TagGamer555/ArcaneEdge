@@ -13,8 +13,8 @@
 	rotateSpeed: 4
 	
 	requirements: [
-		stone/40
-		steel/60
+		stone/20
+		steel/30
 	]
 	size: 1
 	range: 75

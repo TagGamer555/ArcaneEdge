@@ -16,7 +16,7 @@
 		}
 	}
 	requirements: [
-		stone/25
+		stone/10
 	]
 	category: production
 	research: stone-conveyor

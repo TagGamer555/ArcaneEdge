@@ -5,7 +5,7 @@
 	solid: false
 	research: steel-conveyor
 	requirements: [
-		stone/5
-		steel/2
+		stone/2
+		steel/1
 	]
 }

@@ -20,7 +20,7 @@
 	const flamer = extend(ItemTurret, "flamer", {});
 	const laser = extend(TractorBeamTurret, "laser", {});
 	const flakCannon = extend(ItemTurret, "flak-cannon", {});
-	const radiator = extend(ItemTurret, "radiator", {});
+	const irradiator = extend(ItemTurret, "irradiator", {});
 	const tesla = extend(PowerTurret, "tesla", {});
 	
 	// REGION - PRODUCTION //

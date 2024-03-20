@@ -1,6 +1,6 @@
 {
 	name: "Stone Conveyor"
-	description: "Moves items forward at slow speed.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Moves items forward at a slow speed.\n[stat]Tag: [cyan]Classic[][]"
 	speed: 0.0333333
 	placeableLiquid: false
 

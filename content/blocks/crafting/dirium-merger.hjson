@@ -12,10 +12,10 @@
 		power: 2
 	}
 	requirements: [
-		steel/40
-		titanium/40
-		dirium/30
-		silicon/20
+		steel/30
+		titanium/20
+		silicon/10
+		dirium/10
 	]
 	category: crafting
 	research: dirium-crucible

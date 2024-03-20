@@ -13,7 +13,7 @@
 	rotateSpeed: 3
 	
 	requirements: [
-		stone/60
+		stone/25
 	]
 	size: 1
 	range: 50

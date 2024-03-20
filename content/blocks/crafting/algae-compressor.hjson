@@ -10,8 +10,8 @@
 		]
 	}
 	requirements: [
-		stone/40
-		plate/20
+		stone/25
+		plate/15
 	]
 	category: crafting
 	research: algae-farm

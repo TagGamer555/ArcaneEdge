@@ -16,9 +16,9 @@
 		]
 	}
 	requirements: [
-		stone/40
-		lead/40
-		plate/20
+		stone/20
+		plate/5
+		steel/5
 	]
 	category: production
 	research: copper-drill

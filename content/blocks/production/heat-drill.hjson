@@ -37,9 +37,9 @@
 	}
 	
 	requirements: [
-		stone/60
-		iron/40
-		graphite/30
+		stone/30
+		iron/20
+		graphite/10
 	]
 	
 	outputItems: [iron/1,lead/1]

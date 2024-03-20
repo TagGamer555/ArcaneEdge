@@ -17,9 +17,9 @@
 		power: 0.5
 	}
 	requirements: [
-		steel/40
-		titanium/40
-		dirium/20
+		steel/20
+		titanium/10
+		dirium/5
 	]
 	category: production
 	research: steel-drill

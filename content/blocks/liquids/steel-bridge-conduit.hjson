@@ -8,6 +8,7 @@
 	range: 4
 	requirements: [
 		stone/6
-		steel/6
+		quartz/4
+		steel/2
 	]
 }

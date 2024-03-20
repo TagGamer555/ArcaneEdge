@@ -2,7 +2,7 @@
 	name: Stone Router
 	description: Outputs items inputted equally into different directions.
 	requirements: [
-		stone/3
+		stone/2
 	]
 	category: distribution
 	research: stone-conveyor

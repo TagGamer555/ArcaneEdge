@@ -13,10 +13,10 @@
 	rotateSpeed: 3
 	
 	requirements: [
-		stone/90
-		steel/80
-		titanium/70
-		dirium/60
+		stone/30
+		steel/20
+		titanium/10
+		dirium/5
 	]
 	size: 1
 	range: 120

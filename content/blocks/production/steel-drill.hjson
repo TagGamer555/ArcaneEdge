@@ -16,8 +16,8 @@
 		}
 	}
 	requirements: [
-		stone/80
-		steel/40
+		stone/20
+		steel/10
 	]
 	category: production
 	research: iron-drill

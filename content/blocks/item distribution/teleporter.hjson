@@ -29,8 +29,8 @@
 	}
 	category: distribution
 	requirements: [
-		steel/30
-		dirium/20
+		steel/15
+		dirium/10
 	]
 	consumes: {
 		power: 1

@@ -1,12 +1,12 @@
 {
 	name: Iron Wall
-	description: "Moderately weak wall, made of stone and iron.\n[stat]Tag: [cyan]Classic[][]"
-	health: 300
+	description: "Moderately weak wall, primarily made of iron.\n[stat]Tag: [cyan]Classic[][]"
+	health: 500
 	armor: 2
 	size: 1
 	requirements: [
-		stone/4
-		iron/8
+		stone/2
+		iron/4
 	]
 	research: stone-wall-classic
 	category: defense

@@ -1,6 +1,6 @@
 {
 	name: "Dirium Conveyor"
-	description: "Moves items forward at fast speed.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Moves items forward at a fast speed.\n[stat]Tag: [cyan]Classic[][]"
 	speed: 0.1
 	placeableLiquid: false
 	health: 120

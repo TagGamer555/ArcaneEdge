@@ -1,12 +1,12 @@
 {
 	name: Sand Melter
-	description: "Melts sand with coal, creating slag.\n[stat]Tag: [sky]Classic+[][]"
+	description: "Melts sand using a flammable resource, creating slag.\n[stat]Tag: [sky]Classic+[][]"
 	
 	health: 160
 	
 	requirements: [
-		stone/40
-		iron/60
+		stone/20
+		iron/10
 	]
 	
 	craftTime: 60
@@ -14,10 +14,9 @@
 		items: {
 			items: [
 				sand/4
-				coal/1
 			]
 		}
-		power: 1
+		itemFlammable: {}
 	}
 	
 	outputLiquid: slag/0.05

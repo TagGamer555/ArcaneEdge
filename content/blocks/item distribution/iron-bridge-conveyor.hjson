@@ -7,8 +7,8 @@
 	placeableLiquid: false
 	itemCapacity: 10
 	requirements: [
-		stone/8
-		iron/5
+		stone/4
+		iron/4
 	]
 	research: stone-junction
 	

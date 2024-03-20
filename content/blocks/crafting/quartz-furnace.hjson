@@ -12,8 +12,8 @@
 		power: 0.25
 	}
 	requirements: [
-		stone/60
-		lead/40
+		stone/25
+		lead/10
 	]
 	category: crafting
 	research: copper-drill

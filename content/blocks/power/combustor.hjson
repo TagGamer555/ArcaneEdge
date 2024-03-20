@@ -11,7 +11,7 @@
 	research: steel-node
 	powerProduction: 1
 	requirements: [
-		stone/50
-		iron/50
+		stone/20
+		iron/15
 	]
 }

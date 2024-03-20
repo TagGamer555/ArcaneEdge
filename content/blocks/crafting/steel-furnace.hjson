@@ -14,10 +14,10 @@
 	}
 	itemCapacity: 16
 	requirements: [
-		steel/40
-		titanium/20
-		dirium/20
-		graphite/20
+		steel/10
+		titanium/10
+		graphite/5
+		dirium/5
 	]
 	category: crafting
 	research: graphite-compressor

@@ -5,10 +5,10 @@
 	health: 120
 	
 	requirements: [
-		stone/60
-		lead/40
-		steel/20
-		quartz/20
+		stone/20
+		lead/15
+		quartz/10
+		steel/5
 	]
 	
 	craftTime: 60

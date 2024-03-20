@@ -72,9 +72,10 @@
 	ambientSoundVolume: 0.2
 
 	requirements: [
-		stone/200
-		steel/100
-		dirium/30
+		stone/125
+		steel/75
+		titanium/50
+		dirium/25
 	]
 
 	consumes: {

@@ -1,6 +1,6 @@
 {
 	name: RTG
-	description: "Uses radioactive fuel to generate power. Generates less than some other generators, but consumes less fuel.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Uses heat from radioactive decay to generate power.\n[stat]Tag: [cyan]Classic[][]"
 	size: 1
 	health: 240
 	itemDuration: 300
@@ -11,8 +11,8 @@
 	research: combustor
 	powerProduction: 2.5
 	requirements: [
-		stone/120
-		steel/80
-		titanium/40
+		stone/40
+		steel/20
+		titanium/20
 	]
 }

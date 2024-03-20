@@ -12,10 +12,10 @@
 		power: 0.5
 	}
 	requirements: [
-		stone/40
-		steel/20
-		titanium/20
-		graphite/20
+		stone/20
+		quartz/10
+		steel/10
+		graphite/5
 	]
 	category: production
 	research: steel-smelter

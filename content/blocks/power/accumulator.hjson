@@ -1,6 +1,6 @@
 {
 	name: Accumulator
-	description: "Weak battery, that stores power. Shares it with adjacent buildings or batteries.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Weak battery, that stores power. Shares it with adjacent buildings or batteries.\n[stat]Tag: [sky]Classic+[][]"
 	size: 1
 	category: power
 	health: 160
@@ -8,8 +8,8 @@
 		powerBuffered: 2000
 	}
 	requirements: [
-		stone/25
-		steel/25
+		lead/20
+		steel/5
 	]
 	research: steel-node
 }

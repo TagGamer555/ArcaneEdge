@@ -5,9 +5,8 @@
 	health: 120
 	
 	requirements: [
-		stone/30
-		plate/20
-		quartz/10
+		stone/15
+		plate/10
 	]
 	
 	craftTime: 60

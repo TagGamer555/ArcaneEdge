@@ -4,8 +4,8 @@
 	health: 80
 	range: 5
 	requirements: [
-		stone/12
-		steel/6
+		stone/4
+		steel/2
 	]
 	category: power
 	research: steel-smelter

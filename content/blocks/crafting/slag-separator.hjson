@@ -43,10 +43,10 @@
 	health: 240
 	
 	requirements: [
-		stone/60
-		steel/40
-		titanium/20
-		graphite/30
+		stone/20
+		steel/10
+		titanium/5
+		graphite/5
 	]
 	
 	results: [

@@ -12,9 +12,9 @@
 		power: 0.75
 	}
 	requirements: [
-		stone/60
-		plate/40
-		titanium/40
+		stone/30
+		plate/20
+		titanium/10
 	]
 	category: crafting
 	research: algae-compressor

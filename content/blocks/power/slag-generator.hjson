@@ -11,8 +11,10 @@
 	research: combustor
 	powerProduction: 1.5
 	requirements: [
-		steel/40
-		titanium/20
+		stone/20
+		quartz/20
+		steel/10
+		titanium/10
 	]
 	
 	drawer: [

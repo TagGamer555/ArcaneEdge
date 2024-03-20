@@ -7,7 +7,8 @@
 	category: liquid
 	research: pneumatic-pump
 	requirements: [
-		steel/60
-		dirium/30
+		quartz/30
+		steel/20
+		dirium/20
 	]
 }

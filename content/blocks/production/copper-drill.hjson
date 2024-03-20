@@ -16,8 +16,8 @@
 		}
 	}
 	requirements: [
-		stone/60
-		copper/40
+		stone/20
+		copper/10
 	]
 	category: production
 	research: stone-drill

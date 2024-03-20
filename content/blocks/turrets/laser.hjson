@@ -8,9 +8,9 @@
 	outlineColor: 222222
 	
 	requirements: [
-		stone/70
-		steel/60
-		titanium/50
+		stone/35
+		steel/15
+		titanium/10
 	]
 	
 	size: 1

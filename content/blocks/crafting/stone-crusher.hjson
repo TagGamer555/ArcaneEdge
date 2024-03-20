@@ -12,9 +12,9 @@
 		power: 0.75
 	}
 	requirements: [
-		stone/25
-		iron/80
-		graphite/10
+		stone/15
+		iron/20
+		graphite/5
 	]
 	category: crafting
 	research: solidifier

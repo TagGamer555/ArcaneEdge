@@ -1,6 +1,6 @@
 {
 	name: "Heavy Conveyor"
-	description: "Moves items forward at moderate speed. Does not accept input from the sides. Can be placed in deep liquids.\n[stat]Tag: [sky]Classic+[][]"
+	description: "Moves items forward at a moderate speed. Does not accept input from the sides. Can be placed in deep liquids.\n[stat]Tag: [sky]Classic+[][]"
 	speed: 0.06666666
 	placeableLiquid: true
 	health: 200
@@ -8,7 +8,7 @@
 
 	requirements: [
 		steel/1
-		titanium/2
+		titanium/1
 	]
 
 	research: steel-conveyor

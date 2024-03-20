@@ -5,9 +5,9 @@
 	health: 160
 	
 	requirements: [
-		stone/60
-		copper/40
-		plate/40
+		stone/30
+		copper/20
+		plate/20
 	]
 	
 	craftTime: 600

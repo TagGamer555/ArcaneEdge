@@ -1,6 +1,6 @@
 {
 	name: Steam Turbine
-	description: "Uses pressure of steam gas produced to spin the turbines, generating power. Half of water is lost.\n[stat]Tag: [sky]Classic+[][]"
+	description: "Uses pressure of steam gas produced to spin the turbines, generating power. Half of steam is condensed back into water.\n[stat]Tag: [sky]Classic+[][]"
 	size: 1
 	health: 160
 	itemDuration: 60
@@ -11,9 +11,9 @@
 	research: combustor
 	powerProduction: 0.333333333333333333333333
 	requirements: [
-		stone/30
-		lead/20
-		iron/20
+		stone/20
+		lead/10
+		iron/10
 	]
 	outputLiquid: water/0.05
 	

@@ -6,6 +6,7 @@
 	category: liquid
 	research: steel-conduit
 	requirements: [
-		steel/6
+		quartz/3
+		steel/2
 	]
 }

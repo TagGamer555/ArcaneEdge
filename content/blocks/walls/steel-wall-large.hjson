@@ -1,11 +1,11 @@
 {
 	name: Large Steel Wall
 	description: "Moderately strong wall, made of steel. Spans multiple tiles.\n[stat]Tag: [cyan]Classic[][]"
-	health: 1600
+	health: 2400
 	armor: 4
 	size: 2
 	requirements: [
-		steel/32
+		steel/24
 	]
 	research: steel-wall
 	category: defense

@@ -6,8 +6,8 @@
 	
 	requirements: [
 		stone/50
-		steel/40
-		quartz/40
+		quartz/20
+		steel/10
 	]
 	
 	craftTime: 60

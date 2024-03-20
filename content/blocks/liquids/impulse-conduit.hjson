@@ -5,8 +5,9 @@
 	research: steel-conduit
 	liquidCapacity: 4
 	requirements: [
-		steel/3
-		titanium/2
+		quartz/1
+		steel/1
+		titanium/1
 	]
 	junctionReplacement: steel-junction
 	bridgeReplacement: steel-bridge-conduit

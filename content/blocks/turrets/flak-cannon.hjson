@@ -14,9 +14,9 @@
 	shootSound: artillery
 	
 	requirements: [
-		stone/80
-		steel/70
-		titanium/60
+		stone/35
+		steel/15
+		titanium/10
 	]
 	size: 1
 	range: 160

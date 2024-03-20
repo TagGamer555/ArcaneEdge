@@ -12,9 +12,9 @@
 		power: 1
 	}
 	requirements: [
-		stone/90
-		steel/50
-		titanium/50
+		stone/50
+		steel/25
+		titanium/10
 	]
 	category: crafting
 	research: steel-smelter

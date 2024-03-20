@@ -5,8 +5,8 @@
 	health: 120
 	
 	requirements: [
-		stone/75
-		steel/50
+		stone/30
+		steel/15
 	]
 	
 	craftTime: 120

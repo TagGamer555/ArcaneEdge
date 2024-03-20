@@ -12,9 +12,9 @@
 		]
 	}
 	requirements: [
-		stone/30
-		copper/20
-		lead/20
+		stone/20
+		copper/10
+		lead/10
 	]
 	category: crafting
 	research: copper-drill

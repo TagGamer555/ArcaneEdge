@@ -12,8 +12,8 @@
 	rotateSpeed: 3
 	
 	requirements: [
-		stone/50
-		iron/40
+		stone/25
+		iron/10
 	]
 	size: 1
 	range: 90

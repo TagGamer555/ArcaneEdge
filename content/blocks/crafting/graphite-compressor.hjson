@@ -13,9 +13,9 @@
 		power: 1.25
 	}
 	requirements: [
-		stone/60
-		steel/40
-		titanium/20
+		stone/30
+		steel/10
+		titanium/15
 	]
 	category: crafting
 	research: iron-drill

@@ -17,8 +17,8 @@
 	maxBoost: 10000000
 	
 	requirements: [
-		stone/80
-		iron/40
+		stone/30
+		iron/20
 	]
 	
 	outputItem: algae/5
