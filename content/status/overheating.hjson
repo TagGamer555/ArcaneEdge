@@ -1,0 +1,22 @@
+{
+	type: StatusEffect
+	name: Overheating
+	description: "Cannot handle high heat after the contact with lava.\n[stat]Tag: [sky]Classic+[][]"
+	damage: 0.6
+	healthMultiplier: 0.8
+	speedMultiplier: 0.7
+	effects: [
+		{
+			type: ParticleEffect
+			sizeFrom: 4
+			sizeTo: 0
+			lifetime: 25
+			particles: 3
+			cone: 360
+			length: 2
+			colorFrom: FFC1A3
+			colorTo: 8E545450
+		}
+	]
+	color: FFC1A3
+}
