@@ -1,12 +1,14 @@
 {
 	name: Lava
-	description: "Molten rock, extremely hot.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Molten rock, extremely hot and viscous.\n[stat]Tag: [cyan]Classic[][]"
 	heatCapacity: 0.5
 	explosiveness: 0
 	temperature: 2.35
 	gas: false
 	color: FF7F66
 	gasColor: 888888
+	lightColor: FF7F66
+	viscosity: 0.75
 	flammability: 0
 	research: stone
 	coolant: false
