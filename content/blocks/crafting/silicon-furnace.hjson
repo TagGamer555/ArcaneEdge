@@ -1,25 +1,24 @@
 {
-	name: Silicon Infuser
-	description: "Fuses oil and sand to create silicon.\n[stat]Tag: [sky]Classic+[][]"
+	name: Silicon Furnace
+	description: "Fuses coal and sand to create silicon.\n[stat]Tag: [sky]Classic+[][]"
 	size: 1
-	health: 200
-	craftTime: 15
-	itemCapacity: 16
+	health: 120
+	craftTime: 45
+	itemCapacity: 10
 	consumes: {
 		items: [
-			sand/1
+			sand/2
+			coal/1
 		]
-		liquid: oil/0.2
-		power: 1.5
+		power: 0.25
 	}
 	requirements: [
-		copper/40
-		steel/20
-		titanium/10
-		graphite/10
+		stone/30
+		copper/20
+		plate/15
 	]
 	category: crafting
-	research: silicon-furnace
+	research: graphite-compressor
 	outputItem: silicon/1
 	
 	drawer: [
