@@ -25,7 +25,6 @@
 			length: 15
 			cone: 360
 			line: true
-			stroke: 2
 			lenFrom: 4
 			lenTo: 0
 			colorFrom: FFC1A3
