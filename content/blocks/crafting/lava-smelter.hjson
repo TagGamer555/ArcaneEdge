@@ -1,6 +1,6 @@
 {
-	name: Slag Smelter
-	description: "Uses slag to melt iron, creating steel much faster than regular smelters.\n[stat]Tag: [cyan]Classic[][]"
+	name: Lava Smelter
+	description: "Uses lava to melt iron, creating steel much faster than regular smelters.\n[stat]Tag: [cyan]Classic[][]"
 	
 	health: 160
 	
@@ -18,7 +18,7 @@
 		}
 		liquids: {
 			liquids: [
-				slag/0.1
+				lava/0.1
 			]
 		}
 		power: 0.75
@@ -45,7 +45,7 @@
 		}
 		{
 			type: DrawLiquidTile
-			drawLiquid: slag
+			drawLiquid: lava
 		}
 		{
 			type: DrawDefault

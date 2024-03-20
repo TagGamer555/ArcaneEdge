@@ -1,6 +1,6 @@
 {
 	name: Solidifier
-	description: "Cools down slag with water to obtain stone. Way more efficient than mining.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Cools down lava with water to obtain stone. Way more efficient than mining.\n[stat]Tag: [cyan]Classic[][]"
 	
 	health: 120
 	
@@ -15,7 +15,7 @@
 		liquids: {
 			liquids: [
 				water/0.2
-				slag/0.1
+				lava/0.1
 			]
 		}
 		power: 0.25
@@ -43,7 +43,7 @@
 		}
 		{
 			type: DrawLiquidTile
-			drawLiquid: slag
+			drawLiquid: lava
 		}
 		{
 			type: DrawDefault

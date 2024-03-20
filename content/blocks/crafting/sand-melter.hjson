@@ -1,6 +1,6 @@
 {
 	name: Sand Melter
-	description: "Melts sand using a flammable resource, creating slag.\n[stat]Tag: [sky]Classic+[][]"
+	description: "Melts sand using a flammable resource, creating lava.\n[stat]Tag: [sky]Classic+[][]"
 	
 	health: 160
 	
@@ -19,7 +19,7 @@
 		itemFlammable: {}
 	}
 	
-	outputLiquid: slag/0.05
+	outputLiquid: lava/0.05
 	research: steel-smelter
 	category: crafting
 	

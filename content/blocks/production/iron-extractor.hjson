@@ -1,6 +1,6 @@
 {
 	name: Iron Extractor
-	description: "Requires stone and slag to extract iron.\n[stat]Tag: [sky]Classic+[][]"
+	description: "Requires stone and lava to extract iron.\n[stat]Tag: [sky]Classic+[][]"
 	
 	health: 120
 	
@@ -13,7 +13,7 @@
 	consumes: {
 		liquids: {
 			liquids: [
-				slag/0.01666666666666666666666666
+				lava/0.01666666666666666666666666
 			]
 		}
 		items: {
@@ -44,7 +44,7 @@
 		}
 		{
 			type: DrawLiquidTile
-			drawLiquid: slag
+			drawLiquid: lava
 		}
 		{
 			type: DrawDefault

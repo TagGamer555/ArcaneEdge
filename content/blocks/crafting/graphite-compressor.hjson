@@ -4,12 +4,13 @@
 	size: 1
 	health: 160
 	craftTime: 120
-	liquidCapacity: 18
+	itemCapacity: 16
+	liquidCapacity: 12
 	consumes: {
 		items: [
-			coal/2
+			coal/8
 		]
-		liquid: water/0.3
+		liquid: water/0.1
 		power: 1.25
 	}
 	requirements: [
@@ -18,7 +19,7 @@
 		titanium/15
 	]
 	category: crafting
-	research: iron-drill
-	outputItem: graphite/1
-	outputLiquid: steam/0.3
+	research: steel-smelter
+	outputItem: graphite/4
+	outputLiquid: steam/0.1
 }

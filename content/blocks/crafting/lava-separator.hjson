@@ -1,9 +1,9 @@
 {
-	name: Slag Separator
-	description: "Separates slag into more useful resources. Requires coal.\n[stat]Tag: [sky]Classic+[][]"
+	name: Lava Separator
+	description: "Separates lava into more useful resources. Requires coal.\n[stat]Tag: [sky]Classic+[][]"
 	
 	consumes: {
-		liquid: slag/0.2
+		liquid: lava/0.2
 		items: [
 			coal/1
 		]
@@ -11,7 +11,7 @@
 	}
 	
 	size: 1
-	research: slag-smelter
+	research: lava-smelter
 	craftTime: 30
 	category: crafting
 	
@@ -24,7 +24,7 @@
 			}
 			{
 				type: DrawLiquidTile
-				drawLiquid: slag
+				drawLiquid: lava
 			}
 			{
 				type: DrawRegion

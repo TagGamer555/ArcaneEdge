@@ -68,7 +68,7 @@
 	const siliconInfuser = extend(GenericCrafter, "silicon-infuser", {});
 	// steel //
 	const steelSmelter = extend(GenericCrafter, "steel-smelter", {});
-	const slagSmelter = extend(GenericCrafter, "slag-smelter", {});
+	const lavaSmelter = extend(GenericCrafter, "lava-smelter", {});
 	const steelFurnace = extend(GenericCrafter, "steel-furnace", {});
 	// dirium //
 	const diriumCrucible = extend(GenericCrafter, "dirium-crucible", {});
@@ -95,13 +95,13 @@
 	// oil //
 	const sandSifter = extend(GenericCrafter, "sand-sifter", {});
 	const algaePress = extend(GenericCrafter, "algae-press", {});
-	// slag //
+	// lava //
 	const frictionMelter = extend(GenericCrafter, "friction-melter", {});
 	const sandMelter = extend(GenericCrafter, "sand-melter", {});
 	// other //
 	const waterElectrolyzer = extend(GenericCrafter, "water-electrolyzer", {});
 	const algaeDigestor = extend(GenericCrafter, "algae-digestor", {}); //prev.: algae-leecher
-	const slagSeparator = extend(Separator, "slag-separator", {});
+	const lavaSeparator = extend(Separator, "lava-separator", {});
 	/*
 	const learner = extend(GenericCrafter, "learner", {}); //BLOAT
 	const rockniteSynthesizer = extend(GenericCrafter, "rocknite-synthesizer", {}); //BLOAT
@@ -116,7 +116,7 @@
 	const accumulator = extend(Battery, "accumulator", {});
 	const combustor = extend(ConsumeGenerator, "combustor", {}); //prev.: coal-generator
 	const oilGenerator = extend(ConsumeGenerator, "oil-generator", {});
-	const slagGenerator = extend(ConsumeGenerator, "slag-generator", {});
+	const lavaGenerator = extend(ConsumeGenerator, "lava-generator", {});
 	const rtg = extend(ConsumeGenerator, "rtg", {}); //prev.: uranium-rtg-generator
 	const uraniumReactor = extend(NuclearReactor, "uranium-reactor", {});
 	const steamTurbine = extend(ConsumeGenerator, "steam-turbine", {});

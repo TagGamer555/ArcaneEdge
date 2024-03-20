@@ -9,7 +9,7 @@
 			iron/8
 			graphite/2
 		]
-		liquid: slag/0.1
+		liquid: lava/0.1
 		power: 1.75
 	}
 	itemCapacity: 16

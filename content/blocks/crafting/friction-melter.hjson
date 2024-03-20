@@ -1,6 +1,6 @@
 {
 	name: Friction Melter
-	description: "Melts stone by using friction, creating slag.\n[stat]Tag: [sky]Classic+[][]"
+	description: "Melts stone by using friction, creating lava.\n[stat]Tag: [sky]Classic+[][]"
 	
 	health: 120
 	
@@ -19,7 +19,7 @@
 		}
 	}
 	
-	outputLiquid: slag/0.01666666666666666666
+	outputLiquid: lava/0.01666666666666666666
 	research: plate-press
 	category: crafting
 	
@@ -40,7 +40,7 @@
 		}
 		{
 			type: DrawLiquidTile
-			drawLiquid: slag
+			drawLiquid: lava
 		}
 		{
 			type: DrawDefault
