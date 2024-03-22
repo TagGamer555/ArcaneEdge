@@ -15,6 +15,15 @@
 		lead/30
 		graphite/10
 	]
+	craftEffect: {
+		particles: 8
+		colorFrom: F7CBA480
+		colorTo: D3AE8D00
+		lifetime: 90
+		length: 12
+		sizeFrom: 2
+		sizeTo: 0
+	}
 	category: crafting
 	research: graphite-press
 	outputItem: stone/3

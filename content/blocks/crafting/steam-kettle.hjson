@@ -29,6 +29,16 @@
 		colorTo: 00000000
 	}
 	
+	craftEffect: {
+		particles: 6
+		sizeFrom: 2
+		sizeTo: 0
+		lifetime: 45
+		length: 10
+		colorFrom: FFFFFFBB
+		colorTo: FFFFFF00
+	}
+	
 	drawer: [
 		{
 			type: DrawRegion

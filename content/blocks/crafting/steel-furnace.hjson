@@ -19,6 +19,30 @@
 		graphite/5
 		dirium/5
 	]
+	craftEffect: [
+		{
+			particles: 5
+			lifetime: 30
+			length: 15
+			cone: 360
+			line: true
+			lenFrom: 4
+			lenTo: 0
+			colorFrom: A4B8FA
+			colorTo: 7575C800
+		}
+		{
+			type: WaveEffect
+			sides: 0
+			sizeFrom: 0
+			sizeTo: 5
+			strokeFrom: 2
+			strokeTo: 0
+			lifetime: 30
+			colorFrom: A4B8FA
+			colorTo: 7575C800
+		}
+	]
 	category: crafting
 	research: graphite-compressor
 	outputItem: steel/8

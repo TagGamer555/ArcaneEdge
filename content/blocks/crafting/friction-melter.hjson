@@ -19,6 +19,31 @@
 		}
 	}
 	
+	craftEffect: [
+		{
+			particles: 5
+			lifetime: 30
+			length: 15
+			cone: 360
+			line: true
+			lenFrom: 4
+			lenTo: 0
+			colorFrom: FFC1A3
+			colorTo: 66666600
+		}
+		{
+			type: WaveEffect
+			sides: 0
+			sizeFrom: 0
+			sizeTo: 5
+			strokeFrom: 2
+			strokeTo: 0
+			lifetime: 30
+			colorFrom: FFC1A3
+			colorTo: 66666600
+		}
+	]
+	
 	outputLiquid: lava/0.01666666666666666666
 	research: plate-press
 	category: crafting

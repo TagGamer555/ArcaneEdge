@@ -16,6 +16,30 @@
 		copper/10
 		lead/10
 	]
+	craftEffect: [
+		{
+			particles: 5
+			lifetime: 30
+			length: 15
+			cone: 360
+			line: true
+			lenFrom: 4
+			lenTo: 0
+			colorFrom: CCCCCC
+			colorTo: 66666600
+		}
+		{
+			type: WaveEffect
+			sides: 0
+			sizeFrom: 0
+			sizeTo: 5
+			strokeFrom: 2
+			strokeTo: 0
+			lifetime: 30
+			colorFrom: CCCCCC
+			colorTo: 66666600
+		}
+	]
 	category: crafting
 	research: copper-drill
 	outputItem: plate/1

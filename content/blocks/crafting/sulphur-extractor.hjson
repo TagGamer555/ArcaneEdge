@@ -35,15 +35,30 @@
 		colorTo: 00000000
 	}
 	
-	craftEffect: {
-		particles: 5
-		sizeFrom: 2
-		sizeTo: 0
-		lifetime: 90
-		length: 15
-		colorFrom: FFFFFF80
-		colorTo: 00000000
-	}
+	craftEffect: [
+		{
+			particles: 5
+			lifetime: 30
+			length: 15
+			cone: 360
+			line: true
+			lenFrom: 4
+			lenTo: 0
+			colorFrom: DDC96E
+			colorTo: AAA05500
+		}
+		{
+			type: WaveEffect
+			sides: 0
+			sizeFrom: 0
+			sizeTo: 5
+			strokeFrom: 2
+			strokeTo: 0
+			lifetime: 30
+			colorFrom: DDC96E
+			colorTo: AAA05500
+		}
+	]
 	
 	drawer: [
 		{
