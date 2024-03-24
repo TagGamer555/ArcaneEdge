@@ -17,10 +17,10 @@
 	]
 	size: 1
 	range: 90
-	inaccuracy: 0
+	inaccuracy: 2
 	ammoTypes: {
 		iron: {
-			damage: 15
+			damage: 16
 			
 			pierce: false
 			
@@ -29,8 +29,6 @@
 			
 			width: 3
 			height: 6
-			
-			sprite: tg555-ae-rectangle
 			
 			shrinkY: 0
 			shrinkX: 0

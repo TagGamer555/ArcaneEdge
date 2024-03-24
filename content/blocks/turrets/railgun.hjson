@@ -52,6 +52,7 @@
 				colorTo: ffffff
 				strokeFrom: 1
 				strokeTo: 0
+				lightScale: 0
 			}
 			hitEffect: none
 			despawnEffect: none
