@@ -6,7 +6,7 @@
 	health: 480
 	reload: 90
 	shoot: {
-		type: shootAlternate
+		shots: 8
 	}
 	recoil: 2
 	rotateSpeed: 2

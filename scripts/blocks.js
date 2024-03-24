@@ -3,6 +3,7 @@
 	// const <exampleStructure> = extend(<TYPE>, "<example-structure>", {});
 	
 	////// OTHER //////
+	//TODO: Add stuff here. I am tired of no content here for over 2 months.
 	
 	// REGION - TURRETS //
 	const starStriker = extend(PowerTurret, "star-striker", {});
@@ -22,6 +23,7 @@
 	const flakCannon = extend(ItemTurret, "flak-cannon", {});
 	const irradiator = extend(ItemTurret, "irradiator", {});
 	const tesla = extend(PowerTurret, "tesla", {});
+	/* I have reworked all turret sprites above on 24/03/2024 */
 	
 	// REGION - PRODUCTION //
 	const stoneDrill = extend(Drill, "stone-drill", {});
