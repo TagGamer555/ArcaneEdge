@@ -2,7 +2,7 @@
 	name: Broadshot
 	description: "Fires four iron projectiles at enemies from both barrels.\n[stat]Tag: [cyan]Classic[][]"
 	
-	outlineColor: 222222
+	outlineColor: C45938
 	health: 120
 	reload: 60
 	shoot: {

@@ -2,7 +2,7 @@
 	name: Railgun
 	description: "Fires piercing steel projectiles at enemies over long distances.\n[stat]Tag: [cyan]Classic[][]"
 	
-	outlineColor: 222222
+	outlineColor: 8C4AAB
 	health: 360
 	reload: 90
 	shootSound: shootAlt

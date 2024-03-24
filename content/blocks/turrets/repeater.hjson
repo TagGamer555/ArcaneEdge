@@ -2,7 +2,7 @@
 	name: Repeater
 	description: "Fires iron projectiles rapidly at enemies.\n[stat]Tag: [cyan]Classic[][]"
 	
-	outlineColor: 222222
+	outlineColor: C45938
 	health: 240
 	reload: 30
 	shoot: {

@@ -2,7 +2,7 @@
 	name: Irradiator
 	description: "Irradiates enemies, slowing them down.\n[stat]Tag: [cyan]Classic[][]"
 	
-	outlineColor: 222222
+	outlineColor: FFE157
 	health: 600
 	reload: 20
 	shootSound: flame

@@ -2,7 +2,7 @@
 	name: Flamer
 	description: "Fires coal flames repeatedly at enemy units over short distances.\n[stat]Tag: [cyan]Classic[][]"
 	
-	outlineColor: 222222
+	outlineColor: 8C4AAB
 	health: 360
 	reload: 5
 	shootSound: flame

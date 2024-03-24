@@ -2,7 +2,7 @@
 	name: Tesla
 	description: "Shocks enemies.\n[stat]Tag: [cyan]Classic[][]"
 	
-	outlineColor: 222222
+	outlineColor: FFE157
 	health: 600
 	reload: 45
 	shootSound: spark
