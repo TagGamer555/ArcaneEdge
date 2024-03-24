@@ -33,6 +33,7 @@
 			speed: 15
 			lifetime: 5
 			despawnEffect: none
+			lightRadius: 0
 			
 			width: 0
 			height: 0
@@ -59,7 +60,7 @@
 				colorFrom: ffdd55
 				colorTo: db401c
 				sizeFrom: 2
-				sizeTo: 0.6
+				sizeTo: 0
 			}
 		}
 	}
