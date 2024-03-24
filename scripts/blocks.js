@@ -24,7 +24,7 @@
 	const irradiator = extend(ItemTurret, "irradiator", {});
 	const tesla = extend(PowerTurret, "tesla", {});
 	/* I have reworked all turret sprites above on 24/03/2024 - Alexander888 */
-	const chainGun = extend(PowerTurret, "chain-gun", {});
+	const chainGun = extend(ItemTurret, "chain-gun", {});
 	
 	// REGION - PRODUCTION //
 	const stoneDrill = extend(Drill, "stone-drill", {});
