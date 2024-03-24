@@ -4,12 +4,12 @@
 	
 	outlineColor: 1869A7
 	health: 120
-	reload: 60
+	reload: 20
 	shoot: {
 		type: shootAlternate
 		shots: 2
 	}
-	recoil: 2
+	recoil: 0.5
 	rotateSpeed: 3
 	
 	requirements: [
@@ -20,7 +20,7 @@
 	inaccuracy: 0
 	ammoTypes: {
 		stone: {
-			damage: 30
+			damage: 10
 			
 			pierce: false
 			
@@ -35,7 +35,7 @@
 			shrinkY: 0
 			shrinkX: 0
 			
-			ammoMultiplier: 2
+			ammoMultiplier: 6
 			knockback: 0
 			
 			frontColor: 999999FF
