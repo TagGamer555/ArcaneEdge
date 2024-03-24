@@ -44,7 +44,7 @@
 			shootEffect: {
 				particles: 1
 				lifetime: 10
-				length: 0
+				length: 0.01
 				cone: 0
 				line: true
 				lenFrom: 160
