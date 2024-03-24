@@ -41,14 +41,14 @@
 			ammoMultiplier: 1
 			knockback: 0
 			
-			frontColor: 808080FF
-			backColor: 777777FF
+			#frontColor: 808080FF
+			#backColor: 777777FF
 			
 			smokeEffect: none
 			
 			shootEffect: {
-				colorFrom: FEB380FF
-				colorTo: 00000000
+				colorFrom: fff8e8FF
+				colorTo: f9c27a00
 				length: 5
 				lifetime: 20
 				particles: 3
@@ -56,8 +56,8 @@
 				sizeTo: 0
 			}
 			hitEffect: {
-				colorFrom: 808080FF
-				colorTo: 00000000
+				colorFrom: fff8e8FF
+				colorTo: f9c27a00
 				length: 5
 				lifetime: 20
 				particles: 3
@@ -65,8 +65,8 @@
 				sizeTo: 0
 			}
 			despawnEffect: {
-				colorFrom: 808080FF
-				colorTo: 00000000
+				colorFrom: fff8e8FF
+				colorTo: f9c27a00
 				length: 5
 				lifetime: 20
 				particles: 3
