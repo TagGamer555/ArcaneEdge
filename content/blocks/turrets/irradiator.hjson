@@ -19,49 +19,54 @@
 		dirium/5
 	]
 	size: 1
-	range: 60
+	range: 90
 	inaccuracy: 15
 	ammoTypes: {
 		uranium: {
 			damage: 95
-			
 			status: slow
 			statusDuration: 40
+			makeFire: false
 			
 			pierce: true
 			pierceBuilding: true
-			pierceCap: 5
+			ammoMultiplier: 5
 			
 			lifetime: 10
-			speed: 6
+			speed: 9
+			despawnEffect: none
+			lightRadius: 0
 			
 			width: 0
 			height: 0
 			
-			shrinkY: 0
-			shrinkX: 0
-			
 			ammoMultiplier: 2
 			knockback: 0
 			
-			smokeEffect: none
-			shootEffect: none
-			hitEffect: none
-			despawnEffect: none
-			
-			trailChance: 0.75
-			trailEffect: [
-				{
-					type: ParticleEffect
-					particles: 1
-					lifetime: 30
-					sizeFrom: 1.75
-					sizeTo: 0
-					length: 5
-					colorFrom: D4E8A0FF
-					colorTo: 88888800
-				}
-			]
+			hitEffect: {
+				particles: 5
+				lifetime: 10
+				length: 15
+				cone: 360
+				line: true
+				lenFrom: 4
+				lenTo: 0
+				colorFrom: D4E8A0FF
+				colorTo: 88888800
+				strokeFrom: 1
+				strokeTo: 0
+			}
+			smokeEffect: {
+				interp: circleOut
+				particles: 10
+				length: 75
+				lifetime: 20
+				cone: 5
+				colorFrom: D4E8A0FF
+				colorTo: 88888800
+				sizeFrom: 2
+				sizeTo: 0
+			}
 		}
 	}
 	ammoPerShot: 1
