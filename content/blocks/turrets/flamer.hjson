@@ -17,21 +17,21 @@
 		steel/15
 	]
 	size: 1
-	range: 30
+	range: 75
 	inaccuracy: 10
 	ammoTypes: {
 		coal: {
-			damage: 25
+			damage: 20
 			status: burning
-			statusDuration: 10
+			statusDuration: 30
 			makeFire: true
 			
 			pierce: true
 			pierceBuilding: true
 			ammoMultiplier: 5
 			
-			speed: 5
-			lifetime: 6
+			speed: 15
+			lifetime: 5
 			despawnEffect: none
 			
 			width: 0
@@ -40,10 +40,10 @@
 			smokeEffect: {
 				type: ParticleEffect
 				particles: 10
-				length: 140
+				length: 75
 				lifetime: 20
 				interp: circleOut
-				cone: 1
+				cone: 2
 				colorFrom: ffdd55
 				colorTo: db401c
 				sizeFrom: 2
