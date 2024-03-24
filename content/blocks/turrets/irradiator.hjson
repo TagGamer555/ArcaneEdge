@@ -45,8 +45,8 @@
 			
 			hitEffect: {
 				particles: 5
-				lifetime: 10
-				length: 15
+				lifetime: 20
+				length: 20
 				cone: 360
 				line: true
 				lenFrom: 4
@@ -60,8 +60,8 @@
 				interp: circleOut
 				particles: 10
 				length: 75
-				lifetime: 20
-				cone: 5
+				lifetime: 40
+				cone: 15
 				colorFrom: D4E8A0FF
 				colorTo: 88888800
 				sizeFrom: 2
