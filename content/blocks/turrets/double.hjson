@@ -7,7 +7,7 @@
 	reload: 20
 	shoot: {
 		type: shootAlternate
-		spread: 3
+		spread: 2
 		shots: 2
 	}
 	recoil: 0.5
