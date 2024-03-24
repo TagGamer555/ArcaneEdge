@@ -27,8 +27,8 @@
 			lifetime: 18
 			speed: 5
 			
-			width: 5
-			height: 5
+			width: 3
+			height: 6
 			
 			sprite: tg555-ae-rectangle
 			
@@ -38,38 +38,7 @@
 			ammoMultiplier: 9
 			knockback: 0
 			
-			#frontColor: C0A8A6FF
-			#backColor: 9C7B76FF
-			
 			smokeEffect: none
-			
-			shootEffect: {
-				colorFrom: fff8e8FF
-				colorTo: f9c27a00
-				length: 5
-				lifetime: 20
-				particles: 3
-				sizeFrom: 1
-				sizeTo: 0
-			}
-			hitEffect: {
-				colorFrom: fff8e8FF
-				colorTo: f9c27a00
-				length: 5
-				lifetime: 20
-				particles: 3
-				sizeFrom: 1
-				sizeTo: 0
-			}
-			despawnEffect: {
-				colorFrom: fff8e8FF
-				colorTo: f9c27a00
-				length: 5
-				lifetime: 20
-				particles: 3
-				sizeFrom: 1
-				sizeTo: 0
-			}
 		}
 	}
 	ammoPerShot: 1
