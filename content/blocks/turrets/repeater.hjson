@@ -1,6 +1,6 @@
 {
 	name: Repeater
-	description: "Fires iron projectiles rapidly at enemies.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Fires projectiles rapidly at enemies.\n[stat]Tag: [cyan]Classic[][]"
 	
 	outlineColor: C45938
 	health: 240

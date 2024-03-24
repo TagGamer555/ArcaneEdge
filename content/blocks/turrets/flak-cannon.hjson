@@ -1,13 +1,12 @@
 {
 	name: Flak Cannon
-	description: "Fires eight coal projectiles at enemies from both barrels.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Simultaneously fires eight projectiles at enemies.\n[stat]Tag: [cyan]Classic[][]"
 	
 	outlineColor: 6B5AEC
 	health: 480
 	reload: 90
 	shoot: {
 		type: shootAlternate
-		shots: 8
 	}
 	recoil: 2
 	rotateSpeed: 2

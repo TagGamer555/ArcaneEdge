@@ -1,6 +1,6 @@
 {
 	name: Railgun
-	description: "Fires piercing steel projectiles at enemies over long distances.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Fires projectiles at enemies over long distances.\n[stat]Tag: [cyan]Classic[][]"
 	
 	outlineColor: 8C4AAB
 	health: 360

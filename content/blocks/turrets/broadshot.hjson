@@ -1,6 +1,6 @@
 {
 	name: Broadshot
-	description: "Fires four iron projectiles at enemies from both barrels.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Simultaneously fires four projectiles at enemies.\n[stat]Tag: [cyan]Classic[][]"
 	
 	outlineColor: C45938
 	health: 120

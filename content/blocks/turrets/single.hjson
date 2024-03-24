@@ -1,6 +1,6 @@
 {
 	name: Single
-	description: "Fires stone projectiles at enemies.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Fires projectiles at enemies.\n[stat]Tag: [cyan]Classic[][]"
 	
 	outlineColor: 1869A7
 	health: 120

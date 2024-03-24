@@ -1,6 +1,6 @@
 {
 	name: Double
-	description: "Fires two stone projectiles at enemies from both barrels.\n[stat]Tag: [cyan]Classic[][]"
+	description: "Simultaneously fires two stone projectiles at enemies from both barrels.\n[stat]Tag: [cyan]Classic[][]"
 	
 	outlineColor: 1869A7
 	health: 120
