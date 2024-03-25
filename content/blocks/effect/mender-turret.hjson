@@ -2,7 +2,7 @@
 	name: Mender Turret
 	description: "Heals allied structures with a repair bolt.\n[stat]Tag: [cyan]Classic[][]"
 	
-	outlineColor: 222222
+	outlineColor: 41983F
 	health: 150
 	reload: 30
 	shootSound: lasershoot
@@ -44,6 +44,6 @@
 	
 	drawer: {
 		type: DrawTurret
-		basePrefix: "tier2-classic-"
+		basePrefix: "effect-classic-"
 	}
 }

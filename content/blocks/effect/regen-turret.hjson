@@ -2,7 +2,7 @@
 	name: Regen Turret
 	description: "Heals allied structures with a repair bolt. Much faster and covers more range.\n[stat]Tag: [cyan]Classic[][]"
 	
-	outlineColor: 222222
+	outlineColor: 41983F
 	health: 300
 	reload: 15
 	shootSound: lasershoot
@@ -44,6 +44,6 @@
 	
 	drawer: {
 		type: DrawTurret
-		basePrefix: "tier3-classic-"
+		basePrefix: "effect-classic-"
 	}
 }

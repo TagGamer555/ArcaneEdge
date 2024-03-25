@@ -38,6 +38,6 @@
 	}
 	drawer: {
 		type: DrawTurret
-		basePrefix: "tier3-classic-"
+		basePrefix: "effect-classic-"
 	}
 }
