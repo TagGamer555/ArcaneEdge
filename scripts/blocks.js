@@ -85,6 +85,7 @@
 	const solidifier = extend(GenericCrafter, "solidifier", {});
 	// quartz //
 	const quartzFurnace = extend(GenericCrafter, "quartz-furnace", {});
+	const quartzSynthesizer = extend(GenericCrafter, "quartz-synthesizer", {});
 	// iron //
 	// sulphur //
 	const sulphurExtractor = extend(GenericCrafter, "sulphur-extractor", {});

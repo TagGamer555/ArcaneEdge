@@ -1,0 +1,62 @@
+{
+	name: Quartz Synthesizer
+	description: "Synthesizes pure quartz crystals from sand and silicon.\n[stat]Tag: [sky]Classic+[][]"
+	size: 1
+	health: 300
+	craftTime: 30
+	itemCapacity: 12
+	consumes: {
+		items: [
+			sand/3
+			silicon/1
+		]
+		power: 1.5
+	}
+	requirements: [
+		stone/50
+		quartz/40
+		plate/30
+	]
+	category: crafting
+	research: quartz-furnace
+	outputItem: quartz/6
+	
+	craftEffect: [
+		{
+			particles: 5
+			lifetime: 30
+			length: 15
+			cone: 360
+			line: true
+			lenFrom: 4
+			lenTo: 0
+			colorFrom: CCA3CC
+			colorTo: 826B9900
+		}
+		{
+			type: WaveEffect
+			sides: 0
+			sizeFrom: 0
+			sizeTo: 5
+			strokeFrom: 2
+			strokeTo: 0
+			lifetime: 30
+			colorFrom: CCA3CC
+			colorTo: 826B9900
+		}
+	]
+	
+	drawer: [
+		{
+			type: DrawDefault
+		}
+		{
+			type: DrawFlame
+			flameRadius: 2
+			flameRadiusIn: 0.75
+			flameColor: CCA3CC
+			flameRadiusMag: 0.2
+			flameRadiusInMag: 0.2
+		}
+    ]
+}
