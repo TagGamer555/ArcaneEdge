@@ -77,6 +77,7 @@
 	const diriumCrucible = extend(GenericCrafter, "dirium-crucible", {});
 	const diriumMerger = extend(GenericCrafter, "dirium-merger", {});
 	// graphite //
+	const graphiteCondenser = extend(GenericCrafter, "graphite-condenser", {});
 	const graphiteCompressor = extend(GenericCrafter, "graphite-compressor", {});
 	// steam //
 	const steamKettle = extend(GenericCrafter, "steam-kettle", {});

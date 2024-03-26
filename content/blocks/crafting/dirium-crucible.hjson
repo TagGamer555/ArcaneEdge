@@ -9,12 +9,15 @@
 			titanium/2
 			uranium/2
 		]
-		power: 1
+		power: 1.5
 	}
 	requirements: [
 		stone/50
-		steel/25
-		titanium/10
+		quartz/30
+		steel/35
+		graphite/20
+		plate/40
+		titanium/30
 	]
 	category: crafting
 	research: steel-smelter

@@ -9,12 +9,13 @@
 			titanium/2
 			silicon/3
 		]
-		power: 2
+		power: 3
 	}
 	requirements: [
 		steel/30
-		titanium/20
+		plate/40
 		silicon/10
+		titanium/20
 		dirium/10
 	]
 	category: crafting

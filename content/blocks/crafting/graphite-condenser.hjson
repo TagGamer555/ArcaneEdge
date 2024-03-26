@@ -1,22 +1,18 @@
 {
-	name: Graphite Compressor
-	description: "Compresses coal to create graphite. Uses water to cool itself down.\n[stat]Tag: [sky]Classic+[][]"
+	name: Graphite Condenser
+	description: "Condenses coal into graphite.\n[stat]Tag: [sky]Classic+[][]"
 	size: 1
-	health: 160
-	craftTime: 120
-	itemCapacity: 20
-	liquidCapacity: 12
+	health: 100
+	craftTime: 90
+	itemCapacity: 12
 	consumes: {
 		items: [
-			coal/10
+			coal/3
 		]
-		liquid: water/0.1
-		power: 1.25
 	}
 	requirements: [
-		stone/30
-		steel/10
-		titanium/15
+		stone/40
+		plate/20
 	]
 	craftEffect: [
 		{
@@ -43,7 +39,6 @@
 		}
 	]
 	category: crafting
-	research: graphite-condenser
-	outputItem: graphite/5
-	outputLiquid: steam/0.1
+	research: plate-press
+	outputItem: graphite/2
 }

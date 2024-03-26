@@ -8,7 +8,7 @@
 	const plate = extend(Item, "plate", {});
 	const uranium = extend(Item, "uranium", {});
 	const dirium = extend(Item, "dirium", {});
-	/*
+	/* THIS IS ALL BLOAT
 	const scalar = extend(Item, "scalar", {});
 	const vector = extend(Item, "vector", {});
 	const matrix = extend(Item, "matrix", {});

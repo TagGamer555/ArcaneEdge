@@ -1,9 +1,25 @@
-name: "tg555-ae"
-subtitle: "Beta 105"
-displayName: "Arcane Edge"
-description: "Modification, aiming to revive Classic Mindustry content and merge it with the modern Mindustry."
-author: "TagGamer555"
-minGameVersion: "136"
-version: "Beta 105"
-main: "tg555-ae.tg555-ae-Mod"
-java: false
+{
+	name: "tg555-ae"
+	
+	#naming system#
+	#Version<50 - Pre-Release#
+	#Ver<100 - Alpha#
+	#Ver<150 - Beta#
+	#Ver<200 - Gamma#
+	#Ver<250 - Delta#
+	#Ver<300 - Epsilon#
+	#Ver<350 - Zeta#
+	#Ver<400 - Eta#
+	
+	subtitle: "Beta 106"
+	version: "Beta 106"
+	
+	displayName: "Arcane Edge"
+	description: "Modification, aiming to revive Classic Mindustry content and merge it with the modern Mindustry."
+	author: "TagGamer555"
+	
+	minGameVersion: "136"
+	
+	main: "tg555-ae.tg555-ae-Mod"
+	java: false #does not include .class files (which are Java class files)
+}
