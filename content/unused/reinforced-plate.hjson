@@ -1,0 +1,9 @@
+{
+	name: Reinforced Plate
+	description: "Reinforced alloyed plating, made from copper, lead, titanium and quartz.\n[stat]Tag: [sky]Classic+[][]"
+	color: 99B1BF
+	research: plate
+	hardness: 2
+	cost: 5
+	charge: 120
+}

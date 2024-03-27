@@ -4,13 +4,13 @@
 	size: 1
 	health: 160
 	craftTime: 120
-	itemCapacity: 20
-	liquidCapacity: 12
+	itemCapacity: 18
+	liquidCapacity: 6
 	consumes: {
 		items: [
-			coal/10
+			coal/9
 		]
-		liquid: water/0.1
+		liquid: water/0.05
 		power: 1.25
 	}
 	requirements: [
@@ -44,6 +44,6 @@
 	]
 	category: crafting
 	research: graphite-condenser
-	outputItem: graphite/5
-	outputLiquid: steam/0.1
+	outputItem: graphite/6
+	outputLiquid: steam/0.05
 }
