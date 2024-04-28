@@ -57,17 +57,32 @@
 		trailLength: 5
 		trailColor: C0ECFF7F
 		
-		hitEffect: [
+		shootEffect: [
 			{
 				line: true
-				particles: 3
-				lifetime: 10
-				length: 0.00001
+				particles: 1
+				lifetime: 5
+				length: 0.0001
 				cone: 0
 				lenFrom: 8
 				lenTo: 8
-				colorFrom: C0ECFF
-				colorTo: 87CEEB
+				colorFrom: C0ECFF7F
+				colorTo: 87CEEB7F
+				strokeFrom: 1
+				strokeTo: 0
+			}
+		]
+		hitEffect: [
+			{
+				line: true
+				particles: 1
+				lifetime: 10
+				length: 0.0001
+				cone: 0
+				lenFrom: 8
+				lenTo: 8
+				colorFrom: C0ECFF7F
+				colorTo: 87CEEB7F
 				strokeFrom: 1
 				strokeTo: 0
 			}
