@@ -27,7 +27,7 @@
 	const chainGun = extend(ItemTurret, "chain-gun", {});
 	
 	/* What's this now, I wonder... ;) */
-	const frostbite = extend(ItemTurret, "frostbite", {});
+	const frostbite = extend(PowerTurret, "frostbite", {});
 	
 	// REGION - PRODUCTION //
 	const stoneDrill = extend(Drill, "stone-drill", {});
