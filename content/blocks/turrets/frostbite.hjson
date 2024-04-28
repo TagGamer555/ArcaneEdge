@@ -59,17 +59,15 @@
 		
 		shootEffect: [
 			{
-				line: true
-				particles: 1
+				interp: circleOut
+				particles: 5
+				length: 8
 				lifetime: 5
-				length: 0.0001
-				cone: 0
-				lenFrom: 8
-				lenTo: 8
+				cone: 3
 				colorFrom: C0ECFF7F
 				colorTo: 87CEEB7F
-				strokeFrom: 1
-				strokeTo: 0
+				sizeFrom: 2
+				sizeTo: 0
 			}
 		]
 		hitEffect: [
