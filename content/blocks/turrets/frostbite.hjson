@@ -11,6 +11,7 @@
 		spread: 2
 		shots: 2
 	}
+	
 	recoil: 0.5
 	rotateSpeed: 3
 	
