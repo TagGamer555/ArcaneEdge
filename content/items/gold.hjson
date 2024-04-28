@@ -1,0 +1,9 @@
+{
+	name: Gold
+	description: "Raw, pure gold. Used as currency and as corrosion resistant meterial.\n[stat]Tag: [sky]Classic+[][]"
+	color: FCF387
+	research: steel
+	cost: 12
+	hardness: 0
+	charge: 0.75
+}

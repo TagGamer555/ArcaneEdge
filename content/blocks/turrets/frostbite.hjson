@@ -1,0 +1,64 @@
+{
+	name: Frostbite
+	description: "Experimental freezing turret.\n[stat]Tag: [sky]Classic+[][]"
+	
+	outlineColor: 1869A7
+	health: 360
+	reload: 5
+	
+	shoot: {
+		type: shootAlternate
+		spread: 2
+		shots: 2
+	}
+	recoil: 0.5
+	rotateSpeed: 3
+	
+	consumes: {
+		power/0.1
+	}
+	
+	requirements: [
+		stone/80
+		plate/40
+		titanium/10
+	]
+	size: 1
+	range: 80
+	inaccuracy: 4
+	shootType: {
+		damage: 0
+		
+		status: freezing
+		statusDuration: 120
+		
+		pierce: false
+		
+		lifetime: 8
+		speed: 10
+		
+		width: 3
+		height: 5
+		
+		shrinkY: 0
+		shrinkX: 0
+		
+		ammoMultiplier: 1
+		knockback: 0.2
+		
+		smokeEffect: none
+		
+		frontColor: C0ECFF
+		backColor: 87CEEB
+	}
+	ammoPerShot: 1
+	
+	category: turret
+	research: single
+	conductivePower: true
+	
+	drawer: {
+		type: DrawTurret
+		basePrefix: "tier1-classic-"
+	}
+}

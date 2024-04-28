@@ -26,6 +26,9 @@
 	/* I have reworked all turret sprites above on 24/03/2024 - Alexander888 */
 	const chainGun = extend(ItemTurret, "chain-gun", {});
 	
+	/* What's this now, I wonder... ;) */
+	const frostbite = extend(ItemTurret, "frostbite", {});
+	
 	// REGION - PRODUCTION //
 	const stoneDrill = extend(Drill, "stone-drill", {});
 	const ironDrill = extend(Drill, "iron-drill", {});
